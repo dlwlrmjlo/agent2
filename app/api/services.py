@@ -1,7 +1,7 @@
 from googlesearch import search
 from bs4 import BeautifulSoup
 import httpx
-import re
+from app.core.llm import ask_llm
 
 async def search_google(query: str, num_results: int = 3):
     return list(search(query, num_results=num_results))
@@ -9,29 +9,30 @@ async def search_google(query: str, num_results: int = 3):
 async def scrape_website(url: str) -> str:
     headers = {"User-Agent": "Mozilla/5.0"}
     try:
-        async with httpx.AsyncClient() as client:
+        async with httpx.AsyncClient(timeout=15) as client:
             response = await client.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, "lxml")
-        text = " ".join(p.get_text() for p in soup.find_all("p"))
-        return text[:4000]
+            response.raise_for_status()
     except Exception as e:
-        return f"[Error scraping {url}]: {str(e)}"
+        return f"[ERROR scraping {url}]: {str(e)}"
 
-async def analizar_con_llm(query: str, contenidos: dict, ask_llm_fn) -> str:
-    resumen = ""
-    for url, contenido in contenidos.items():
-        resumen += f"\nFuente: {url}\n{contenido[:1000]}\n"
+    soup = BeautifulSoup(response.text, "lxml")
+    return " ".join(p.get_text() for p in soup.find_all("p"))[:4000]
 
-    prompt = f"""
-Eres un asistente de inteligencia artificial. El usuario preguntó:
+async def analizar_web(prompt: str) -> str:
+    reformulado = await ask_llm(f"Reformula esta búsqueda para Google: {prompt}")
+    busqueda = reformulado.strip()
+    urls = await search_google(busqueda)
 
-"{query}"
+    contenidos = {}
+    for url in urls:
+        contenidos[url] = await scrape_website(url)
 
-Estos son los resultados que encontramos en la web:
+    resumen = "\n\n".join([f"{url}:\n{texto[:800]}" for url, texto in contenidos.items()])
+    prompt_final = f"""La consulta fue: {prompt}
+
+Fuentes encontradas:
 
 {resumen}
 
-Redacta una respuesta clara, útil y resumida.
-    """
-    return await ask_llm_fn(prompt)
-
+Redacta una respuesta clara y útil."""
+    return await ask_llm(prompt_final)

@@ -13,4 +13,10 @@ async def ask_llm(prompt: str) -> str:
         response = await client.post(settings.OLLAMA_API, json=payload, headers=headers)
         response.raise_for_status()
         data = response.json()
-        return data.get("response", "[Sin respuesta del modelo]")
+        respuesta = data.get("response", "[Sin respuesta del modelo]")
+        print("🧠 LLM PROMPT:")
+        print(prompt)
+        print("🗣️ LLM RESPUESTA:")
+        print(respuesta)
+        print("-" * 80)
+        return respuesta

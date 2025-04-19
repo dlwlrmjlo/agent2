@@ -1,33 +1,48 @@
-from fastapi import APIRouter, HTTPException
-from app.api.services import search_google, scrape_website, analizar_con_llm, extraer_contenido_entre_corchetes
-from app.core.llm import ask_llm
-from fastapi import Body
+from fastapi import APIRouter
 from app.models.schema import PromptRequest
+from app.api.services import analizar_web
+from app.core.llm import ask_llm
+import yfinance as yf
+import re
 
 router = APIRouter()
 
-@router.post("/consulta/")
+
+@router.post("/consulta")
 async def consulta(data: PromptRequest):
-    prompt = data.prompt
-    pregunta_llm = f"""Reformula esta consulta como la escribirías tú en Google, usando solo palabras clave claras y directas. Devuelve únicamente esa búsqueda sin explicaciones, sin comillas ni corchetes:
+    prompt = data.prompt.strip()
 
-    {prompt}"""
+    # Clasificación del tipo de pregunta
+    pregunta = f"""Clasifica la siguiente consulta como 'financiero' si es sobre acciones o criptomonedas, 
+    'tarea' si es que la consulta contiene la palabra tarea en alguna parte o 'general' si no es ninguna de las dos: \"{prompt}\". Devuelve solo una palabra."""
+    tipo = await ask_llm(pregunta)
+    tipo = tipo.lower().strip()
 
-    busqueda = (await ask_llm(pregunta_llm)).strip()
+    if tipo == "financiero":
+        # Extraer ticker desde LLM
+        ticker_raw = await ask_llm(
+            f"Dime el ticker del activo mencionado en: '{prompt}'. Responde únicamente con el símbolo, sin texto adicional."
+        )
+        print("🧠 Ticker crudo del LLM:", ticker_raw)
 
-    if not busqueda:
-        raise HTTPException(status_code=400, detail="El LLM no entregó una búsqueda válida.")
-    urls = await search_google(busqueda[0])
+        # Extraer símbolo con regex
+        match = re.search(r"\b[A-Z]{2,5}\b", ticker_raw.upper())
+        if match:
+            ticker = match.group(0)
+        else:
+            return {"error": f"No se pudo extraer un símbolo válido desde: '{ticker_raw}'"}
+        print("ticker extraido:", ticker)
 
-    contenidos = {}
-    for url in urls:
-        contenido = await scrape_website(url)
-        contenidos[url] = contenido
+        # Obtener precio desde yfinance
+        try:
+            data = yf.Ticker(ticker)
+            precio = data.info.get("regularMarketPrice", "Precio no disponible")
+            nombre = data.info.get("shortName", ticker)
+            return {"respuesta": f"El precio actual de {nombre} ({ticker}) es: {precio} USD"}
+        except Exception as e:
+            return {"error": f"No se pudo obtener el precio del activo: {str(e)}"}
 
-    respuesta_final = await analizar_con_llm(prompt, contenidos, ask_llm)
-
-    return {
-        "busqueda_generada": busqueda[0],
-        "urls": urls,
-        "respuesta": respuesta_final
-    }
+    else:
+        # Scraping general
+        resultado = await analizar_web(prompt)
+        return {"respuesta": resultado}

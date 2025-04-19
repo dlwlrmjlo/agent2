@@ -1,10 +1,10 @@
 from fastapi import FastAPI
-from app.api.endpoints import router as scraping_router
+from app.api.endpoints import router as api_router
 
-app = FastAPI(title="Asistente IA con Scraping Dinámico")
+app = FastAPI(title="Asistente IA Modular")
 
-app.include_router(scraping_router, prefix="/api", tags=["Scraping IA"])
+app.include_router(api_router, prefix="/api")
 
 @app.get("/")
-async def inicio():
-    return {"mensaje": "API en funcionamiento"}
+async def root():
+    return {"message": "API lista para recibir consultas."}
