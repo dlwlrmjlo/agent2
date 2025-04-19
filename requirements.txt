@@ -7,3 +7,5 @@ lxml
 python-dotenv
 pydantic-settings
 yfinance
+sqlalchemy
+apscheduler

@@ -2,6 +2,10 @@ from googlesearch import search
 from bs4 import BeautifulSoup
 import httpx
 from app.core.llm import ask_llm
+import json
+from sqlalchemy.orm import Session
+from app.core.llm import ask_llm
+from app.db.models import Alerta
 
 async def search_google(query: str, num_results: int = 3):
     return list(search(query, num_results=num_results))
@@ -36,3 +40,38 @@ Fuentes encontradas:
 
 Redacta una respuesta clara y útil."""
     return await ask_llm(prompt_final)
+
+async def crear_alerta_from_llm(prompt: str, db: Session):
+    # Pedimos al LLM que genere una alerta estructurada como JSON
+    instrucciones = f"""
+Estructura la siguiente solicitud como una alerta de precio en formato JSON con estas claves:
+- 'simbolo': el ticker o símbolo del activo
+- 'condicion': puede ser 'mayor' o 'menor'
+- 'umbral': el valor numérico umbral
+
+Ejemplo de salida esperada:
+{{ "simbolo": "BTC", "condicion": "menor", "umbral": 30000 }}
+
+Solicitud del usuario: '{prompt}'
+"""
+
+    respuesta = await ask_llm(instrucciones)
+    print("🧠 LLM alerta JSON:", respuesta)
+
+    try:
+        data = json.loads(respuesta)
+        alerta = Alerta(
+            simbolo=data["simbolo"].strip().upper(),
+            condicion=data["condicion"].strip().lower(),
+            umbral=float(data["umbral"])
+        )
+        db.add(alerta)
+        db.commit()
+        db.refresh(alerta)
+        return {"mensaje": "✅ Alerta creada exitosamente", "alerta": {
+            "simbolo": alerta.simbolo,
+            "condicion": alerta.condicion,
+            "umbral": alerta.umbral
+        }}
+    except Exception as e:
+        return {"error": f"No se pudo procesar la alerta: {str(e)}"}
