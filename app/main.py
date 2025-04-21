@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from app.api.endpoints import router as api_router
 from app.db.database import Base, engine
 from app.core.scheduler import iniciar_scheduler
+from app.api.telegram_webhook import router as telegram_router
+
 
 app = FastAPI(title="Asistente IA Modular")
 
@@ -12,7 +14,10 @@ Base.metadata.create_all(bind=engine)
 iniciar_scheduler()
 
 app.include_router(api_router, prefix="/api")
+app.include_router(telegram_router)
 
 @app.get("/")
 async def root():
     return {"message": "API lista para recibir consultas."}
+
+
