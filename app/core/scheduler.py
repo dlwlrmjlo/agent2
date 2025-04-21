@@ -3,6 +3,7 @@ from sqlalchemy.orm import Session
 from app.db.database import SessionLocal
 from app.db.models import Alerta
 import yfinance as yf
+from app.core.notifications import enviar_telegram_mensaje
 import time
 
 def verificar_alertas():
@@ -22,10 +23,14 @@ def verificar_alertas():
 
                 if alerta.condicion == "mayor" and precio > alerta.umbral:
                     print(f"🔔 Alerta: {alerta.simbolo} subió de {alerta.umbral} → Precio actual: {precio}")
+                    mensaje = f"🚨 Alerta: {alerta.simbolo} {alerta.condicion} que {alerta.umbral}. Precio actual: {precio}"
+                    enviar_telegram_mensaje(mensaje)
                     alerta.notificado = True
 
                 elif alerta.condicion == "menor" and precio < alerta.umbral:
                     print(f"🔔 Alerta: {alerta.simbolo} bajó de {alerta.umbral} → Precio actual: {precio}")
+                    mensaje = f"🚨 Alerta: {alerta.simbolo} {alerta.condicion} que {alerta.umbral}. Precio actual: {precio}"
+                    enviar_telegram_mensaje(mensaje)
                     alerta.notificado = True
 
                 db.commit()
