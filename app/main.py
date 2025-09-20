@@ -1,3 +1,4 @@
+# app/main.py
 from fastapi import FastAPI
 from app.api.endpoints import router as api_router
 from app.db.database import Base, engine

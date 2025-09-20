@@ -1,9 +1,11 @@
+# app/core/scheduler.py
 from apscheduler.schedulers.background import BackgroundScheduler
 from sqlalchemy.orm import Session
 from app.db.database import SessionLocal
 from app.db.models import Alerta
 import yfinance as yf
 from app.core.notifications import enviar_telegram_mensaje
+from app.core.market import get_last_price
 import time
 
 def verificar_alertas():
@@ -15,7 +17,7 @@ def verificar_alertas():
         for alerta in alertas:
             try:
                 ticker = yf.Ticker(alerta.simbolo)
-                precio = ticker.info.get("regularMarketPrice")
+                precio = get_last_price(alerta.simbolo).price
 
                 if precio is None:
                     print(f"❌ No se pudo obtener el precio de {alerta.simbolo}")

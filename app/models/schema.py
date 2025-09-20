@@ -1,3 +1,4 @@
+# app/models/schema.py
 from pydantic import BaseModel
 
 class PromptRequest(BaseModel):
