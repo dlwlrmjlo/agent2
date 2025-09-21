@@ -1,5 +1,5 @@
 # app/core/config.py
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     OLLAMA_API: str = "http://localhost:11434/api/generate"
@@ -7,5 +7,11 @@ class Settings(BaseSettings):
     TIMEOUT: int = 120
     TELEGRAM_BOT_TOKEN: str = "7555617579:AAGUom_03MEY1vYkXFgmkzyen0j5v9rIDyg"
     TELEGRAM_CHAT_ID: str = "7937625287"
+    WEBHOOK_SECRET: str | None = None
+    NEWS_CACHE_TTL_S: int = 300
+    NEWS_MAX_ITEMS: int = 8
+    SCHED_INTERVAL_S: int = 60
+    DATABASE_URL: str = "sqlite:///./alertas.db"
+    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 settings = Settings()

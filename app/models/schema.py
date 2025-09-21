@@ -6,5 +6,5 @@ class PromptRequest(BaseModel):
 
 class AlertaCreate(BaseModel):
     simbolo: str
-    condicion: str  # "mayor" o "menor"
+    condicion: str  # "mayor" | "menor"
     umbral: float

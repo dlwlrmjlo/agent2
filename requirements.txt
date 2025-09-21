@@ -1,11 +1,10 @@
 fastapi
-uvicorn[standard]
+uvicorn
 httpx
-googlesearch-python
-beautifulsoup4
-lxml
-python-dotenv
-pydantic-settings
 yfinance
 sqlalchemy
 apscheduler
+beautifulsoup4
+lxml
+googlesearch-python
+pydantic-settings
