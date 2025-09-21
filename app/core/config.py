@@ -15,3 +15,10 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 settings = Settings()
+
+
+# C:\Users\joako>curl "https://api.telegram.org/bot7555617579:AAGUom_03MEY1vYkXFgmkzyen0j5v9rIDyg/setWebhook" ^
+# ¿Más?   -d "url=https://7ac92b610887.ngrok-free.app/webhook/telegram?token=<WEBHOOK_SECRET>" ^
+# ¿Más?   -d "drop_pending_updates=true" ^
+# ¿Más?   -d "allowed_updates=message,callback_query"
+# {"ok":true,"result":true,"description":"Webhook was set"}
