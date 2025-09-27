@@ -4,6 +4,8 @@ from app.db.database import SessionLocal
 from app.models.schema import PromptRequest
 from app.api.services import classify_intent, analizar_web, crear_alerta_from_llm, quote_from_prompt
 from app.core.news import get_ticker_news
+from app.core.explain import explain_move
+from app.core.summarize import summarize_drivers
 
 router = APIRouter()
 
@@ -26,6 +28,9 @@ async def consulta(data: PromptRequest, db: Session = Depends(get_db)):
     # GENERAL
     return {"respuesta": await analizar_web(prompt)}
 
+@router.get("/explain/{q}")
+async def explain(q: str):
+    return await explain_move(q)
 @router.get("/debug/alertas")
 def listar_alertas(db: Session = Depends(get_db)):
     from app.db.models import Alerta
