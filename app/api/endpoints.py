@@ -6,6 +6,7 @@ from app.api.services import classify_intent, analizar_web, crear_alerta_from_ll
 from app.core.news import get_ticker_news
 from app.core.explain import explain_move
 from app.core.summarize import summarize_drivers
+from app.core.telemetry import append_intent_event
 
 router = APIRouter()
 
@@ -19,6 +20,8 @@ async def consulta(data: PromptRequest, db: Session = Depends(get_db)):
     prompt = (data.prompt or "").strip()
     intent = await classify_intent(prompt)
     print(f"[intent] {['GENERAL','FINANCIERO','ALERTA'][intent]} ({intent})")
+
+    append_intent_event(prompt, intent)
 
     if intent == 1:   # FINANCIERO
         return await quote_from_prompt(prompt)
