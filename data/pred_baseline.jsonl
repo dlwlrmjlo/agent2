@@ -1,0 +1,48 @@
+{"text": "qué pasó con TSLA hoy", "y_true": 0, "y_pred": 0, "latency_ms": 11684.0}
+{"text": "por qué se movió SQM esta mañana", "y_true": 0, "y_pred": 0, "latency_ms": 1660.8}
+{"text": "contexto de microsoft hoy", "y_true": 0, "y_pred": 0, "latency_ms": 1447.3}
+{"text": "explica el movimiento de btc", "y_true": 0, "y_pred": 0, "latency_ms": 1488.2}
+{"text": "dicen que NVDA sube fuerte", "y_true": 0, "y_pred": 0, "latency_ms": 1557.9}
+{"text": "se habla de que apple bajó por guidance", "y_true": 0, "y_pred": 0, "latency_ms": 1624.1}
+{"text": "qué se dice de AAPL en las noticias", "y_true": 0, "y_pred": 0, "latency_ms": 1684.5}
+{"text": "últimas novedades de AMZN", "y_true": 0, "y_pred": 0, "latency_ms": 1605.5}
+{"text": "tsla está volátil, ¿por qué?", "y_true": 0, "y_pred": 0, "latency_ms": 1648.9}
+{"text": "GOOGL cayó por resultados?", "y_true": 0, "y_pred": 0, "latency_ms": 1539.8}
+{"text": "meta se disparó, ¿qué driver hay?", "y_true": 0, "y_pred": 0, "latency_ms": 1563.3}
+{"text": "rumores sobre NVDA y chips", "y_true": 0, "y_pred": 0, "latency_ms": 1444.4}
+{"text": "qué pasó con SOL-USD el finde", "y_true": 0, "y_pred": 0, "latency_ms": 1730.9}
+{"text": "explica por qué bajó ETH-USD", "y_true": 0, "y_pred": 0, "latency_ms": 1640.2}
+{"text": "qué tal el sentimiento en NFLX hoy", "y_true": 0, "y_pred": 0, "latency_ms": 1637.4}
+{"text": "¿hubo earnings de AMD?", "y_true": 0, "y_pred": 0, "latency_ms": 1437.7}
+{"text": "precio de sqm", "y_true": 1, "y_pred": 1, "latency_ms": 1355.6}
+{"text": "cotización TSLA", "y_true": 1, "y_pred": 1, "latency_ms": 1391.1}
+{"text": "cuánto vale google hoy", "y_true": 1, "y_pred": 1, "latency_ms": 1512.3}
+{"text": "precio btc ahora", "y_true": 1, "y_pred": 1, "latency_ms": 1438.6}
+{"text": "quote NVDA", "y_true": 1, "y_pred": 1, "latency_ms": 1276.5}
+{"text": "valor de netflix", "y_true": 1, "y_pred": 1, "latency_ms": 1372.3}
+{"text": "dame AMD", "y_true": 1, "y_pred": 0, "latency_ms": 1259.4}
+{"text": "GOOGL", "y_true": 1, "y_pred": 1, "latency_ms": 1279.0}
+{"text": "AAPL price", "y_true": 1, "y_pred": 1, "latency_ms": 1314.0}
+{"text": "btc-USD", "y_true": 1, "y_pred": 1, "latency_ms": 1356.3}
+{"text": "msft cotización", "y_true": 1, "y_pred": 1, "latency_ms": 1336.9}
+{"text": "tsla precio ahora", "y_true": 1, "y_pred": 1, "latency_ms": 1410.4}
+{"text": "ETH-USD quote", "y_true": 1, "y_pred": 1, "latency_ms": 1352.2}
+{"text": "AMZN", "y_true": 1, "y_pred": 1, "latency_ms": 1294.9}
+{"text": "precio meta ahora", "y_true": 1, "y_pred": 1, "latency_ms": 1411.0}
+{"text": "valor de sol", "y_true": 1, "y_pred": 1, "latency_ms": 1342.5}
+{"text": "avísame si TESLA cae de 300", "y_true": 2, "y_pred": 2, "latency_ms": 1767.6}
+{"text": "si BTC-USD sube de 50, avísame", "y_true": 2, "y_pred": 2, "latency_ms": 1887.3}
+{"text": "alerta cuando AMD supere 500", "y_true": 2, "y_pred": 2, "latency_ms": 1618.0}
+{"text": "notificar si amazon baja de 1,000", "y_true": 2, "y_pred": 2, "latency_ms": 1807.5}
+{"text": "cuando netflix rompa 150 me avisas", "y_true": 2, "y_pred": 2, "latency_ms": 1744.8}
+{"text": "si META sube de 100, avísame", "y_true": 2, "y_pred": 2, "latency_ms": 1819.9}
+{"text": "si SQM sube de 250, avísame", "y_true": 2, "y_pred": 2, "latency_ms": 1735.5}
+{"text": "si MSFT baja de 280 avísame", "y_true": 2, "y_pred": 2, "latency_ms": 1689.3}
+{"text": "si ETH-USD sube de 3.000 me pingueas", "y_true": 2, "y_pred": 2, "latency_ms": 2015.2}
+{"text": "cuando SOL-USD rompa 200 avisa", "y_true": 2, "y_pred": 2, "latency_ms": 1826.5}
+{"text": "si NVDA cae de 400 avísame", "y_true": 2, "y_pred": 2, "latency_ms": 1702.6}
+{"text": "si GOOGL supera 180 avisa", "y_true": 2, "y_pred": 2, "latency_ms": 1635.6}
+{"text": "alerta si AAPL baja de 150", "y_true": 2, "y_pred": 2, "latency_ms": 1700.8}
+{"text": "si TSLA sube de 1.000, avísame", "y_true": 2, "y_pred": 2, "latency_ms": 1918.9}
+{"text": "si BTC-USD cae de 60,000 me notificas", "y_true": 2, "y_pred": 2, "latency_ms": 1971.5}
+{"text": "cuando META rompa 500 me avisas", "y_true": 2, "y_pred": 2, "latency_ms": 1804.8}
