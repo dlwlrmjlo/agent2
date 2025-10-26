@@ -72,12 +72,21 @@ async def classify_intent(text: str) -> int:
     Return 2 (ALERTA) / 1 (FINANCIERO) / 0 (GENERAL).
     Deterministic heuristics first; if ambiguous, ask the LLM for a single digit.
     """
-    if _looks_like_alert(text):     return 2
-    if _looks_like_financial(text): return 1
+    # if _looks_like_alert(text):     return 2
+    # if _looks_like_financial(text): return 1
 
     prompt = (
         "Clasifica la consulta en UNA sola categoría y devuelve SOLO un dígito:\n"
-        "0 = general\n1 = financiero\n2 = alerta\n\n"
+        "0 = general (explicaciones, contexto, noticias)\n"
+        "1 = financiero (precio/cotización/quote de un activo)\n"
+        "2 = alerta (regla con umbral: si/cuando sube/baja de X)\n\n"
+        "Ejemplos:\n"
+        "- \"precio de tesla\" -> 1\n"
+        "- \"cotización NVDA\" -> 1\n"
+        "- \"avísame si TSLA cae de 300\" -> 2\n"
+        "- \"si BTC-USD sube de 50, avísame\" -> 2\n"
+        "- \"qué pasó con SQM\" -> 0\n"
+        "- \"explica el movimiento de AMD\" -> 0\n\n"
         f"Consulta: \"{text}\"\n"
         "Responde SOLO con 0 o 1 o 2."
     )
