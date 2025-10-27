@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     SCHED_INTERVAL_S: int = 60
     DATABASE_URL: str = "sqlite:///./alertas.db"
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+    INTENT_MODE: str = "ADAPTER"
 
 settings = Settings()
 

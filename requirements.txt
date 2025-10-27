@@ -8,3 +8,6 @@ beautifulsoup4
 lxml
 googlesearch-python
 pydantic-settings
+sentence-transformers
+scikit-learn
+joblib

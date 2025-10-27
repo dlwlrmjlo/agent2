@@ -1,0 +1,48 @@
+{"text": "qué pasó con TSLA hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 11801.544}
+{"text": "por qué se movió SQM esta mañana", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1890.341}
+{"text": "contexto de microsoft hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1710.747}
+{"text": "explica el movimiento de btc", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1780.238}
+{"text": "dicen que NVDA sube fuerte", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1833.266}
+{"text": "se habla de que apple bajó por guidance", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1839.016}
+{"text": "qué se dice de AAPL en las noticias", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1912.046}
+{"text": "últimas novedades de AMZN", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1890.273}
+{"text": "tsla está volátil, ¿por qué?", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1786.543}
+{"text": "GOOGL cayó por resultados?", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1771.292}
+{"text": "meta se disparó, ¿qué driver hay?", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1807.17}
+{"text": "rumores sobre NVDA y chips", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1727.438}
+{"text": "qué pasó con SOL-USD el finde", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1930.799}
+{"text": "explica por qué bajó ETH-USD", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1942.641}
+{"text": "qué tal el sentimiento en NFLX hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1826.551}
+{"text": "¿hubo earnings de AMD?", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1624.699}
+{"text": "precio de sqm", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1571.827}
+{"text": "cotización TSLA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1627.399}
+{"text": "cuánto vale google hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1766.696}
+{"text": "precio btc ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1679.529}
+{"text": "quote NVDA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1563.396}
+{"text": "valor de netflix", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1612.342}
+{"text": "dame AMD", "label": 1, "pred": 0, "mode": "LLM", "lat_ms": 1553.882}
+{"text": "GOOGL", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 3373.316}
+{"text": "AAPL price", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1527.63}
+{"text": "btc-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1575.937}
+{"text": "msft cotización", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1526.23}
+{"text": "tsla precio ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1685.499}
+{"text": "ETH-USD quote", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1644.454}
+{"text": "AMZN", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1545.433}
+{"text": "precio meta ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1606.081}
+{"text": "valor de sol", "label": 1, "pred": 0, "mode": "LLM", "lat_ms": 1553.078}
+{"text": "avísame si TESLA cae de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1983.633}
+{"text": "si BTC-USD sube de 50, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2089.241}
+{"text": "alerta cuando AMD supere 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1843.854}
+{"text": "notificar si amazon baja de 1,000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2067.49}
+{"text": "cuando netflix rompa 150 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1953.104}
+{"text": "si META sube de 100, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2060.312}
+{"text": "si SQM sube de 250, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2036.692}
+{"text": "si MSFT baja de 280 avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1910.904}
+{"text": "si ETH-USD sube de 3.000 me pingueas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2204.724}
+{"text": "cuando SOL-USD rompa 200 avisa", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2085.941}
+{"text": "si NVDA cae de 400 avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1942.744}
+{"text": "si GOOGL supera 180 avisa", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1845.056}
+{"text": "alerta si AAPL baja de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1970.746}
+{"text": "si TSLA sube de 1.000, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2138.245}
+{"text": "si BTC-USD cae de 60,000 me notificas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2184.964}
+{"text": "cuando META rompa 500 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2027.308}

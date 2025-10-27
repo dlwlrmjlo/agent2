@@ -12,7 +12,9 @@ from typing import Optional, Dict, Any, List
 from sqlalchemy.orm import Session
 from bs4 import BeautifulSoup
 
+from app.core.config import settings
 from app.core.llm import ask_llm
+from app.core.intent_adapter import predict as adapter_predict
 from app.core.symbols import resolve_symbol
 from app.core.market import get_last_price, get_changes
 from app.db.models import Alerta
@@ -68,32 +70,40 @@ def _looks_like_financial(text: str) -> bool:
     return bool(re.search(r"\b[A-Z0-9.\-]{2,12}\b", (text or "").upper()))
 
 async def classify_intent(text: str) -> int:
-    """
-    Return 2 (ALERTA) / 1 (FINANCIERO) / 0 (GENERAL).
-    Deterministic heuristics first; if ambiguous, ask the LLM for a single digit.
-    """
-    # if _looks_like_alert(text):     return 2
-    # if _looks_like_financial(text): return 1
+    t = (text or "").strip()
+    mode = (settings.INTENT_MODE or "HYBRID").upper()
+
+    if mode == "ADAPTER":
+        y, _ = adapter_predict(t)
+        return int(y)
+
+    if mode == "LLM":
+        prompt = (
+            "Clasifica la consulta en UNA sola categoría y devuelve SOLO un dígito:\n"
+            "0 = general (explicaciones, contexto, noticias)\n"
+            "1 = financiero (precio/cotización/quote)\n"
+            "2 = alerta (regla con umbral: si/cuando sube/baja de X)\n\n"
+            "- \"precio de tesla\" -> 1\n- \"avísame si TSLA cae de 300\" -> 2\n- \"qué pasó con SQM\" -> 0\n\n"
+            f"Consulta: \"{t}\"\nResponde SOLO con 0 o 1 o 2."
+        )
+        raw = (await ask_llm(prompt)) or ""
+        m = re.search(r"[0-2]", raw)
+        return int(m.group(0)) if m else 0
+
+    # HYBRID (default): adapter rápido y LLM solo si hay duda
+    y, p = adapter_predict(t)
+    if p >= 0.80:
+        return int(y)
 
     prompt = (
         "Clasifica la consulta en UNA sola categoría y devuelve SOLO un dígito:\n"
-        "0 = general (explicaciones, contexto, noticias)\n"
-        "1 = financiero (precio/cotización/quote de un activo)\n"
-        "2 = alerta (regla con umbral: si/cuando sube/baja de X)\n\n"
-        "Ejemplos:\n"
-        "- \"precio de tesla\" -> 1\n"
-        "- \"cotización NVDA\" -> 1\n"
-        "- \"avísame si TSLA cae de 300\" -> 2\n"
-        "- \"si BTC-USD sube de 50, avísame\" -> 2\n"
-        "- \"qué pasó con SQM\" -> 0\n"
-        "- \"explica el movimiento de AMD\" -> 0\n\n"
-        f"Consulta: \"{text}\"\n"
-        "Responde SOLO con 0 o 1 o 2."
+        "0 = general\n1 = financiero\n2 = alerta\n\n"
+        "- \"precio de tesla\" -> 1\n- \"avísame si TSLA cae de 300\" -> 2\n- \"qué pasó con SQM\" -> 0\n\n"
+        f"Consulta: \"{t}\"\nResponde SOLO con 0 o 1 o 2."
     )
     raw = (await ask_llm(prompt)) or ""
     m = re.search(r"[0-2]", raw)
-    return int(m.group(0)) if m else 0
-
+    return int(m.group(0)) if m else int(y)
 
 # ------------------------------------------------------------------------------
 # Shared utilities
