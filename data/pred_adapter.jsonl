@@ -1,48 +1,48 @@
-{"text": "qué pasó con TSLA hoy", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 4591.604}
-{"text": "por qué se movió SQM esta mañana", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 30.051}
-{"text": "contexto de microsoft hoy", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 25.197}
-{"text": "explica el movimiento de btc", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 25.173}
-{"text": "dicen que NVDA sube fuerte", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 26.038}
-{"text": "se habla de que apple bajó por guidance", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 26.854}
-{"text": "qué se dice de AAPL en las noticias", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 26.605}
-{"text": "últimas novedades de AMZN", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 28.023}
-{"text": "tsla está volátil, ¿por qué?", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 30.78}
-{"text": "GOOGL cayó por resultados?", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 27.606}
-{"text": "meta se disparó, ¿qué driver hay?", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 29.84}
-{"text": "rumores sobre NVDA y chips", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 26.46}
-{"text": "qué pasó con SOL-USD el finde", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 26.038}
-{"text": "explica por qué bajó ETH-USD", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 25.526}
-{"text": "qué tal el sentimiento en NFLX hoy", "label": 0, "pred": 0, "mode": "ADAPTER", "lat_ms": 25.551}
-{"text": "¿hubo earnings de AMD?", "label": 0, "pred": 1, "mode": "ADAPTER", "lat_ms": 27.116}
-{"text": "precio de sqm", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 24.786}
-{"text": "cotización TSLA", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 24.881}
-{"text": "cuánto vale google hoy", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 25.464}
-{"text": "precio btc ahora", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 24.692}
-{"text": "quote NVDA", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 24.427}
-{"text": "valor de netflix", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 24.607}
-{"text": "dame AMD", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 20.75}
-{"text": "GOOGL", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 23.284}
-{"text": "AAPL price", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 23.41}
-{"text": "btc-USD", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 23.517}
-{"text": "msft cotización", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 24.249}
-{"text": "tsla precio ahora", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 23.507}
-{"text": "ETH-USD quote", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 23.208}
-{"text": "AMZN", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 19.658}
-{"text": "precio meta ahora", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 24.5}
-{"text": "valor de sol", "label": 1, "pred": 1, "mode": "ADAPTER", "lat_ms": 23.866}
-{"text": "avísame si TESLA cae de 300", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 29.944}
-{"text": "si BTC-USD sube de 50, avísame", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 27.728}
-{"text": "alerta cuando AMD supere 500", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 26.559}
-{"text": "notificar si amazon baja de 1,000", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 27.926}
-{"text": "cuando netflix rompa 150 me avisas", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 25.097}
-{"text": "si META sube de 100, avísame", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 27.982}
-{"text": "si SQM sube de 250, avísame", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 24.857}
-{"text": "si MSFT baja de 280 avísame", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 26.357}
-{"text": "si ETH-USD sube de 3.000 me pingueas", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 27.61}
-{"text": "cuando SOL-USD rompa 200 avisa", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 24.466}
-{"text": "si NVDA cae de 400 avísame", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 25.856}
-{"text": "si GOOGL supera 180 avisa", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 24.98}
-{"text": "alerta si AAPL baja de 150", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 24.445}
-{"text": "si TSLA sube de 1.000, avísame", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 25.729}
-{"text": "si BTC-USD cae de 60,000 me notificas", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 28.059}
-{"text": "cuando META rompa 500 me avisas", "label": 2, "pred": 2, "mode": "ADAPTER", "lat_ms": 24.379}
+{"text": "qué pasó con TSLA hoy", "y_true": 0, "y_pred": 0, "latency_ms": 3721.7}
+{"text": "por qué se movió SQM esta mañana", "y_true": 0, "y_pred": 0, "latency_ms": 33.4}
+{"text": "contexto de microsoft hoy", "y_true": 0, "y_pred": 0, "latency_ms": 26.8}
+{"text": "explica el movimiento de btc", "y_true": 0, "y_pred": 0, "latency_ms": 29.5}
+{"text": "dicen que NVDA sube fuerte", "y_true": 0, "y_pred": 0, "latency_ms": 26.5}
+{"text": "se habla de que apple bajó por guidance", "y_true": 0, "y_pred": 0, "latency_ms": 27.2}
+{"text": "qué se dice de AAPL en las noticias", "y_true": 0, "y_pred": 0, "latency_ms": 26.9}
+{"text": "últimas novedades de AMZN", "y_true": 0, "y_pred": 0, "latency_ms": 25.0}
+{"text": "tsla está volátil, ¿por qué?", "y_true": 0, "y_pred": 0, "latency_ms": 37.1}
+{"text": "GOOGL cayó por resultados?", "y_true": 0, "y_pred": 0, "latency_ms": 31.9}
+{"text": "meta se disparó, ¿qué driver hay?", "y_true": 0, "y_pred": 0, "latency_ms": 43.2}
+{"text": "rumores sobre NVDA y chips", "y_true": 0, "y_pred": 0, "latency_ms": 37.3}
+{"text": "qué pasó con SOL-USD el finde", "y_true": 0, "y_pred": 0, "latency_ms": 30.5}
+{"text": "explica por qué bajó ETH-USD", "y_true": 0, "y_pred": 0, "latency_ms": 27.4}
+{"text": "qué tal el sentimiento en NFLX hoy", "y_true": 0, "y_pred": 0, "latency_ms": 31.4}
+{"text": "¿hubo earnings de AMD?", "y_true": 0, "y_pred": 1, "latency_ms": 32.0}
+{"text": "precio de sqm", "y_true": 1, "y_pred": 1, "latency_ms": 27.6}
+{"text": "cotización TSLA", "y_true": 1, "y_pred": 1, "latency_ms": 28.6}
+{"text": "cuánto vale google hoy", "y_true": 1, "y_pred": 1, "latency_ms": 26.3}
+{"text": "precio btc ahora", "y_true": 1, "y_pred": 1, "latency_ms": 25.3}
+{"text": "quote NVDA", "y_true": 1, "y_pred": 1, "latency_ms": 29.0}
+{"text": "valor de netflix", "y_true": 1, "y_pred": 1, "latency_ms": 26.3}
+{"text": "dame AMD", "y_true": 1, "y_pred": 1, "latency_ms": 22.6}
+{"text": "GOOGL", "y_true": 1, "y_pred": 1, "latency_ms": 25.0}
+{"text": "AAPL price", "y_true": 1, "y_pred": 1, "latency_ms": 27.0}
+{"text": "btc-USD", "y_true": 1, "y_pred": 1, "latency_ms": 26.8}
+{"text": "msft cotización", "y_true": 1, "y_pred": 1, "latency_ms": 27.6}
+{"text": "tsla precio ahora", "y_true": 1, "y_pred": 1, "latency_ms": 39.1}
+{"text": "ETH-USD quote", "y_true": 1, "y_pred": 1, "latency_ms": 32.1}
+{"text": "AMZN", "y_true": 1, "y_pred": 1, "latency_ms": 25.5}
+{"text": "precio meta ahora", "y_true": 1, "y_pred": 1, "latency_ms": 32.2}
+{"text": "valor de sol", "y_true": 1, "y_pred": 1, "latency_ms": 37.2}
+{"text": "avísame si TESLA cae de 300", "y_true": 2, "y_pred": 2, "latency_ms": 34.6}
+{"text": "si BTC-USD sube de 50, avísame", "y_true": 2, "y_pred": 2, "latency_ms": 31.8}
+{"text": "alerta cuando AMD supere 500", "y_true": 2, "y_pred": 2, "latency_ms": 29.7}
+{"text": "notificar si amazon baja de 1,000", "y_true": 2, "y_pred": 2, "latency_ms": 29.9}
+{"text": "cuando netflix rompa 150 me avisas", "y_true": 2, "y_pred": 2, "latency_ms": 32.0}
+{"text": "si META sube de 100, avísame", "y_true": 2, "y_pred": 2, "latency_ms": 36.3}
+{"text": "si SQM sube de 250, avísame", "y_true": 2, "y_pred": 2, "latency_ms": 31.8}
+{"text": "si MSFT baja de 280 avísame", "y_true": 2, "y_pred": 2, "latency_ms": 29.8}
+{"text": "si ETH-USD sube de 3.000 me pingueas", "y_true": 2, "y_pred": 2, "latency_ms": 35.1}
+{"text": "cuando SOL-USD rompa 200 avisa", "y_true": 2, "y_pred": 2, "latency_ms": 31.3}
+{"text": "si NVDA cae de 400 avísame", "y_true": 2, "y_pred": 2, "latency_ms": 29.8}
+{"text": "si GOOGL supera 180 avisa", "y_true": 2, "y_pred": 2, "latency_ms": 25.8}
+{"text": "alerta si AAPL baja de 150", "y_true": 2, "y_pred": 2, "latency_ms": 26.7}
+{"text": "si TSLA sube de 1.000, avísame", "y_true": 2, "y_pred": 2, "latency_ms": 31.3}
+{"text": "si BTC-USD cae de 60,000 me notificas", "y_true": 2, "y_pred": 2, "latency_ms": 29.9}
+{"text": "cuando META rompa 500 me avisas", "y_true": 2, "y_pred": 2, "latency_ms": 35.5}

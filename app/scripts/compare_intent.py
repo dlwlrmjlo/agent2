@@ -1,14 +1,19 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Evalúa el clasificador de intención en dos modos: LLM y ADAPTER
+
+Uso (desde la raíz del repo):
+    python -m app.scripts.compare_intent data/intent.jsonl --out_dir data
+
+Nota: Ejecutarlo como módulo asegura que el paquete `app` esté importable.
+EvalÃºa el clasificador de intenciÃ³n en dos modos: LLM y ADAPTER
 - Lee:  JSONL con {"text":..., "label": 0|1|2}
 - Escribe:
     data/pred_llm.jsonl
     data/pred_adapter.jsonl
     data/intent_eval_report.md   (resumen bonito)
-    data/intent_eval_mismatches.jsonl  (líneas con discrepancias)
-- Imprime en consola accuracy, F1-macro, latencias y matrices de confusión.
+    data/intent_eval_mismatches.jsonl  (lÃ­neas con discrepancias)
+- Imprime en consola accuracy, F1-macro, latencias y matrices de confusiÃ³n.
 """
 
 import os, json, time, argparse
@@ -59,7 +64,7 @@ async def run_once(rows: List[Dict[str, Any]], mode: str, out_path: str):
     # Restauramos
     settings.INTENT_MODE = prev
 
-    # Métricas
+    # MÃ©tricas
     y_true = [int(r["label"]) for r in rows]
     acc = accuracy_score(y_true, preds)
     f1m = f1_score(y_true, preds, average="macro")
@@ -74,11 +79,11 @@ async def run_once(rows: List[Dict[str, Any]], mode: str, out_path: str):
     }
 
 def print_block(res: Dict[str, Any]):
-    print(f"\nOK → {res['out']} ({len(res['rows'])} ítems)")
+    print(f"\nOK â†’ {res['out']} ({len(res['rows'])} Ã­tems)")
     print(f"Accuracy: {res['acc']:.4f} | F1-macro: {res['f1_macro']:.4f} | "
           f"Lat p50/p95: {int(res['p50_ms'])}/{int(res['p95_ms'])} ms")
     cm = res["cm"]
-    print("Matriz de confusión (filas=true, cols=pred): (0, 1, 2)")
+    print("Matriz de confusiÃ³n (filas=true, cols=pred): (0, 1, 2)")
     print(f"[{cm[0][0]}, {cm[0][1]}, {cm[0][2]}]")
     print(f"[{cm[1][0]}, {cm[1][1]}, {cm[1][2]}]")
     print(f"[{cm[2][0]}, {cm[2][1]}, {cm[2][2]}]")
@@ -93,12 +98,12 @@ def write_report_md(path: str, gold: List[int], r_llm: Dict[str,Any], r_adp: Dic
     with open(path, "w", encoding="utf-8") as f:
         f.write("# Intent Eval Report (LLM vs Adapter)\n\n")
         f.write(f"- Items: **{len(gold)}**\n\n")
-        f.write("## Resumen de métricas\n\n")
+        f.write("## Resumen de mÃ©tricas\n\n")
         f.write("| Modo | Accuracy | F1-macro | Lat p50 (ms) | Lat p95 (ms) |\n")
         f.write("|---|---:|---:|---:|---:|\n")
         f.write(f"| LLM | {r_llm['acc']:.4f} | {r_llm['f1_macro']:.4f} | {r_llm['p50_ms']:.0f} | {r_llm['p95_ms']:.0f} |\n")
         f.write(f"| Adapter | {r_adp['acc']:.4f} | {r_adp['f1_macro']:.4f} | {r_adp['p50_ms']:.0f} | {r_adp['p95_ms']:.0f} |\n\n")
-        f.write("## Matrices de confusión (filas=true, columnas=pred; orden de etiquetas: 0,1,2)\n\n")
+        f.write("## Matrices de confusiÃ³n (filas=true, columnas=pred; orden de etiquetas: 0,1,2)\n\n")
         f.write("**LLM**\n\n```\n" + fmt_cm(r_llm["cm"]) + "\n```\n\n")
         f.write("**Adapter**\n\n```\n" + fmt_cm(r_adp["cm"]) + "\n```\n\n")
         f.write(f"## Mismatches (total {len(mismatches)})\n\n")
@@ -106,7 +111,7 @@ def write_report_md(path: str, gold: List[int], r_llm: Dict[str,Any], r_adp: Dic
         for m in mismatches[:100]:  # no explotar el md
             f.write(f"- gold={m['gold']} | llm={m['llm_pred']} | adp={m['adp_pred']} | txt: {m['text']}\n")
         if len(mismatches) > 100:
-            f.write(f"\n… y {len(mismatches)-100} más.\n")
+            f.write(f"\nâ€¦ y {len(mismatches)-100} mÃ¡s.\n")
 
 # ---------- main ----------
 async def main():
@@ -147,8 +152,8 @@ async def main():
     write_jsonl(os.path.join(args.out_dir, "intent_eval_mismatches.jsonl"), mismatches)
 
     print("\n==== Resumen comparativo ====")
-    print(f"Reporte → {report_md}")
-    print(f"Mismatches → {os.path.join(args.out_dir, 'intent_eval_mismatches.jsonl')}")
+    print(f"Reporte â†’ {report_md}")
+    print(f"Mismatches â†’ {os.path.join(args.out_dir, 'intent_eval_mismatches.jsonl')}")
     print("Listo.")
 
 if __name__ == "__main__":

@@ -1,9 +1,9 @@
 {
   "train_file": "data/intent.jsonl",
   "encoder": "paraphrase-multilingual-MiniLM-L12-v2",
-  "samples": 802,
+  "samples": 804,
   "acc": 0.9937888198757764,
-  "f1_macro": 0.9938266312269571,
+  "f1_macro": 0.9938837920489297,
   "cm": [
     [
       54,
@@ -12,13 +12,13 @@
     ],
     [
       0,
-      53,
+      54,
       0
     ],
     [
       0,
       0,
-      53
+      52
     ]
   ],
   "train_seconds": 0.03
