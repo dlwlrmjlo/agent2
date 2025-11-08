@@ -54,3 +54,27 @@ async def explain_move(q: str) -> Dict[str, Any]:
         "summary_general": brief,
         "disclaimer": "Explicaciones plausibles por proximidad temporal y fuente; no implica causalidad ni recomendación."
     }
+
+
+from typing import List, Dict
+from app.core.llm import ask_llm
+
+def build_intraday_brief(symbol: str, top_news: List[Dict]) -> str:
+    """
+    Return a short intraday brief for `symbol` using `top_news` as context.
+    If LLM is unavailable/empty, degrade gracefully with a human message.
+    """
+    titles = [f"- {n.get('title','').strip()}" for n in (top_news or []) if n.get("title")]
+    context = "\n".join(titles[:5]) or "(sin titulares recientes)"
+
+    prompt = (
+        f"Resume en 3-5 líneas qué mueve hoy {symbol}. "
+        f"No inventes. Usa solo estos titulares:\n{context}\n"
+        "Devuelve texto plano, sin viñetas si no aportan."
+    )
+
+    raw = ask_llm(prompt) or ""
+    text = (raw or "").strip()
+    if not text:
+        return f"No fue posible generar el brief ahora. Drivers poco concluyentes para {symbol}."
+    return text
