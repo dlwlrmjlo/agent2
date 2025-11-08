@@ -1,0 +1,27 @@
+Name                         Stmts   Miss  Cover   Missing
+----------------------------------------------------------
+app\api\services.py            134    108    19%   27-28, 31-39, 42-54, 61-64, 67-70, 80-106, 113-116, 123-145, 157-228, 241-266
+app\core\config.py              15      0   100%
+app\core\explain.py             33     15    55%   11-43, 80
+app\core\intent_adapter.py      26      0   100%
+app\core\llm.py                 12      9    25%   9-17
+app\core\market.py              64      4    94%   20, 64-66
+app\core\news.py               101     79    22%   19-24, 26-28, 33-35, 38-42, 45-50, 53-56, 59-74, 77-84, 87-122
+app\core\news_rank.py           44      2    95%   33, 39
+app\core\shocks.py              25     10    60%   24-28, 40-46
+app\core\summarize.py           32     25    22%   17-33, 57-80
+app\core\symbols.py             50     33    34%   21-24, 28-41, 56-74
+app\db\database.py               6      0   100%
+app\db\models.py                 9      0   100%
+tests\conftest.py               76     25    67%   12, 34-37, 51-55, 71, 73, 76-79, 85-86, 88-93, 97-100
+tests\test_explain.py            7      0   100%
+tests\test_intent.py            58     36    38%   36-87
+tests\test_market.py            75      8    89%   14-16, 26-30, 42
+tests\test_news.py              22      0   100%
+tests\test_news_rank.py         37      0   100%
+tests\test_symbols.py           37     10    73%   13, 20, 23-25, 43-45, 53, 57
+----------------------------------------------------------
+TOTAL                          863    364    58%
+
+
+

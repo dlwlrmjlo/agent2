@@ -1,0 +1,36 @@
+2025-11-08 00:57:59 | INFO | tests | INICIO prueba: tests/test_explain.py::test_explain_handles_llm_timeout — When LLM returns None/empty, brief should degrade with a clear message. | Marcas: ninguna | Parámetros: ninguno
+2025-11-08 00:58:00 | INFO | tests | FIN prueba: tests/test_explain.py::test_explain_handles_llm_timeout -> OK (320.3 ms)
+2025-11-08 00:58:00 | INFO | tests | INICIO prueba: tests/test_intent.py::test_intent_financiero_adapter — sin descripción | Marcas: asyncio | Parámetros: ninguno
+2025-11-08 00:58:09 | INFO | sentence_transformers.SentenceTransformer | Use pytorch device_name: cpu
+2025-11-08 00:58:09 | INFO | sentence_transformers.SentenceTransformer | Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_intent.py::test_intent_financiero_adapter -> OK (12084.3 ms)
+2025-11-08 00:58:12 | INFO | tests | INICIO prueba: tests/test_intent.py::test_intent_alerta_adapter — sin descripción | Marcas: asyncio | Parámetros: ninguno
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_intent.py::test_intent_alerta_adapter -> OK (30.8 ms)
+2025-11-08 00:58:12 | INFO | tests | INICIO prueba: tests/test_intent.py::test_intent_general_adapter — sin descripción | Marcas: asyncio | Parámetros: ninguno
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_intent.py::test_intent_general_adapter -> OK (27.9 ms)
+2025-11-08 00:58:12 | INFO | tests | INICIO prueba: tests/test_market.py::test_fast_info_preferred — Si fast_info.lastPrice existe, get_last_price debe usarlo
+y NO llamar a history(). Verificamos count == 0 tras la llamada. | Marcas: ninguna | Parámetros: ninguno
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_market.py::test_fast_info_preferred -> OK (0.4 ms)
+2025-11-08 00:58:12 | INFO | tests | INICIO prueba: tests/test_market.py::test_fallback_to_history_when_no_lastprice — Cuando no hay lastPrice, get_last_price debe caer a history(1m) y
+devolver el último close (=110.0 en nuestro DF sintético). | Marcas: ninguna | Parámetros: ninguno
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_market.py::test_fallback_to_history_when_no_lastprice -> OK (1.7 ms)
+2025-11-08 00:58:12 | INFO | tests | INICIO prueba: tests/test_market.py::test_cache_ttl_no_extra_history_on_second_call — 1ª pasada:
+  - Puede haber 1 o 2 llamadas a history() según el diseño del cache:
+    * Si cachea por símbolo (tu caso actual): 1 llamada (usa 1m y reutiliza para get_changes)
+    * Si cachea por intervalo: 2 llamadas (1m para precio, 5m para deltas)
+2ª pasada inmediata:
+  - No debe aumentar el contador (reutiliza cache). | Marcas: ninguna | Parámetros: ninguno
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_market.py::test_cache_ttl_no_extra_history_on_second_call -> OK (2.2 ms)
+2025-11-08 00:58:12 | INFO | tests | INICIO prueba: tests/test_news.py::test_news_pipeline_fallback_rss — Simulamos que Yahoo viene vacío y el RSS trae 3 ítems (uno duplicado por URL).
+El stub de get_ticker_news deduplica por URL y limpia títulos. | Marcas: ninguna | Parámetros: ninguno
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_news.py::test_news_pipeline_fallback_rss -> OK (0.5 ms)
+2025-11-08 00:58:12 | INFO | tests | INICIO prueba: tests/test_news_rank.py::test_temporal_first_and_missing_ts_goes_last — Ítem nuevo dentro de ventana debe ir primero; el que no tiene ts no se descarta pero debe quedar al final. | Marcas: ninguna | Parámetros: ninguno
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_news_rank.py::test_temporal_first_and_missing_ts_goes_last -> OK (0.4 ms)
+2025-11-08 00:58:12 | INFO | tests | INICIO prueba: tests/test_news_rank.py::test_window_filter_prefers_in_window — Un ítem dentro de ventana debe outrankear a otro similar fuera de ventana. | Marcas: ninguna | Parámetros: ninguno
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_news_rank.py::test_window_filter_prefers_in_window -> OK (0.3 ms)
+2025-11-08 00:58:12 | INFO | tests | INICIO prueba: tests/test_news_rank.py::test_trust_whitelist_boost — A igualdad de tiempo y match, fuente whitelisted (Reuters) debe rankear más alto que una desconocida. | Marcas: ninguna | Parámetros: ninguno
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_news_rank.py::test_trust_whitelist_boost -> OK (0.3 ms)
+2025-11-08 00:58:12 | INFO | tests | INICIO prueba: tests/test_symbols.py::test_direct_ticker_returns_same — Input 'TSLA' debe resolverse a 'TSLA' sin depender de búsquedas.
+Mockeamos yfinance para que, si el resolver valida el ticker,
+encuentre datos mínimos y no falle. | Marcas: ninguna | Parámetros: ninguno
+2025-11-08 00:58:12 | INFO | tests | FIN prueba: tests/test_symbols.py::test_direct_ticker_returns_same -> OK (0.5 ms)
