@@ -376,6 +376,7 @@ async def classify_intent(text: str) -> int:  # type: ignore[no-redef]
 
     if mode == "ADAPTER":
         y, _ = adapter_predict(t)
+        print("confianza de y en adapter de ", _)
         return int(y)
 
     if mode == "LLM":
@@ -399,6 +400,7 @@ async def classify_intent(text: str) -> int:  # type: ignore[no-redef]
 
     # HYBRID: adapter primero; si baja confianza, LLM 5-clases
     y, p = adapter_predict(t)
+    print("confianza de y en hibrido de ", p)
     if p >= 0.80:
         return int(y)
 

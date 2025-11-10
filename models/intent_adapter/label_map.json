@@ -1,1 +1,1 @@
-{"labels": [0, 1, 2], "names": {"0": "general", "1": "financiero", "2": "alerta"}}
+{"labels": [0, 1, 2, 3, 4], "names": {"0": "general", "1": "financiero", "2": "alerta", "3": "explain", "4": "news"}}

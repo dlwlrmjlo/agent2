@@ -1,25 +1,45 @@
 {
-  "train_file": "data/intent.jsonl",
+  "train_file": "data/intent.merged.jsonl",
   "encoder": "paraphrase-multilingual-MiniLM-L12-v2",
-  "samples": 804,
-  "acc": 0.9937888198757764,
-  "f1_macro": 0.9938837920489297,
+  "samples": 794,
+  "acc": 0.8742138364779874,
+  "f1_macro": 0.8464069676453578,
   "cm": [
     [
-      54,
+      30,
+      2,
+      0,
+      3,
+      11
+    ],
+    [
       1,
+      26,
+      0,
+      0,
       0
     ],
     [
       0,
-      54,
+      2,
+      56,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      15,
       0
     ],
     [
       0,
       0,
-      52
+      0,
+      0,
+      12
     ]
   ],
-  "train_seconds": 0.03
+  "train_seconds": 0.12
 }
