@@ -27,6 +27,8 @@ async def explain_move(q: str) -> Dict[str, Any]:
                 "ts": shock.ts,
                 "delta_15m": shock.delta_15m,
                 "delta_60m": d1h,
+                "delta_24h": d24h,
+                "delta_7d": d7d,
                 "hit": False
             },
             "drivers": drivers,
@@ -46,6 +48,8 @@ async def explain_move(q: str) -> Dict[str, Any]:
             "ts": shock.ts,
             "delta_15m": shock.delta_15m,
             "delta_60m": d1h,
+            "delta_24h": d24h,
+            "delta_7d": d7d,
             "hit": True,
             "window": shock.threshold_hit
         },

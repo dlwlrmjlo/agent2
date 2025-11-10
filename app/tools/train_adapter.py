@@ -81,7 +81,9 @@ def main():
     y_proba = clf.predict_proba(Z_te)
     acc = accuracy_score(y_te, y_pred)
     f1m = f1_score(y_te, y_pred, average="macro")
-    cm = confusion_matrix(y_te, y_pred, labels=[0,1,2]).tolist()
+    # Allow up to 5 labels if present in data
+    all_labels = sorted({0,1,2,3,4}.intersection(set(y_tr + y_te))) or [0,1,2]
+    cm = confusion_matrix(y_te, y_pred, labels=all_labels).tolist()
 
     print("\n=== Eval ===")
     print(f"Accuracy: {acc:.4f} | F1-macro: {f1m:.4f}")
@@ -93,7 +95,10 @@ def main():
     with open(os.path.join(args.outdir, "encoder.txt"), "w", encoding="utf-8") as f:
         f.write(ENCODER_NAME + "\n")
     with open(os.path.join(args.outdir, "label_map.json"), "w", encoding="utf-8") as f:
-        json.dump({"labels": [0,1,2], "names": {"0":"general","1":"financiero","2":"alerta"}}, f)
+        json.dump({
+            "labels": all_labels,
+            "names": {"0":"general","1":"financiero","2":"alerta","3":"explain","4":"news"}
+        }, f)
 
     with open(os.path.join(args.outdir, "stats.json"), "w", encoding="utf-8") as f:
         json.dump({

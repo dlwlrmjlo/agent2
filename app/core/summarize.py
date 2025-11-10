@@ -75,6 +75,7 @@ async def summarize_market_view(
         f"Variaciones: 1h={d1h}, 24h={d24h}, 7d={d7d}\n"
         f"Shock detectado: {shock_txt}\n"
         f"TITULARES:\n{heads}\n\n"
-        "Redacta el brief ahora."
+        "Redacta el brief ahora. Usa EXACTAMENTE los valores de variacin provistos (1h/24h/7d); si alguno es n/d, no inventes cifras."
     )
     return (await ask_llm(prompt)).strip()
+
