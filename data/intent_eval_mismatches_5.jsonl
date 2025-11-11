@@ -1,0 +1,209 @@
+{"text": "dame disney", "gold": 1, "llm_pred": 0, "adp_pred": 1}
+{"text": "cierre de meta", "gold": 1, "llm_pred": 0, "adp_pred": 1}
+{"text": "cierre de netflix", "gold": 1, "llm_pred": 0, "adp_pred": 1}
+{"text": "cierre de sol", "gold": 1, "llm_pred": 0, "adp_pred": 1}
+{"text": "cierre de google", "gold": 1, "llm_pred": 0, "adp_pred": 1}
+{"text": "cuanto est�� GOOGL", "gold": 1, "llm_pred": 1, "adp_pred": 0}
+{"text": "avísame si sol cae de 150", "gold": 2, "llm_pred": 1, "adp_pred": 2}
+{"text": "precio de apple y avísame si baja de 150", "gold": 2, "llm_pred": 1, "adp_pred": 1}
+{"text": "precio de btc y avísame si baja de 100", "gold": 2, "llm_pred": 1, "adp_pred": 2}
+{"text": "precio de google y avísame si baja de 200", "gold": 2, "llm_pred": 1, "adp_pred": 2}
+{"text": "si NVDA sube de 100, avísame", "gold": 2, "llm_pred": 1, "adp_pred": 2}
+{"text": "notificar si nvidia baja de 300", "gold": 2, "llm_pred": 3, "adp_pred": 2}
+{"text": "precio de netflix y avísame si baja de 250", "gold": 2, "llm_pred": 1, "adp_pred": 2}
+{"text": "precio de amd y avísame si baja de 500", "gold": 2, "llm_pred": 1, "adp_pred": 1}
+{"text": "precio de sol y avísame si baja de 100", "gold": 2, "llm_pred": 1, "adp_pred": 2}
+{"text": "precio de tesla y avísame si baja de 250", "gold": 2, "llm_pred": 1, "adp_pred": 2}
+{"text": "precio de tesla y avísame si baja de 50", "gold": 2, "llm_pred": 1, "adp_pred": 2}
+{"text": "precio de sqm y avísame si baja de 100", "gold": 2, "llm_pred": 1, "adp_pred": 2}
+{"text": "precio de netflix y avísame si baja de 200", "gold": 2, "llm_pred": 1, "adp_pred": 2}
+{"text": "precio de eth y avísame si baja de 150", "gold": 2, "llm_pred": 1, "adp_pred": 1}
+{"text": "precio de apple y avísame si baja de 300", "gold": 2, "llm_pred": 1, "adp_pred": 1}
+{"text": "qué se dice de SQM en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "explica el movimiento de sqm", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qué se movió netflix", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qué se movió amd", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué pasó con meta", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qué se movió amazon", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "explica el movimiento de btc", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "últimas novedades de AMD", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "últimas novedades de AAPL", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "qué se dice de AAPL en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "qué pasó con microsoft", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué pasó con netflix", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "últimas novedades de NFLX", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "por qué se movió apple", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qué se movió btc", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qué se movió eth", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué se dice de BTC-USD en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "explica el movimiento de eth", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "últimas novedades de GOOGL", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "parece que meta baja por resultados", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "últimas novedades de META", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "últimas novedades de TSLA", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "qué se dice de AMD en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "por qué se movió tesla", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qué se movió meta", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué pasó con tesla", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué se dice de AMZN en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "parece que eth baja por resultados", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué se dice de META en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "qué se dice de GOOGL en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "últimas novedades de MSFT", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "qué pasó con nvidia", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "últimas novedades de AMZN", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "qué pasó con amd", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "explica el movimiento de sol", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué pasó con sqm", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué se dice de MSFT en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "explica el movimiento de google", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "explica el movimiento de apple", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "explica el movimiento de meta", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qué se movió nvidia", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qué se movió google", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "explica el movimiento de amazon", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "explica el movimiento de microsoft", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué se dice de NFLX en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "qué se dice de ETH-USD en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "últimas novedades de ETH-USD", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "últimas novedades de NVDA", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "últimas novedades de SOL-USD", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "por qué se movió sqm", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "parece que netflix baja por resultados", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "últimas novedades de SQM", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "por qué se movió sol", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "últimas novedades de BTC-USD", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "explica el movimiento de amd", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "explica el movimiento de tesla", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué se dice de NVDA en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "parece que tesla baja por resultados", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qué se movió microsoft", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué pasó con eth", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qué se dice de TSLA en las noticias", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "explica el movimiento de nvidia", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "explica el movimiento de netflix", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "parece que microsoft baja por resultados", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "amd", "gold": 0, "llm_pred": 0, "adp_pred": 3}
+{"text": "Explicame ald", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "Que paso con amd", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "Noticias de AMD", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "News de amd", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "novedades de amd", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "titulares recientes de eth", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "por que cay�� microsoft", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "news GOOGL", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "expl��came tesla", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "��ltimas de GOOGL", "gold": 0, "llm_pred": 1, "adp_pred": 0}
+{"text": "��ltimas de ETH-USD", "gold": 0, "llm_pred": 1, "adp_pred": 1}
+{"text": "news ETH-USD", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "por que cay�� nvidia", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qu�� se movi�� amd", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "titulares recientes de amazon", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "noticias de google", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "titulares de btc", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "expl��came sqm", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "expl��came amazon", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "titulares de nvidia", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "drivers de NFLX", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "novedades de microsoft", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "qu�� motiv�� la suba de eth", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "��ltimas de AMD", "gold": 0, "llm_pred": 1, "adp_pred": 0}
+{"text": "por qu�� amazon subi�� tanto", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qu�� se movi�� google", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qu�� motiv�� la suba de meta", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "razones de la ca��da de google", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "expl��came google", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "news BTC-USD", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "AMZN hoy", "gold": 0, "llm_pred": 0, "adp_pred": 3}
+{"text": "dame noticias de NFLX", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "dame noticias de GOOGL", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "qu�� movi�� a sqm hoy", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "��ltimas de MSFT", "gold": 0, "llm_pred": 0, "adp_pred": 1}
+{"text": "expl��came eth", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qu�� subi�� tesla", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "por que cay�� btc", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "razones de la ca��da de sqm", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "razones de la ca��da de amd", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "ETH-USD hoy, qu�� pas��", "gold": 0, "llm_pred": 1, "adp_pred": 0}
+{"text": "razones de la ca��da de tesla", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por que cay�� sol", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "noticias de sqm", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "por qu�� se movi�� eth", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "��ltimas de SQM", "gold": 0, "llm_pred": 1, "adp_pred": 1}
+{"text": "ETH-USD hoy", "gold": 0, "llm_pred": 0, "adp_pred": 1}
+{"text": "por que cay�� eth", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "razones de la ca��da de nvidia", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "noticias de sol", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "noticias de amazon", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "drivers de AAPL", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "por qu�� subi�� btc", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "qu�� dijeron de sqm", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "��ltimas noticias de NFLX", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "por que cay�� tesla", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "por qu�� google subi�� tanto", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "AMD hoy, qu�� pas��", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qu�� pasa con el precio de netflix", "gold": 0, "llm_pred": 1, "adp_pred": 1}
+{"text": "por qu�� subi�� nvidia", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qu�� se movi�� netflix", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qu�� apple baj�� hoy", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "meta hoy", "gold": 0, "llm_pred": 0, "adp_pred": 3}
+{"text": "por qu�� subi�� eth", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "expl��came btc", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "expl��came meta", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "expl��came microsoft", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qu�� motiv�� la suba de tesla", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qu�� sqm baj�� hoy", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "parece que apple baja por resultados", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "explain META", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "razones de la ca��da de eth", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por que cay�� amd", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "explain MSFT", "gold": 0, "llm_pred": 3, "adp_pred": 3}
+{"text": "novedades de sqm", "gold": 0, "llm_pred": 4, "adp_pred": 0}
+{"text": "��ltimas noticias de META", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "qu�� motiv�� la suba de apple", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qu�� motiv�� la suba de btc", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qu�� dijeron de btc", "gold": 0, "llm_pred": 0, "adp_pred": 4}
+{"text": "expl��came apple", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "novedades de google", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "por que cay�� meta", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qu�� dijeron de netflix", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "SOL-USD hoy", "gold": 0, "llm_pred": 1, "adp_pred": 1}
+{"text": "qu�� dijeron de apple", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "qu�� motiv�� la suba de sqm", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "titulares recientes de google", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "dame noticias de AMD", "gold": 0, "llm_pred": 4, "adp_pred": 4}
+{"text": "qu�� motiv�� la suba de microsoft", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qu�� apple subi�� tanto", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "expl��came netflix", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qu�� se movi�� sqm", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qu�� microsoft subi�� tanto", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qu�� pasa con el precio de nvidia", "gold": 0, "llm_pred": 1, "adp_pred": 1}
+{"text": "por qu�� meta baj�� hoy", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "qu�� pasa con el precio de google", "gold": 0, "llm_pred": 1, "adp_pred": 1}
+{"text": "explain NFLX", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por qu�� btc subi�� tanto", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "explain GOOGL", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "por que cay�� google", "gold": 0, "llm_pred": 3, "adp_pred": 0}
+{"text": "que paso con BTC-USD hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con amazon", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con apple", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con AMD hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "por que se movio sol", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "por que subio nvidia", "gold": 3, "llm_pred": 3, "adp_pred": 0}
+{"text": "que paso con MSFT hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con GOOGL hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con google", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con netflix", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con NVDA hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con META hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con ETH-USD hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con meta", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con AAPL hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con NFLX hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con TSLA hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "por que subio sol", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con microsoft", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que paso con AMZN hoy", "gold": 3, "llm_pred": 0, "adp_pred": 3}
+{"text": "que dijeron de sol", "gold": 4, "llm_pred": 0, "adp_pred": 4}
+{"text": "que dijeron de google", "gold": 4, "llm_pred": 0, "adp_pred": 4}
+{"text": "que dijeron de eth", "gold": 4, "llm_pred": 0, "adp_pred": 4}

@@ -1,0 +1,794 @@
+{"text": "precio de sqm", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 9587.78}
+{"text": "precio de sol", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1918.71}
+{"text": "quote BTC-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1922.4}
+{"text": "cuánto vale netflix hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1403.363}
+{"text": "valor de sqm", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1916.513}
+{"text": "precio btc ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1967.039}
+{"text": "cotización MSFT", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2011.222}
+{"text": "valor de sol", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1929.238}
+{"text": "valor de google", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1846.462}
+{"text": "quote NVDA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1843.508}
+{"text": "valor de netflix", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1904.618}
+{"text": "precio meta ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1973.274}
+{"text": "precio de netflix", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1876.055}
+{"text": "valor de eth", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1935.833}
+{"text": "precio google ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2642.019}
+{"text": "precio microsoft ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1981.514}
+{"text": "cuánto vale nvidia hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1768.266}
+{"text": "cotización TSLA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2131.149}
+{"text": "cuánto vale sol hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1332.931}
+{"text": "precio sol ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2036.982}
+{"text": "precio eth ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1944.691}
+{"text": "valor de microsoft", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2087.4}
+{"text": "quote META", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2239.789}
+{"text": "cuánto vale amazon hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2366.725}
+{"text": "quote AMD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2041.138}
+{"text": "cuánto vale meta hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1269.759}
+{"text": "cotización SOL-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1295.932}
+{"text": "quote MSFT", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1852.199}
+{"text": "quote NFLX", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1844.786}
+{"text": "cáchate el precio de eth", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1322.296}
+{"text": "quote GOOGL", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1854.742}
+{"text": "cotización NFLX", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1938.124}
+{"text": "cotización GOOGL", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1849.297}
+{"text": "precio apple ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1943.624}
+{"text": "cuánto vale eth hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1327.439}
+{"text": "precio de apple", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1876.203}
+{"text": "cuánto vale tesla hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1421.351}
+{"text": "valor de nvidia", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1894.13}
+{"text": "precio amd ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1933.356}
+{"text": "cuánto vale sqm hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1345.987}
+{"text": "precio netflix ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2094.794}
+{"text": "quote TSLA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1940.781}
+{"text": "precio de amd", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1972.447}
+{"text": "precio de microsoft", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1843.213}
+{"text": "valor de apple", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1974.793}
+{"text": "precio sqm ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2182.282}
+{"text": "cuánto vale amd hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1450.526}
+{"text": "cotización AMZN", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2228.709}
+{"text": "cotización META", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1939.111}
+{"text": "valor de btc", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1914.896}
+{"text": "cuánto vale apple hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1332.007}
+{"text": "valor de amd", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2419.937}
+{"text": "precio de btc", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2136.146}
+{"text": "valor de amazon", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1939.017}
+{"text": "cuánto vale microsoft hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1404.845}
+{"text": "precio nvidia ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2346.189}
+{"text": "precio de nvidia", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2128.522}
+{"text": "valor de tesla", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2115.162}
+{"text": "precio tesla ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2070.097}
+{"text": "cáchate el precio de sqm", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2222.593}
+{"text": "cáchate el precio de meta", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1919.181}
+{"text": "precio de meta", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1959.663}
+{"text": "precio de eth", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1877.963}
+{"text": "precio de amazon", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1846.422}
+{"text": "quote SOL-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2216.892}
+{"text": "precio de tesla", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1957.636}
+{"text": "cuánto vale google hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1308.394}
+{"text": "cáchate el precio de microsoft", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1393.849}
+{"text": "cáchate el precio de amd", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1851.81}
+{"text": "precio de google", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2504.821}
+{"text": "cotización NVDA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2022.093}
+{"text": "quote SQM", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1946.522}
+{"text": "cotización AMD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2020.957}
+{"text": "cotización AAPL", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2349.011}
+{"text": "cáchate el precio de sol", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2173.549}
+{"text": "quote AAPL", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2229.442}
+{"text": "quote ETH-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2200.372}
+{"text": "cotización BTC-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1390.359}
+{"text": "cáchate el precio de tesla", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2412.24}
+{"text": "cuánto vale btc hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1614.3}
+{"text": "precio amazon ahora", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2053.994}
+{"text": "cotización SQM", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2526.289}
+{"text": "cáchate el precio de google", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2202.994}
+{"text": "cual es el precio de nvidia", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1440.135}
+{"text": "cual es el precio de amd", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2001.989}
+{"text": "dame disney", "label": 1, "pred": 0, "mode": "LLM", "lat_ms": 2210.329}
+{"text": "Precio AMD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2224.623}
+{"text": "precio actual de amd", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2480.203}
+{"text": "precio NFLX", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1933.786}
+{"text": "precio BTC-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2255.903}
+{"text": "cáchate el precio de netflix", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1315.058}
+{"text": "cuanto est�� SOL-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1285.109}
+{"text": "cierre de meta", "label": 1, "pred": 0, "mode": "LLM", "lat_ms": 2100.137}
+{"text": "precio GOOGL", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2144.877}
+{"text": "cáchate el precio de btc", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1447.042}
+{"text": "precio y noticias de GOOGL", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1808.5}
+{"text": "precio AMZN", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2066.438}
+{"text": "cierre de btc", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2176.195}
+{"text": "cierre de amd", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1898.652}
+{"text": "cuanto est�� AMD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2961.683}
+{"text": "cierre de sqm", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2169.856}
+{"text": "cuanto est�� TSLA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2377.388}
+{"text": "precio actual de apple", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2120.003}
+{"text": "precio actual de sol", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1933.228}
+{"text": "precio SOL-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2348.61}
+{"text": "cuanto est�� NVDA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2095.496}
+{"text": "precio SQM", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1937.5}
+{"text": "cierre de netflix", "label": 1, "pred": 0, "mode": "LLM", "lat_ms": 1940.861}
+{"text": "precio actual de nvidia", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2153.602}
+{"text": "cuanto est�� SQM", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2233.09}
+{"text": "precio actual de google", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2274.255}
+{"text": "precio AMD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1992.02}
+{"text": "precio y noticias de ETH-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1467.947}
+{"text": "cuanto est�� AAPL", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1431.433}
+{"text": "precio y noticias de BTC-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1452.476}
+{"text": "precio META", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1971.931}
+{"text": "cierre de sol", "label": 1, "pred": 0, "mode": "LLM", "lat_ms": 2322.519}
+{"text": "precio actual de tesla", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2296.045}
+{"text": "precio AAPL", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2243.225}
+{"text": "precio y noticias de NVDA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2795.15}
+{"text": "cuanto est�� MSFT", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2376.341}
+{"text": "cuanto est�� META", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2415.868}
+{"text": "cierre de apple", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2275.825}
+{"text": "precio actual de microsoft", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2233.876}
+{"text": "cierre de google", "label": 1, "pred": 0, "mode": "LLM", "lat_ms": 2327.76}
+{"text": "cuanto est�� BTC-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1448.7}
+{"text": "cuanto est�� ETH-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2330.923}
+{"text": "precio TSLA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2140.944}
+{"text": "cuanto est�� GOOGL", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2297.651}
+{"text": "cuanto est�� AMZN", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2111.196}
+{"text": "precio actual de sqm", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2461.355}
+{"text": "cierre de tesla", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2183.902}
+{"text": "cierre de nvidia", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2095.477}
+{"text": "cuanto est�� NFLX", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 3178.773}
+{"text": "precio ETH-USD", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2230.639}
+{"text": "precio actual de amazon", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2384.516}
+{"text": "precio MSFT", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2079.047}
+{"text": "alerta cuando AMD supere 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1448.006}
+{"text": "avísame si nvidia cae de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1394.923}
+{"text": "avísame si google cae de 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1357.996}
+{"text": "si BTC-USD sube de 50, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1416.95}
+{"text": "avísame si tesla cae de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1449.721}
+{"text": "notificar si amazon baja de 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1406.57}
+{"text": "notificar si meta baja de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1343.632}
+{"text": "si META sube de 1000, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1408.431}
+{"text": "si SQM sube de 150, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1513.32}
+{"text": "si META sube de 100, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1390.09}
+{"text": "cuando netflix rompa 150 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1427.552}
+{"text": "avísame si microsoft cae de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1448.172}
+{"text": "si AMD sube de 250, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1393.958}
+{"text": "notificar si nvidia baja de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1408.106}
+{"text": "notificar si meta baja de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1378.721}
+{"text": "cuando amazon rompa 100 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1406.09}
+{"text": "si SQM sube de 100, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1397.525}
+{"text": "alerta cuando SQM supere 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1409.887}
+{"text": "cuando microsoft rompa 200 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1382.758}
+{"text": "avísame si tesla cae de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1393.307}
+{"text": "notificar si netflix baja de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1412.898}
+{"text": "avísame si eth cae de 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1425.85}
+{"text": "cuando amd rompa 250 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1418.842}
+{"text": "alerta cuando AMZN supere 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1421.708}
+{"text": "si AMD sube de 50, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1416.403}
+{"text": "avísame si microsoft cae de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1411.081}
+{"text": "cuando sqm rompa 300 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1472.202}
+{"text": "cuando amazon rompa 150 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1543.154}
+{"text": "si SOL-USD sube de 200, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1515.372}
+{"text": "si SOL-USD sube de 50, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2226.979}
+{"text": "alerta cuando MSFT supere 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1502.046}
+{"text": "cuando amd rompa 300 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1715.702}
+{"text": "cuando amazon rompa 200 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1486.798}
+{"text": "cuando meta rompa 200 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1397.038}
+{"text": "cuando eth rompa 250 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1545.902}
+{"text": "notificar si netflix baja de 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1678.259}
+{"text": "notificar si microsoft baja de 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1563.061}
+{"text": "cuando nvidia rompa 300 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1396.695}
+{"text": "notificar si google baja de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1296.805}
+{"text": "cuando sol rompa 250 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1418.69}
+{"text": "cuando nvidia rompa 50 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1489.371}
+{"text": "si AMZN sube de 300, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1567.934}
+{"text": "si TSLA sube de 100, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1413.246}
+{"text": "si AMZN sube de 250, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1535.123}
+{"text": "si AAPL sube de 1000, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1431.204}
+{"text": "avísame si apple cae de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1400.34}
+{"text": "cuando apple rompa 300 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1428.78}
+{"text": "alerta cuando MSFT supere 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1435.266}
+{"text": "avísame si sqm cae de 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1464.448}
+{"text": "alerta cuando NVDA supere 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1529.386}
+{"text": "avísame si btc cae de 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1467.65}
+{"text": "si AMZN sube de 500, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1472.103}
+{"text": "avísame si apple cae de 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1520.318}
+{"text": "avísame si meta cae de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1353.776}
+{"text": "alerta cuando ETH-USD supere 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1595.223}
+{"text": "notificar si meta baja de 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1549.398}
+{"text": "si BTC-USD sube de 250, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1663.196}
+{"text": "notificar si nvidia baja de 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1500.894}
+{"text": "cuando apple rompa 200 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1545.787}
+{"text": "avísame si nvidia cae de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1742.98}
+{"text": "cuando eth rompa 200 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1574.059}
+{"text": "avísame si eth cae de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1699.261}
+{"text": "alerta cuando AAPL supere 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1482.983}
+{"text": "notificar si nvidia baja de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1490.147}
+{"text": "cuando tesla rompa 300 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1516.687}
+{"text": "cuando amazon rompa 500 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1440.926}
+{"text": "avísame si sol cae de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1426.369}
+{"text": "avísame si microsoft cae de 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1453.364}
+{"text": "alerta cuando NFLX supere 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1594.122}
+{"text": "avísame si btc cae de 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1481.845}
+{"text": "notificar si google baja de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1449.292}
+{"text": "avísame si google cae de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1448.194}
+{"text": "si META sube de 50, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1450.295}
+{"text": "si TSLA sube de 200, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1401.056}
+{"text": "notificar si google baja de 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1589.44}
+{"text": "cuando sol rompa 100 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1511.075}
+{"text": "notificar si tesla baja de 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1461.337}
+{"text": "avísame si sol cae de 150", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 4505.312}
+{"text": "notificar si apple baja de 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1619.731}
+{"text": "notificar si sqm baja de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1463.894}
+{"text": "avísame si nvidia cae de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1468.329}
+{"text": "notificar si amazon baja de 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1495.958}
+{"text": "si GOOGL sube de 1000, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1491.412}
+{"text": "alerta cuando AMD supere 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1630.058}
+{"text": "notificar si apple baja de 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1444.187}
+{"text": "notificar si btc baja de 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1444.161}
+{"text": "cuando amd rompa 1000 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1531.503}
+{"text": "avísame si btc cae de 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1454.811}
+{"text": "notificar si netflix baja de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1501.071}
+{"text": "cuando amazon rompa 1000 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1472.416}
+{"text": "cuando sol rompa 50 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1425.886}
+{"text": "notificar si microsoft baja de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1417.743}
+{"text": "avísame si microsoft cae de 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1467.823}
+{"text": "alerta cuando SQM supere 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1518.56}
+{"text": "avísame si nvidia cae de 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1522.608}
+{"text": "cuando tesla rompa 100 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1622.854}
+{"text": "si BTC-USD sube de 500, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1483.473}
+{"text": "precio de eth y avísame si baja de 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 6869.857}
+{"text": "alerta cuando BTC-USD supere 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1501.499}
+{"text": "cuando nvidia rompa 200 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1436.304}
+{"text": "cuando tesla rompa 500 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1405.791}
+{"text": "notificar si btc baja de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1512.555}
+{"text": "avísame si apple cae de 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1486.507}
+{"text": "avísame si sol cae de 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1462.952}
+{"text": "avísame si sqm cae de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1449.124}
+{"text": "si SOL-USD sube de 300, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1508.264}
+{"text": "si SOL-USD sube de 500, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2242.663}
+{"text": "avísame si netflix cae de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1435.232}
+{"text": "notificar si eth baja de 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1447.897}
+{"text": "avísame si google cae de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1447.086}
+{"text": "si ETH-USD sube de 300, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1602.378}
+{"text": "si SQM sube de 300, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1509.096}
+{"text": "alerta cuando SQM supere 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1497.752}
+{"text": "alerta cuando TSLA supere 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1430.265}
+{"text": "alerta cuando MSFT supere 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1372.419}
+{"text": "cuando sol rompa 150 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1421.255}
+{"text": "si SQM sube de 250, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1464.936}
+{"text": "cuando netflix rompa 100 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1453.389}
+{"text": "cuando apple rompa 150 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1491.065}
+{"text": "cuando meta rompa 50 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1395.698}
+{"text": "avísame si google cae de 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1440.091}
+{"text": "alerta cuando AAPL supere 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1427.905}
+{"text": "notificar si tesla baja de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1423.974}
+{"text": "alerta cuando META supere 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1445.036}
+{"text": "cuando nvidia rompa 250 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1420.763}
+{"text": "precio de apple y avísame si baja de 150", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 1447.488}
+{"text": "si AAPL sube de 500, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1486.194}
+{"text": "notificar si eth baja de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1457.889}
+{"text": "avísame si google cae de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1443.507}
+{"text": "notificar si apple baja de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1485.243}
+{"text": "si NFLX sube de 150, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1458.708}
+{"text": "alerta cuando AMD supere 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1452.374}
+{"text": "notificar si meta baja de 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1483.975}
+{"text": "si NVDA sube de 1000, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1373.166}
+{"text": "alerta cuando NFLX supere 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1347.651}
+{"text": "si TSLA sube de 250, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1343.002}
+{"text": "avísame si tesla cae de 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1424.423}
+{"text": "si NVDA sube de 500, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1443.354}
+{"text": "precio de btc y avísame si baja de 100", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 4384.589}
+{"text": "si AAPL sube de 100, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1387.374}
+{"text": "precio de google y avísame si baja de 200", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 1617.118}
+{"text": "si NVDA sube de 100, avísame", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 3982.535}
+{"text": "alerta cuando SQM supere 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1386.852}
+{"text": "alerta cuando AMZN supere 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1334.484}
+{"text": "cuando amazon rompa 250 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1300.095}
+{"text": "notificar si meta baja de 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1384.122}
+{"text": "si SOL-USD sube de 100, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1430.833}
+{"text": "cuando meta rompa 300 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1345.34}
+{"text": "alerta cuando TSLA supere 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1478.363}
+{"text": "si GOOGL sube de 50, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1421.285}
+{"text": "alerta cuando ETH-USD supere 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1362.128}
+{"text": "notificar si amd baja de 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1275.424}
+{"text": "si AMZN sube de 200, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1269.631}
+{"text": "cuando google rompa 150 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1296.607}
+{"text": "notificar si nvidia baja de 300", "label": 2, "pred": 3, "mode": "LLM", "lat_ms": 5178.081}
+{"text": "alerta cuando NFLX supere 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1410.487}
+{"text": "cuando google rompa 500 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1389.872}
+{"text": "si BTC-USD sube de 1000, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1462.413}
+{"text": "cuando sqm rompa 250 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1378.815}
+{"text": "notificar si microsoft baja de 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1426.047}
+{"text": "alerta cuando MSFT supere 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1458.361}
+{"text": "si GOOGL sube de 200, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1327.225}
+{"text": "cuando google rompa 50 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1439.395}
+{"text": "si AMZN sube de 50, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1443.061}
+{"text": "notificar si amd baja de 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1464.907}
+{"text": "cuando btc rompa 1000 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1465.032}
+{"text": "alerta cuando SOL-USD supere 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1373.623}
+{"text": "notificar si nvidia baja de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1639.366}
+{"text": "precio de netflix y avísame si baja de 250", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 3151.162}
+{"text": "avísame si btc cae de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1389.62}
+{"text": "avísame si apple cae de 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1293.717}
+{"text": "alerta cuando MSFT supere 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1330.827}
+{"text": "precio de amd y avísame si baja de 500", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 2235.737}
+{"text": "si ETH-USD sube de 500, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1848.274}
+{"text": "si AMD sube de 300, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1706.941}
+{"text": "cuando meta rompa 1000 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1573.312}
+{"text": "cuando sqm rompa 100 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1595.188}
+{"text": "si NFLX sube de 200, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1721.704}
+{"text": "notificar si netflix baja de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1445.888}
+{"text": "si NVDA sube de 300, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1256.197}
+{"text": "alerta cuando META supere 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1232.533}
+{"text": "notificar si apple baja de 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1292.98}
+{"text": "notificar si btc baja de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1308.835}
+{"text": "notificar si sqm baja de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1279.883}
+{"text": "notificar si meta baja de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1290.833}
+{"text": "avísame si sol cae de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1386.731}
+{"text": "avísame si microsoft cae de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1290.308}
+{"text": "cuando btc rompa 100 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1287.64}
+{"text": "alerta cuando NVDA supere 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1237.934}
+{"text": "si AMD sube de 100, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1231.304}
+{"text": "alerta cuando ETH-USD supere 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1221.497}
+{"text": "avísame si eth cae de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1231.39}
+{"text": "si SOL-USD sube de 250, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1284.015}
+{"text": "alerta cuando BTC-USD supere 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1216.725}
+{"text": "notificar si sol baja de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1179.44}
+{"text": "avísame si amd cae de 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1209.572}
+{"text": "si GOOGL sube de 300, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1211.684}
+{"text": "cuando btc rompa 250 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1212.686}
+{"text": "alerta cuando BTC-USD supere 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1194.106}
+{"text": "cuando netflix rompa 50 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1221.672}
+{"text": "notificar si google baja de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1240.535}
+{"text": "si ETH-USD sube de 50, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1234.13}
+{"text": "avísame si meta cae de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1214.516}
+{"text": "alerta cuando ETH-USD supere 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1242.901}
+{"text": "alerta cuando SQM supere 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1214.383}
+{"text": "alerta cuando AMZN supere 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1233.739}
+{"text": "si NFLX sube de 300, avísame", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1224.222}
+{"text": "precio de sol y avísame si baja de 100", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 1886.863}
+{"text": "alerta cuando AMZN supere 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1246.012}
+{"text": "avísame si apple cae de 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1217.236}
+{"text": "precio de tesla y avísame si baja de 250", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 1319.518}
+{"text": "alerta si btc perfora 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1221.752}
+{"text": "avisame cuando SOL-USD cruce 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1220.557}
+{"text": "alerta si sqm perfora 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1214.909}
+{"text": "avisame cuando MSFT cruce 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1253.978}
+{"text": "avisame cuando NFLX cruce 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1177.0}
+{"text": "avisame cuando NFLX cruce 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1725.876}
+{"text": "alerta si google perfora 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1219.519}
+{"text": "avisame cuando NVDA cruce 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1235.131}
+{"text": "alerta si netflix perfora 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1217.222}
+{"text": "alerta si netflix perfora 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1829.308}
+{"text": "avisame cuando MSFT cruce 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1227.815}
+{"text": "alerta si apple perfora 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1216.494}
+{"text": "alerta si meta perfora 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1213.56}
+{"text": "alerta si google perfora 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1184.639}
+{"text": "avisame cuando META cruce 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1220.63}
+{"text": "alerta si sqm perfora 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1228.122}
+{"text": "alerta si amd perfora 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1184.928}
+{"text": "avisame cuando TSLA cruce 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1212.007}
+{"text": "alerta cuando TSLA supere 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1223.415}
+{"text": "avisame cuando SQM cruce 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1232.349}
+{"text": "avisame cuando SOL-USD cruce 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1256.651}
+{"text": "cuando microsoft rompa 50 me avisas", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1228.651}
+{"text": "alerta si netflix perfora 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1235.517}
+{"text": "avisame cuando ETH-USD cruce 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1238.13}
+{"text": "avisame cuando SOL-USD cruce 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1235.34}
+{"text": "alerta si sol perfora 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1178.216}
+{"text": "avisame cuando NVDA cruce 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1198.971}
+{"text": "alerta si tesla perfora 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1242.029}
+{"text": "precio de tesla y avísame si baja de 50", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 1899.771}
+{"text": "alerta si apple perfora 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 3588.623}
+{"text": "avisame cuando SQM cruce 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1250.777}
+{"text": "notificar si sqm baja de 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1220.721}
+{"text": "avisame cuando AAPL cruce 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1225.527}
+{"text": "precio de sqm y avísame si baja de 100", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 3089.963}
+{"text": "alerta si amazon perfora 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1248.741}
+{"text": "avisame cuando NFLX cruce 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1218.343}
+{"text": "alerta si btc perfora 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1215.065}
+{"text": "avisame cuando AMD cruce 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1303.427}
+{"text": "alerta si google perfora 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1256.257}
+{"text": "avisame cuando GOOGL cruce 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1213.01}
+{"text": "alerta si amazon perfora 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1227.162}
+{"text": "alerta si nvidia perfora 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1217.358}
+{"text": "avisame cuando META cruce 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1203.169}
+{"text": "avisame cuando SOL-USD cruce 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1228.41}
+{"text": "avisame cuando GOOGL cruce 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1207.443}
+{"text": "alerta si tesla perfora 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1229.441}
+{"text": "avisame cuando BTC-USD cruce 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1205.917}
+{"text": "avisame cuando NVDA cruce 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1231.865}
+{"text": "avisame cuando AMD cruce 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1884.663}
+{"text": "alerta si meta perfora 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1244.584}
+{"text": "alerta si eth perfora 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1872.214}
+{"text": "avisame cuando GOOGL cruce 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1252.225}
+{"text": "precio de netflix y avísame si baja de 200", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 2000.553}
+{"text": "alerta si amazon perfora 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1203.808}
+{"text": "alerta si nvidia perfora 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1240.611}
+{"text": "alerta si nvidia perfora 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1708.852}
+{"text": "avisame cuando BTC-USD cruce 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1226.807}
+{"text": "alerta si nvidia perfora 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1217.885}
+{"text": "avisame cuando AMD cruce 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1219.646}
+{"text": "alerta si meta perfora 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1221.332}
+{"text": "avisame cuando TSLA cruce 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1231.54}
+{"text": "alerta si sol perfora 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 2040.033}
+{"text": "precio de eth y avísame si baja de 150", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 1213.669}
+{"text": "alerta si tesla perfora 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1261.464}
+{"text": "alerta si microsoft perfora 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1296.593}
+{"text": "avisame cuando SQM cruce 50", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1225.074}
+{"text": "avisame cuando NVDA cruce 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1173.337}
+{"text": "avisame cuando ETH-USD cruce 100", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1199.994}
+{"text": "alerta si eth perfora 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1190.553}
+{"text": "alerta si meta perfora 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1185.577}
+{"text": "alerta si sol perfora 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1175.327}
+{"text": "alerta si microsoft perfora 250", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1218.396}
+{"text": "alerta si amazon perfora 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1217.292}
+{"text": "avisame cuando AMD cruce 1000", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1233.205}
+{"text": "precio de apple y avísame si baja de 300", "label": 2, "pred": 1, "mode": "LLM", "lat_ms": 7322.694}
+{"text": "avisame cuando AAPL cruce 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1299.133}
+{"text": "qué se dice de SQM en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1189.837}
+{"text": "explica el movimiento de sqm", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1151.38}
+{"text": "por qué se movió netflix", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1783.228}
+{"text": "por qué se movió amd", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1725.864}
+{"text": "qué pasó con amazon", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1893.926}
+{"text": "contexto de amazon hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1874.98}
+{"text": "qué pasó con meta", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1869.178}
+{"text": "por qué se movió amazon", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1877.821}
+{"text": "explica el movimiento de btc", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1182.152}
+{"text": "qué pasó con sol", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1842.816}
+{"text": "últimas novedades de AMD", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1237.951}
+{"text": "últimas novedades de AAPL", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1727.375}
+{"text": "qué se dice de AAPL en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1261.275}
+{"text": "contexto de microsoft hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2038.652}
+{"text": "contexto de btc hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 4778.079}
+{"text": "qué pasó con microsoft", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2114.608}
+{"text": "qué pasó con btc", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1905.248}
+{"text": "qué pasó con netflix", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2187.845}
+{"text": "últimas novedades de NFLX", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1323.514}
+{"text": "por qué se movió apple", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2190.143}
+{"text": "por qué se movió btc", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1954.572}
+{"text": "contexto de tesla hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1360.06}
+{"text": "por qué se movió eth", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2280.968}
+{"text": "qué pasó con apple", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2031.753}
+{"text": "qué se dice de BTC-USD en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1509.66}
+{"text": "explica el movimiento de eth", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2306.204}
+{"text": "últimas novedades de GOOGL", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 3251.926}
+{"text": "parece que meta baja por resultados", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1277.73}
+{"text": "últimas novedades de META", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1325.352}
+{"text": "últimas novedades de TSLA", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2003.13}
+{"text": "qué se dice de AMD en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1231.254}
+{"text": "contexto de google hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1828.089}
+{"text": "por qué se movió tesla", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1188.318}
+{"text": "por qué se movió meta", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1712.067}
+{"text": "qué pasó con tesla", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1180.28}
+{"text": "contexto de netflix hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1989.601}
+{"text": "qué pasó con google", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2002.829}
+{"text": "qué se dice de AMZN en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1233.507}
+{"text": "contexto de meta hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1806.734}
+{"text": "parece que eth baja por resultados", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1208.307}
+{"text": "qué se dice de META en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1440.19}
+{"text": "qué se dice de GOOGL en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1207.949}
+{"text": "últimas novedades de MSFT", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1210.893}
+{"text": "qué pasó con nvidia", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1183.346}
+{"text": "últimas novedades de AMZN", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1267.939}
+{"text": "qué pasó con amd", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2043.276}
+{"text": "explica el movimiento de sol", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1904.906}
+{"text": "qué pasó con sqm", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1909.347}
+{"text": "qué se dice de MSFT en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1452.401}
+{"text": "explica el movimiento de google", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2119.496}
+{"text": "dicen que meta sube fuerte", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1197.694}
+{"text": "explica el movimiento de apple", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1873.593}
+{"text": "explica el movimiento de meta", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1738.836}
+{"text": "contexto de eth hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2070.221}
+{"text": "por qué se movió nvidia", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1251.72}
+{"text": "por qué se movió google", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2172.756}
+{"text": "explica el movimiento de amazon", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1224.539}
+{"text": "dicen que amd sube fuerte", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1247.528}
+{"text": "explica el movimiento de microsoft", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1227.549}
+{"text": "qué se dice de NFLX en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1218.325}
+{"text": "qué se dice de ETH-USD en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1280.993}
+{"text": "últimas novedades de ETH-USD", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1258.416}
+{"text": "contexto de sol hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1891.163}
+{"text": "últimas novedades de NVDA", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1337.492}
+{"text": "últimas novedades de SOL-USD", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2068.89}
+{"text": "contexto de sqm hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2222.915}
+{"text": "por qué se movió sqm", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2235.618}
+{"text": "dicen que nvidia sube fuerte", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1347.201}
+{"text": "contexto de apple hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1928.924}
+{"text": "parece que netflix baja por resultados", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1497.625}
+{"text": "últimas novedades de SQM", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1234.585}
+{"text": "por qué se movió sol", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1863.895}
+{"text": "últimas novedades de BTC-USD", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1222.679}
+{"text": "explica el movimiento de amd", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1165.851}
+{"text": "dicen que google sube fuerte", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1215.155}
+{"text": "dicen que apple sube fuerte", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1845.928}
+{"text": "contexto de nvidia hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1381.745}
+{"text": "explica el movimiento de tesla", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1248.389}
+{"text": "qué se dice de NVDA en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1279.553}
+{"text": "parece que tesla baja por resultados", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1267.223}
+{"text": "contexto de amd hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1930.1}
+{"text": "por qué se movió microsoft", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1975.842}
+{"text": "dicen que sol sube fuerte", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1383.765}
+{"text": "qué pasó con eth", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2079.413}
+{"text": "dicen que btc sube fuerte", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1385.638}
+{"text": "qué se dice de TSLA en las noticias", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1339.193}
+{"text": "parece que amazon baja por resultados", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1402.701}
+{"text": "parece que google baja por resultados", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1959.145}
+{"text": "explica el movimiento de nvidia", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1204.367}
+{"text": "explica el movimiento de netflix", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1798.623}
+{"text": "dicen que microsoft sube fuerte", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1222.705}
+{"text": "parece que microsoft baja por resultados", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1274.11}
+{"text": "parece que sol baja por resultados", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1788.353}
+{"text": "amd", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1735.243}
+{"text": "Explicame ald", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1815.415}
+{"text": "Que paso con amd", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2105.048}
+{"text": "Noticias de AMD", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2054.475}
+{"text": "News de amd", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2186.836}
+{"text": "novedades de amd", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2911.359}
+{"text": "apple hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2178.973}
+{"text": "titulares recientes de eth", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1955.233}
+{"text": "por que cay�� microsoft", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1198.492}
+{"text": "news GOOGL", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1981.732}
+{"text": "amd hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 5018.94}
+{"text": "expl��came tesla", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1487.853}
+{"text": "��ltimas de GOOGL", "label": 0, "pred": 1, "mode": "LLM", "lat_ms": 1415.709}
+{"text": "��ltimas de ETH-USD", "label": 0, "pred": 1, "mode": "LLM", "lat_ms": 2064.166}
+{"text": "news ETH-USD", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2153.392}
+{"text": "por que cay�� nvidia", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1368.911}
+{"text": "por qu�� se movi�� amd", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1359.406}
+{"text": "titulares recientes de amazon", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1356.109}
+{"text": "META hoy, qu�� pas��", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1379.735}
+{"text": "noticias de google", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2047.673}
+{"text": "qu�� dispar�� a tesla", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1618.772}
+{"text": "titulares de btc", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2183.609}
+{"text": "expl��came sqm", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2154.882}
+{"text": "qu�� movi�� a tesla hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1367.355}
+{"text": "expl��came amazon", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2088.628}
+{"text": "qu�� hay de nuevo en apple", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1334.193}
+{"text": "titulares de nvidia", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2106.596}
+{"text": "drivers de NFLX", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2027.514}
+{"text": "novedades de microsoft", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1995.531}
+{"text": "qu�� motiv�� la suba de eth", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1377.095}
+{"text": "��ltimas de AMD", "label": 0, "pred": 1, "mode": "LLM", "lat_ms": 2004.269}
+{"text": "por qu�� amazon subi�� tanto", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1399.232}
+{"text": "por qu�� se movi�� google", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2380.572}
+{"text": "qu�� motiv�� la suba de meta", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1311.74}
+{"text": "razones de la ca��da de google", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1361.534}
+{"text": "resumen de NFLX", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2244.939}
+{"text": "expl��came google", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2580.442}
+{"text": "news BTC-USD", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2224.306}
+{"text": "qu�� dispar�� a sol", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1262.774}
+{"text": "AMZN hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2144.835}
+{"text": "dame noticias de NFLX", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1377.6}
+{"text": "NFLX hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2168.923}
+{"text": "resumen de META", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2055.051}
+{"text": "dame noticias de GOOGL", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1412.213}
+{"text": "resumen de AMD", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1829.577}
+{"text": "qu�� movi�� a sqm hoy", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1301.305}
+{"text": "��ltimas de MSFT", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1301.044}
+{"text": "expl��came eth", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2217.991}
+{"text": "por qu�� subi�� tesla", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1330.82}
+{"text": "qu�� hay de nuevo en btc", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1282.279}
+{"text": "por que cay�� btc", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1359.57}
+{"text": "razones de la ca��da de sqm", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1323.831}
+{"text": "razones de la ca��da de amd", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1931.415}
+{"text": "ETH-USD hoy, qu�� pas��", "label": 0, "pred": 1, "mode": "LLM", "lat_ms": 1342.311}
+{"text": "razones de la ca��da de tesla", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1391.672}
+{"text": "por que cay�� sol", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2095.09}
+{"text": "noticias de sqm", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2146.228}
+{"text": "por qu�� se movi�� eth", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1304.327}
+{"text": "��ltimas de SQM", "label": 0, "pred": 1, "mode": "LLM", "lat_ms": 1676.577}
+{"text": "ETH-USD hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2053.067}
+{"text": "por que cay�� eth", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2117.755}
+{"text": "razones de la ca��da de nvidia", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1279.395}
+{"text": "noticias de sol", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1937.335}
+{"text": "AAPL hoy, qu�� pas��", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1328.58}
+{"text": "noticias de amazon", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2130.596}
+{"text": "microsoft hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1933.496}
+{"text": "qu�� dispar�� a apple", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1299.36}
+{"text": "drivers de AAPL", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2047.572}
+{"text": "qu�� motiv�� la suba de sol", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1311.799}
+{"text": "por qu�� subi�� btc", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1544.452}
+{"text": "qu�� dijeron de sqm", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1349.882}
+{"text": "��ltimas noticias de NFLX", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1324.296}
+{"text": "TSLA hoy, qu�� pas��", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1319.062}
+{"text": "qu�� pas�� con AMD hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1312.314}
+{"text": "por que cay�� tesla", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1318.372}
+{"text": "qu�� hay de nuevo en netflix", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1253.512}
+{"text": "por qu�� google subi�� tanto", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1221.82}
+{"text": "AMD hoy, qu�� pas��", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1278.257}
+{"text": "qu�� pasa con el precio de netflix", "label": 0, "pred": 1, "mode": "LLM", "lat_ms": 1355.087}
+{"text": "por qu�� subi�� nvidia", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1300.495}
+{"text": "qu�� hay de nuevo en nvidia", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1278.043}
+{"text": "por qu�� se movi�� netflix", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1299.912}
+{"text": "por qu�� apple baj�� hoy", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2200.235}
+{"text": "qu�� pas�� con GOOGL hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1346.181}
+{"text": "meta hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1875.753}
+{"text": "por qu�� subi�� eth", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1371.143}
+{"text": "google hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1888.013}
+{"text": "qu�� movi�� a amazon hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1304.302}
+{"text": "expl��came btc", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2084.705}
+{"text": "expl��came meta", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2061.283}
+{"text": "expl��came microsoft", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1825.107}
+{"text": "qu�� motiv�� la suba de tesla", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1386.536}
+{"text": "SQM hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1970.863}
+{"text": "por qu�� sqm baj�� hoy", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1418.571}
+{"text": "parece que apple baja por resultados", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1303.59}
+{"text": "explain META", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2023.543}
+{"text": "razones de la ca��da de eth", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1417.002}
+{"text": "por que cay�� amd", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1301.881}
+{"text": "explain MSFT", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1974.918}
+{"text": "novedades de sqm", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2215.532}
+{"text": "��ltimas noticias de META", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1439.929}
+{"text": "qu�� motiv�� la suba de apple", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1413.74}
+{"text": "qu�� motiv�� la suba de btc", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1898.315}
+{"text": "resumen de SQM", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2367.998}
+{"text": "AMD hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2071.089}
+{"text": "qu�� dijeron de btc", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1283.62}
+{"text": "expl��came apple", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1942.617}
+{"text": "novedades de google", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1866.783}
+{"text": "por que cay�� meta", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1938.599}
+{"text": "qu�� movi�� a sol hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1261.293}
+{"text": "qu�� dijeron de netflix", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1969.425}
+{"text": "qu�� hay de nuevo en sol", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1958.364}
+{"text": "SOL-USD hoy", "label": 0, "pred": 1, "mode": "LLM", "lat_ms": 2151.522}
+{"text": "SOL-USD hoy, qu�� pas��", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1940.879}
+{"text": "qu�� dijeron de apple", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1335.267}
+{"text": "qu�� motiv�� la suba de sqm", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1284.558}
+{"text": "titulares recientes de google", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 1980.755}
+{"text": "dame noticias de AMD", "label": 0, "pred": 4, "mode": "LLM", "lat_ms": 2016.513}
+{"text": "qu�� motiv�� la suba de microsoft", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1352.207}
+{"text": "por qu�� apple subi�� tanto", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1275.349}
+{"text": "expl��came netflix", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1947.604}
+{"text": "NFLX hoy, qu�� pas��", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1321.901}
+{"text": "MSFT hoy, qu�� pas��", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1247.095}
+{"text": "GOOGL hoy, qu�� pas��", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1250.516}
+{"text": "por qu�� se movi�� sqm", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1274.401}
+{"text": "por qu�� microsoft subi�� tanto", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1946.207}
+{"text": "qu�� hay de nuevo en google", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1152.337}
+{"text": "qu�� pasa con el precio de nvidia", "label": 0, "pred": 1, "mode": "LLM", "lat_ms": 1244.755}
+{"text": "TSLA hoy", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1803.684}
+{"text": "por qu�� meta baj�� hoy", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1226.865}
+{"text": "qu�� dispar�� a netflix", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1223.413}
+{"text": "qu�� pasa con el precio de google", "label": 0, "pred": 1, "mode": "LLM", "lat_ms": 1288.792}
+{"text": "explain NFLX", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1857.921}
+{"text": "por qu�� btc subi�� tanto", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1238.593}
+{"text": "explain GOOGL", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 1873.659}
+{"text": "por que cay�� google", "label": 0, "pred": 3, "mode": "LLM", "lat_ms": 2247.16}
+{"text": "explicame amd", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1856.012}
+{"text": "que paso con amd", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1859.511}
+{"text": "Explicame amd", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1823.986}
+{"text": "Explicame nvidia", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1785.221}
+{"text": "Explicame Microsoft", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1809.872}
+{"text": "Explicame AMD", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2138.874}
+{"text": "explicame amazon", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2393.636}
+{"text": "drivers de SQM", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2179.943}
+{"text": "que paso con sqm", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1985.73}
+{"text": "que paso con BTC-USD hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 2124.801}
+{"text": "que paso con amazon", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1742.035}
+{"text": "explicame eth", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2056.908}
+{"text": "por que se movio tesla", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1190.378}
+{"text": "por que se movio sqm", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1703.343}
+{"text": "por que se movio amd", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1835.429}
+{"text": "drivers de AMD", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1977.049}
+{"text": "por que subio microsoft", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2157.169}
+{"text": "por que se movio apple", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1922.998}
+{"text": "por que se movio amazon", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2084.746}
+{"text": "por que cayo btc", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2112.088}
+{"text": "que paso con nvidia", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2454.466}
+{"text": "por que cayo netflix", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2134.521}
+{"text": "que paso con apple", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1919.747}
+{"text": "por que subio sqm", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1858.125}
+{"text": "por que subio apple", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1836.168}
+{"text": "que paso con AMD hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1946.531}
+{"text": "por que se movio sol", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1863.943}
+{"text": "por que subio nvidia", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1900.801}
+{"text": "por que se movio google", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1881.308}
+{"text": "por que se movio eth", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1825.784}
+{"text": "explicame netflix", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2338.555}
+{"text": "que paso con MSFT hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1237.231}
+{"text": "drivers de MSFT", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1955.911}
+{"text": "por que cayo sqm", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2020.231}
+{"text": "por que cayo tesla", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1754.634}
+{"text": "que paso con GOOGL hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1203.002}
+{"text": "drivers de BTC-USD", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1337.364}
+{"text": "que paso con tesla", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2234.527}
+{"text": "por que subio tesla", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2184.974}
+{"text": "que paso con google", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 2195.945}
+{"text": "que paso con netflix", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1836.88}
+{"text": "por que se movio meta", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1948.725}
+{"text": "drivers de SOL-USD", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1420.741}
+{"text": "que paso con NVDA hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1341.054}
+{"text": "por que subio eth", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1889.156}
+{"text": "por que subio amd", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1758.657}
+{"text": "por que cayo meta", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1821.029}
+{"text": "drivers de GOOGL", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2219.621}
+{"text": "que paso con META hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1259.727}
+{"text": "por que cayo amazon", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2044.376}
+{"text": "por que cayo apple", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1837.015}
+{"text": "explicame google", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1847.969}
+{"text": "drivers de NVDA", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1962.1}
+{"text": "explicame nvidia", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2062.477}
+{"text": "por que cayo microsoft", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1891.37}
+{"text": "que paso con ETH-USD hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1242.468}
+{"text": "explicame meta", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1800.942}
+{"text": "drivers de AMZN", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1877.32}
+{"text": "que paso con meta", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1825.756}
+{"text": "por que se movio netflix", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1932.265}
+{"text": "que paso con AAPL hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1344.674}
+{"text": "por que cayo google", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 2192.747}
+{"text": "por que subio google", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1925.921}
+{"text": "que paso con NFLX hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1180.572}
+{"text": "drivers de TSLA", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1909.007}
+{"text": "que paso con TSLA hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1229.164}
+{"text": "explicame tesla", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1844.602}
+{"text": "por que se movio nvidia", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1591.743}
+{"text": "por que se movio microsoft", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1886.301}
+{"text": "por que subio amazon", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1790.191}
+{"text": "por que subio meta", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1736.491}
+{"text": "por que se movio btc", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1668.858}
+{"text": "por que subio sol", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1664.895}
+{"text": "por que subio netflix", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1636.319}
+{"text": "por que cayo amd", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1731.489}
+{"text": "por que cayo eth", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1697.966}
+{"text": "explicame sqm", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1838.28}
+{"text": "que paso con microsoft", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1809.708}
+{"text": "drivers de META", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1796.81}
+{"text": "que paso con AMZN hoy", "label": 3, "pred": 0, "mode": "LLM", "lat_ms": 1258.514}
+{"text": "por que subio btc", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1884.666}
+{"text": "que dijeron de tesla", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1206.608}
+{"text": "news AMZN", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1833.506}
+{"text": "novedades de tesla", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1994.93}
+{"text": "news MSFT", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 2951.603}
+{"text": "ultimas noticias de TSLA", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1235.81}
+{"text": "novedades de apple", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 3291.871}
+{"text": "noticias de tesla", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1996.529}
+{"text": "noticias de btc", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1626.104}
+{"text": "news SQM", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1735.28}
+{"text": "novedades de amazon", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1787.032}
+{"text": "news AAPL", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1685.579}
+{"text": "que dijeron de nvidia", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1322.217}
+{"text": "titulares de amd", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 3764.537}
+{"text": "ultimas noticias de BTC-USD", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1304.236}
+{"text": "novedades de nvidia", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1861.931}
+{"text": "ultimas noticias de AAPL", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1183.917}
+{"text": "noticias de nvidia", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1738.989}
+{"text": "titulares de amazon", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1768.618}
+{"text": "novedades de btc", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1732.59}
+{"text": "que dijeron de apple", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1727.019}
+{"text": "titulares de microsoft", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1759.449}
+{"text": "novedades de sol", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1782.023}
+{"text": "noticias de netflix", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1856.018}
+{"text": "que dijeron de sol", "label": 4, "pred": 0, "mode": "LLM", "lat_ms": 1944.131}
+{"text": "novedades de meta", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1885.511}
+{"text": "titulares de eth", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1929.952}
+{"text": "ultimas noticias de MSFT", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 3108.931}
+{"text": "titulares de sqm", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 2006.503}
+{"text": "que dijeron de microsoft", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1846.698}
+{"text": "titulares de meta", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1831.456}
+{"text": "que dijeron de google", "label": 4, "pred": 0, "mode": "LLM", "lat_ms": 1799.573}
+{"text": "news NVDA", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1751.443}
+{"text": "que dijeron de netflix", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1799.902}
+{"text": "news TSLA", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1782.226}
+{"text": "news SOL-USD", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1803.479}
+{"text": "que dijeron de amd", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1893.785}
+{"text": "noticias de meta", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1905.855}
+{"text": "noticias de amd", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1801.298}
+{"text": "titulares de google", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1947.041}
+{"text": "ultimas noticias de AMD", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1216.782}
+{"text": "noticias de eth", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1868.46}
+{"text": "ultimas noticias de SQM", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1287.112}
+{"text": "que dijeron de amazon", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1909.995}
+{"text": "news AMD", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1760.876}
+{"text": "ultimas noticias de NFLX", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1210.933}
+{"text": "ultimas noticias de GOOGL", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1716.358}
+{"text": "titulares de tesla", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1872.256}
+{"text": "titulares de apple", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1962.948}
+{"text": "que dijeron de eth", "label": 4, "pred": 0, "mode": "LLM", "lat_ms": 1882.88}
+{"text": "news META", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1810.441}
+{"text": "que dijeron de btc", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 2128.952}
+{"text": "news NFLX", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 3097.764}
+{"text": "novedades de eth", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1936.764}
+{"text": "titulares de sol", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1760.705}
+{"text": "ultimas noticias de META", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1213.502}
+{"text": "novedades de netflix", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1880.473}
+{"text": "titulares de netflix", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1813.133}
+{"text": "ultimas noticias de AMZN", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1188.536}
+{"text": "ultimas noticias de ETH-USD", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1741.797}
+{"text": "ultimas noticias de NVDA", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1759.068}
