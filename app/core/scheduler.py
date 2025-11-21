@@ -22,6 +22,7 @@ def verificar_alertas():
                 if not should: 
                     continue
                 enviar_telegram_mensaje(f"🚨 Alerta: {a.simbolo} {a.condicion} que {a.umbral}. Precio: {round(price,2)}")
+                print(f"✅ Alerta {a.id} {a.simbolo} notificada")
                 a.notificado = True
                 db.commit()
             except Exception as e:
