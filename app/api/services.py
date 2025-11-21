@@ -1,22 +1,25 @@
 # app/api/services.py
 # All application services in one place:
 # - Web analysis (LLM + light scraping)
-# - Intent classification (heuristics + LLM → 0/1/2)
+# - Intent classification (heuristics + adapter/LLM 5 clases)
 # - Alert creation (LLM strict mold + resolve_symbol + regex fallback)
 # - Financial quote from prompt (resolve_symbol + market)
 
 from __future__ import annotations
 
-import json, re, httpx
-from typing import Optional, Dict, Any, List
-from sqlalchemy.orm import Session
+import json
+import re
+from typing import Any, Dict, List, Optional
+
+import httpx
 from bs4 import BeautifulSoup
+from sqlalchemy.orm import Session
 
 from app.core.config import settings
-from app.core.llm import ask_llm
 from app.core.intent_adapter import predict as adapter_predict
+from app.core.llm import ask_llm
+from app.core.market import get_changes, get_last_price
 from app.core.symbols import resolve_symbol
-from app.core.market import get_last_price, get_changes
 from app.db.models import Alerta
 
 
@@ -25,7 +28,9 @@ from app.db.models import Alerta
 # ------------------------------------------------------------------------------
 async def search_google(query: str, num_results: int = 3) -> List[str]:
     from googlesearch import search
+
     return list(search(query, num_results=num_results))
+
 
 async def scrape_website(url: str) -> str:
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -38,8 +43,9 @@ async def scrape_website(url: str) -> str:
     soup = BeautifulSoup(r.text, "lxml")
     return " ".join(p.get_text() for p in soup.find_all("p"))[:4000]
 
+
 async def analizar_web(prompt: str) -> str:
-    reformulado = await ask_llm(f"Reformula esta búsqueda para Google: {prompt}")
+    reformulado = await ask_llm(f"Reformula esta busqueda para Google: {prompt}")
     busqueda = (reformulado or "").strip() or prompt
     urls = await search_google(busqueda)
     contenidos = {u: await scrape_website(u) for u in urls}
@@ -50,103 +56,126 @@ Fuentes encontradas:
 
 {resumen}
 
-Redacta una respuesta clara y útil."""
+Redacta una respuesta clara y util."""
     return await ask_llm(prompt_final)
 
 
 # ------------------------------------------------------------------------------
-# Intent classification (0=GENERAL, 1=FINANCIERO, 2=ALERTA)
+# Intent classification (0=GENERAL,1=FIN,2=ALERTA,3=EXPLAIN,4=NEWS)
 # ------------------------------------------------------------------------------
+def _looks_like_news(text: str) -> bool:
+    t = (text or "").lower()
+    return bool(
+        re.search(
+            r"\b(noticia(s)?|titulares|headlines?|ultimas|que se dijo|rss|prensa|news)\b",
+            t,
+        )
+    )
+
+
+def _looks_like_explain(text: str) -> bool:
+    t = (text or "").lower()
+    patterns = [
+        r"\bpor que\b",
+        r"\bexplica(me)?\b",
+        r"\bdrivers?\b",
+        r"\brazones?\b",
+        r"\bmotivo(s)?\b",
+        r"\bcaus(a|as)\b",
+        r"\bque paso\b",
+        r"\bwhy\b",
+        r"\bexplain\b",
+    ]
+    if any(re.search(p, t) for p in patterns):
+        return True
+    if re.search(r"\b(subio|bajo|cayo|salto|rally|sell[\s-]?off)\b", t) and re.search(
+        r"\b(por que|que paso|why)\b", t
+    ):
+        return True
+    return False
+
+
 def _looks_like_alert(text: str) -> bool:
     t = (text or "").lower()
-    if re.search(r"\b(alerta|alertame|av[íi]same|avisame|notifica|notificar)\b", t):
+    if re.search(r"\b(alerta|alertame|avisame|notifica|notificar)\b", t):
         return True
-    return bool(re.search(r"\b(si|cuando)\b.*\b(sube|baja|supera|cae|rompe|cruza)\b.*\d", t))
+    return bool(
+        re.search(r"\b(si|cuando)\b.*\b(sube|baja|supera|cae|rompe|cruza)\b.*\d", t)
+    )
+
 
 def _looks_like_financial(text: str) -> bool:
     t = (text or "").lower()
-    if re.search(r"\b(precio|cotiza|cotizaci[óo]n|quote|price|valor)\b", t):
+    if re.search(r"\b(precio|cotiza|cotizacion|quote|price|valor)\b", t):
         return True
     return bool(re.search(r"\b[A-Z0-9.\-]{2,12}\b", (text or "").upper()))
 
-async def classify_intent(text: str) -> int:
+
+async def classify_intent(text: str) -> int:  # type: ignore[no-redef]
+    """
+    0=general,1=fin,2=alerta,3=explain,4=news. Heuristicas -> adapter 5c -> LLM 5c (solo HYBRID si baja confianza).
+    """
     t = (text or "").strip()
     mode = (settings.INTENT_MODE or "HYBRID").upper()
+    conf_thr = float(getattr(settings, "INTENT_THRESHOLD", 0.80) or 0.80)
+
+    # Heuristicas rapidas
+    if _looks_like_alert(t):
+        return 2
+    if _looks_like_financial(t):
+        return 1
+    if _looks_like_explain(t):
+        return 3
+    if _looks_like_news(t):
+        return 4
 
     if mode == "ADAPTER":
         y, _ = adapter_predict(t)
         return int(y)
 
     if mode == "LLM":
-        prompt = (
-            "Clasifica la consulta en UNA sola categoría y devuelve SOLO un dígito:\n"
-            "0 = general (explicaciones, contexto, noticias)\n"
-            "1 = financiero (precio/cotización/quote)\n"
-            "2 = alerta (regla con umbral: si/cuando sube/baja de X)\n\n"
-            "- \"precio de tesla\" -> 1\n- \"avísame si TSLA cae de 300\" -> 2\n- \"qué pasó con SQM\" -> 0\n\n"
-            f"Consulta: \"{t}\"\nResponde SOLO con 0 o 1 o 2."
-        )
+        prompt = f"""Clasifica la consulta en UNA sola categoria y devuelve SOLO un digito:
+0 = general
+1 = financiero
+2 = alerta
+3 = explain
+4 = news
+
+- 'precio de tesla' -> 1
+- 'avisame si TSLA cae de 300' -> 2
+- 'que paso con SQM' -> 3
+- 'noticias de AMD' -> 4
+- 'contexto de SQM hoy' -> 0
+
+Consulta: '{t}'
+Responde SOLO con 0 o 1 o 2 o 3 o 4."""
         raw = (await ask_llm(prompt)) or ""
-        m = re.search(r"[0-2]", raw)
+        m = re.search(r"[0-4]", raw)
         return int(m.group(0)) if m else 0
 
-    # HYBRID (default): adapter rápido y LLM solo si hay duda
     y, p = adapter_predict(t)
-    if p >= 0.80:
+    if p >= conf_thr:
         return int(y)
 
-    prompt = (
-        "Clasifica la consulta en UNA sola categoría y devuelve SOLO un dígito:\n"
-        "0 = general\n1 = financiero\n2 = alerta\n\n"
-        "- \"precio de tesla\" -> 1\n- \"avísame si TSLA cae de 300\" -> 2\n- \"qué pasó con SQM\" -> 0\n\n"
-        f"Consulta: \"{t}\"\nResponde SOLO con 0 o 1 o 2."
-    )
+    prompt = f"""Clasifica la consulta en UNA sola categoria y devuelve SOLO un digito:
+0 = general
+1 = financiero
+2 = alerta
+3 = explain
+4 = news
+
+- 'precio de tesla' -> 1
+- 'avisame si TSLA cae de 300' -> 2
+- 'que paso con SQM' -> 3
+- 'noticias de AMD' -> 4
+- 'contexto de SQM hoy' -> 0
+
+Consulta: '{t}'
+Responde SOLO con 0 o 1 o 2 o 3 o 4."""
     raw = (await ask_llm(prompt)) or ""
-    m = re.search(r"[0-2]", raw)
+    m = re.search(r"[0-4]", raw)
     return int(m.group(0)) if m else int(y)
 
-# ------------------------------------------------------------------------------
-# Sub-intent classification for GENERAL (EXPLAIN vs NEWS)
-# ------------------------------------------------------------------------------
-def _looks_like_news(text: str) -> bool:
-    t = (text or "").lower()
-    return bool(re.search(r"\b(noticia(s)?|titulares|headlines?|últimas|que se dijo|rss|prensa|news)\b", t))
-
-def _looks_like_explain(text: str) -> bool:
-    t = (text or "").lower()
-    patterns = [
-        r"\bpor que\b", r"\bpor qué\b", r"\bexplica(me)?\b", r"\bdrivers?\b",
-        r"\brazones?\b", r"\bmotivo(s)?\b", r"\bcaus(a|as)\b",
-        r"\bque paso\b", r"\bqué pasó\b", r"\bwhy\b", r"\bexplain\b"
-    ]
-    if any(re.search(p, t) for p in patterns):
-        return True
-    if re.search(r"\b(subi[oó]|baj[oó]|cay[oó]|salt[oó]|rally|sell[\s-]?off)\b", t) and re.search(r"\b(por que|por qué|que paso|qué pasó|why)\b", t):
-        return True
-    return False
-
-async def classify_general_subintent(text: str) -> str:
-    """Return 'NEWS' | 'EXPLAIN' | 'GENERAL' for non-price/alert queries."""
-    if _looks_like_explain(text):
-        return "EXPLAIN"
-    if _looks_like_news(text):
-        return "NEWS"
-
-    prompt = (
-        "La consulta no es de precios ni alertas. "
-        "Clasifica en UNA: news | explain | general.\n"
-        "- news: pide titulares/noticias de un ticker.\n"
-        "- explain: pide causas (por qué/qué pasó) del movimiento de un ticker.\n"
-        "- general: otra cosa.\n\n"
-        f"Consulta: \"{(text or '').strip()}\"\n"
-        "Responde solo: news | explain | general."
-    )
-    raw = ((await ask_llm(prompt)) or "").strip().lower()
-    if "news" in raw:
-        return "NEWS"
-    if "explain" in raw:
-        return "EXPLAIN"
-    return "GENERAL"
 
 # ------------------------------------------------------------------------------
 # Shared utilities
@@ -158,11 +187,49 @@ def _extract_symbolish(s: str) -> Optional[str]:
     m = re.search(r"\b[A-Z0-9.\-]{1,12}\b", s.upper())
     return m.group(0) if m else None
 
+
 _STOPWORDS_UP = {
-    "QUE","QUÉ","DE","DEL","LA","EL","LOS","LAS","Y","EN","POR","PARA","CON",
-    "AL","UN","UNA","UNOS","UNAS","A","SE","LO","SU","SUS","MI","TUS","SU","NO",
-    "SI","CUANDO","SUBE","BAJA","CAI","CAE","ROMPE","CRUZA","HOY","AHORA","CUANTO","PRECIO",
+    "QUE",
+    "QUÉ",
+    "DE",
+    "DEL",
+    "LA",
+    "EL",
+    "LOS",
+    "LAS",
+    "Y",
+    "EN",
+    "POR",
+    "PARA",
+    "CON",
+    "AL",
+    "UN",
+    "UNA",
+    "UNOS",
+    "UNAS",
+    "A",
+    "SE",
+    "LO",
+    "SU",
+    "SUS",
+    "MI",
+    "TUS",
+    "SU",
+    "NO",
+    "SI",
+    "CUANDO",
+    "SUBE",
+    "BAJA",
+    "CAI",
+    "CAE",
+    "ROMPE",
+    "CRUZA",
+    "HOY",
+    "AHORA",
+    "CUANTO",
+    "PRECIO",
 }
+
 
 def _extract_symbolish_tokens(s: str) -> List[str]:
     """All ticker-like tokens in text (uppercased), unordered."""
@@ -178,6 +245,7 @@ def _extract_symbolish_tokens(s: str) -> List[str]:
             continue
         out.append(u)
     return out
+
 
 async def resolve_ticker_from_prompt(prompt: str) -> Optional[str]:
     """
@@ -202,7 +270,7 @@ async def resolve_ticker_from_prompt(prompt: str) -> Optional[str]:
     prompt_llm = (
         "Devuelve SOLO el ticker en MAYUSCULAS si lo hay (ej: TSLA, GOOGL, AMD). "
         "Si no hay uno claro, devuelve vacio.\n"
-        f"Consulta: \"{txt}\"\n"
+        f'Consulta: "{txt}"\n'
         "Ticker:"
     )
     llm_hint = await ask_llm(prompt_llm) or ""
@@ -211,6 +279,7 @@ async def resolve_ticker_from_prompt(prompt: str) -> Optional[str]:
         return None
     # Do NOT trust direct in this branch; require validation
     return resolve_symbol(candidate or "", trust_direct=False)
+
 
 def _regex_fallback(prompt: str) -> Optional[Dict[str, Any]]:
     """
@@ -228,9 +297,13 @@ def _regex_fallback(prompt: str) -> Optional[Dict[str, Any]]:
     # condition
     cond: Optional[str] = None
     up = txt.upper()
-    if re.search(r"\b(MAYOR|SUPERA|ARRIBA|>\s*=?)\b", up) or re.search(r"\b(ABOVE|GREATER|OVER)\b", up):
+    if re.search(r"\b(MAYOR|SUPERA|ARRIBA|>\s*=?)\b", up) or re.search(
+        r"\b(ABOVE|GREATER|OVER)\b", up
+    ):
         cond = "mayor"
-    elif re.search(r"\b(MENOR|BAJA|CAE|DEBAJO|<\s*=?)\b", up) or re.search(r"\b(BELOW|LESS|UNDER)\b", up):
+    elif re.search(r"\b(MENOR|BAJA|CAE|DEBAJO|<\s*=?)\b", up) or re.search(
+        r"\b(BELOW|LESS|UNDER)\b", up
+    ):
         cond = "menor"
 
     # threshold
@@ -254,8 +327,8 @@ async def crear_alerta_from_llm(prompt: str, db: Session):
     molde = '{"simbolo":"<TICKER|NOMBRE>","condicion":"mayor|menor","umbral":123.45}'
     instr = (
         "Devuelve SOLO un JSON (sin texto extra) con estas claves EXACTAS:\n"
-        + molde +
-        "\nNo expliques nada. Solo el JSON.\n"
+        + molde
+        + "\nNo expliques nada. Solo el JSON.\n"
         f"Solicitud: '{prompt}'"
     )
 
@@ -269,14 +342,47 @@ async def crear_alerta_from_llm(prompt: str, db: Session):
             raise ValueError("JSON no es objeto")
 
         # tolerate english keys too
-        simbolo_in   = (data.get("simbolo") or data.get("symbol") or data.get("ticker") or "").strip()
-        condicion_in = (data.get("condicion") or data.get("condition") or "").strip().lower()
-        umbral_in    = data.get("umbral") if data.get("umbral") is not None else data.get("threshold")
+        simbolo_in = (
+            data.get("simbolo") or data.get("symbol") or data.get("ticker") or ""
+        ).strip()
+        condicion_in = (
+            (data.get("condicion") or data.get("condition") or "").strip().lower()
+        )
+        umbral_in = (
+            data.get("umbral")
+            if data.get("umbral") is not None
+            else data.get("threshold")
+        )
 
         # normalize condition
-        if condicion_in in {"mayor","arriba","supera","sube",">",">=","gt","ge","above","greater","over"}:
+        if condicion_in in {
+            "mayor",
+            "arriba",
+            "supera",
+            "sube",
+            ">",
+            ">=",
+            "gt",
+            "ge",
+            "above",
+            "greater",
+            "over",
+        }:
             condicion = "mayor"
-        elif condicion_in in {"menor","abajo","debajo","cae","baja","<","<=","lt","le","below","less","under"}:
+        elif condicion_in in {
+            "menor",
+            "abajo",
+            "debajo",
+            "cae",
+            "baja",
+            "<",
+            "<=",
+            "lt",
+            "le",
+            "below",
+            "less",
+            "under",
+        }:
             condicion = "menor"
         else:
             condicion = None
@@ -293,7 +399,7 @@ async def crear_alerta_from_llm(prompt: str, db: Session):
         symbol = resolve_symbol(simbolo_in) or resolve_symbol(prompt)
 
         if not (symbol and condicion and umbral is not None):
-            raise ValueError("faltan campos requeridos tras normalización/resolución")
+            raise ValueError("faltan campos requeridos tras normalizacion/resolucion")
 
         payload = {"simbolo": symbol, "condicion": condicion, "umbral": umbral}
     except Exception as e:
@@ -311,14 +417,16 @@ async def crear_alerta_from_llm(prompt: str, db: Session):
             condicion=payload["condicion"],
             umbral=float(payload["umbral"]),
         )
-        db.add(alerta); db.commit(); db.refresh(alerta)
+        db.add(alerta)
+        db.commit()
+        db.refresh(alerta)
         return {
             "mensaje": "✅ Alerta creada",
             "alerta": {
                 "id": alerta.id,
                 "simbolo": alerta.simbolo,
                 "condicion": alerta.condicion,
-                "umbral": alerta.umbral
+                "umbral": alerta.umbral,
             },
         }
     except Exception as e:
@@ -340,7 +448,7 @@ async def quote_from_prompt(prompt: str) -> Dict[str, Any]:
     # 2) If unknown, ask LLM with strict examples; then sanitize & resolve again.
     if not ticker:
         llm_hint = await ask_llm(
-            "Devuelve SOLO el ticker en mayúsculas, sin texto extra.\n"
+            "Devuelve SOLO el ticker en mayusculas, sin texto extra.\n"
             "Ejemplos:\n"
             "- 'precio de google' -> GOOGL\n"
             "- 'precio de alphabet' -> GOOGL\n"
@@ -353,67 +461,28 @@ async def quote_from_prompt(prompt: str) -> Dict[str, Any]:
         ticker = resolve_symbol(candidate or "")
 
     if not ticker:
-        return {"error": "No pude resolver el símbolo. Prueba con el ticker (ej. MSFT) o el nombre exacto."}
+        return {
+            "error": "No pude resolver el simbolo. Prueba con el ticker (ej. MSFT) o el nombre exacto."
+        }
 
-    snap = get_last_price(ticker)
+    try:
+        snap = get_last_price(ticker)
+    except Exception as e:
+        msg = str(e)
+        if "Rate limit" in msg or "Too Many Requests" in msg:
+            return {
+                "error": "Proveedor de precios rate limitado. Intenta de nuevo en unos minutos."
+            }
+        return {"error": f"No se pudo obtener el precio de {ticker}: {msg}"}
+
     if snap.price is None:
         return {"error": f"No se pudo obtener el precio de {ticker}"}
 
-    chg1h, chg24h, chg7d = get_changes(ticker)
+    try:
+        chg1h, chg24h, chg7d = get_changes(ticker)
+    except Exception:
+        chg1h, chg24h, chg7d = (None, None, None)
     return {
         "respuesta": f"Precio {snap.name} ({snap.symbol}): {round(snap.price, 2)} USD",
         "cambios": {"1h": chg1h, "24h": chg24h, "7d": chg7d},
     }
-
-# ------------------------------------------------------------------------------
-# Override: single-step 5-class intent (0=GEN,1=FIN,2=ALERTA,3=EXPLAIN,4=NEWS)
-# This redefines classify_intent later in the module to extend labels without
-# changing call sites. Adapter will still return 0..2 until retrained.
-# ------------------------------------------------------------------------------
-async def classify_intent(text: str) -> int:  # type: ignore[no-redef]
-    t = (text or "").strip()
-    mode = (settings.INTENT_MODE or "HYBRID").upper()
-
-    if mode == "ADAPTER":
-        y, _ = adapter_predict(t)
-        print("confianza de y en adapter de ", _)
-        return int(y)
-
-    if mode == "LLM":
-        prompt = (
-            "Clasifica la consulta en UNA sola categor��a y devuelve SOLO un d��gito:\n"
-            "0 = general (otros; no precio/alerta/explicaci��n/noticias)\n"
-            "1 = financiero (precio/cotizaci��n/quote)\n"
-            "2 = alerta (regla con umbral: si/cuando sube/baja de X)\n"
-            "3 = explain (por qu��/qu�� pas��/drivers de un ticker)\n"
-            "4 = news (pide noticias/titulares de un ticker)\n\n"
-            "- \"precio de tesla\" -> 1\n"
-            "- \"av��same si TSLA cae de 300\" -> 2\n"
-            "- \"qu�� pas�� con SQM\" -> 3\n"
-            "- \"noticias de AMD\" -> 4\n"
-            "- \"contexto de SQM hoy\" -> 0\n\n"
-            f"Consulta: \"{t}\"\nResponde SOLO con 0 o 1 o 2 o 3 o 4."
-        )
-        raw = (await ask_llm(prompt)) or ""
-        m = re.search(r"[0-4]", raw)
-        return int(m.group(0)) if m else 0
-
-    # HYBRID: adapter primero; si baja confianza, LLM 5-clases
-    y, p = adapter_predict(t)
-    print("confianza de y en hibrido de ", p)
-    if p >= 0.80:
-        return int(y)
-
-    prompt = (
-        "Clasifica la consulta en UNA sola categor��a y devuelve SOLO un d��gito:\n"
-        "0 = general\n1 = financiero\n2 = alerta\n3 = explain\n4 = news\n\n"
-        "- \"precio de tesla\" -> 1\n"
-        "- \"av��same si TSLA cae de 300\" -> 2\n"
-        "- \"qu�� pas�� con SQM\" -> 3\n"
-        "- \"noticias de AMD\" -> 4\n"
-        "- \"contexto de SQM hoy\" -> 0\n\n"
-        f"Consulta: \"{t}\"\nResponde SOLO con 0 o 1 o 2 o 3 o 4."
-    )
-    raw = (await ask_llm(prompt)) or ""
-    m = re.search(r"[0-4]", raw)
-    return int(m.group(0)) if m else int(y)
