@@ -6,6 +6,7 @@ from __future__ import annotations
 import threading
 import time
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from typing import Optional, Tuple
 
 import httpx
@@ -54,6 +55,26 @@ class PriceSnapshot:
 def _norm(sym: str) -> str:
     s = (sym or "").upper().strip()
     return "BTC-USD" if s == "BTC" else s
+
+
+def is_market_open(symbol: str) -> bool:
+    """
+    Aproximado: acciones USA abiertas 13:30-20:00 UTC (lun-vie).
+    Cripto => siempre abierto.
+    """
+    s = _norm(symbol)
+    if s.endswith("-USD") and s.split("-")[0] in {"BTC", "ETH", "SOL", "DOGE", "ADA"}:
+        return True
+    now = datetime.now(timezone.utc)
+    if now.weekday() >= 5:
+        return False
+    return 13 <= now.hour < 20
+
+
+def is_liquid_symbol(symbol: str) -> bool:
+    """Filtro simple para evitar OTC/pink obvios."""
+    s = _norm(symbol)
+    return not any(s.endswith(suf) for suf in [".PK", ".OB"])
 
 
 def get_last_price(symbol: str) -> PriceSnapshot:

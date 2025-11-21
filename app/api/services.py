@@ -18,7 +18,12 @@ from sqlalchemy.orm import Session
 from app.core.config import settings
 from app.core.intent_adapter import predict as adapter_predict
 from app.core.llm import ask_llm
-from app.core.market import get_changes, get_last_price
+from app.core.market import (
+    get_changes,
+    get_last_price,
+    is_liquid_symbol,
+    is_market_open,
+)
 from app.core.symbols import resolve_symbol
 from app.db.models import Alerta
 
@@ -465,6 +470,9 @@ async def quote_from_prompt(prompt: str) -> Dict[str, Any]:
             "error": "No pude resolver el simbolo. Prueba con el ticker (ej. MSFT) o el nombre exacto."
         }
 
+    if not is_liquid_symbol(ticker):
+        return {"error": f"{ticker} parece OTC/iliquido. Usa un ticker regular."}
+
     try:
         snap = get_last_price(ticker)
     except Exception as e:
@@ -485,4 +493,5 @@ async def quote_from_prompt(prompt: str) -> Dict[str, Any]:
     return {
         "respuesta": f"Precio {snap.name} ({snap.symbol}): {round(snap.price, 2)} USD",
         "cambios": {"1h": chg1h, "24h": chg24h, "7d": chg7d},
+        "mercado_abierto": is_market_open(ticker),
     }
