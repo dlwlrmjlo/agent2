@@ -122,12 +122,12 @@ async def classify_intent(text: str) -> int:  # type: ignore[no-redef]
     # Heuristicas rapidas
     if _looks_like_alert(t):
         return 2
-    if _looks_like_financial(t):
-        return 1
     if _looks_like_explain(t):
         return 3
     if _looks_like_news(t):
         return 4
+    if _looks_like_financial(t):
+        return 1
 
     if mode == "ADAPTER":
         y, _ = adapter_predict(t)
