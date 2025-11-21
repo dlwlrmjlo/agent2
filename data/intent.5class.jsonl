@@ -1,0 +1,794 @@
+{"text": "precio de sqm", "label": 1}
+{"text": "precio de sol", "label": 1}
+{"text": "quote BTC-USD", "label": 1}
+{"text": "cuánto vale netflix hoy", "label": 1}
+{"text": "valor de sqm", "label": 1}
+{"text": "precio btc ahora", "label": 1}
+{"text": "cotización MSFT", "label": 1}
+{"text": "valor de sol", "label": 1}
+{"text": "valor de google", "label": 1}
+{"text": "quote NVDA", "label": 1}
+{"text": "valor de netflix", "label": 1}
+{"text": "precio meta ahora", "label": 1}
+{"text": "precio de netflix", "label": 1}
+{"text": "valor de eth", "label": 1}
+{"text": "precio google ahora", "label": 1}
+{"text": "precio microsoft ahora", "label": 1}
+{"text": "cuánto vale nvidia hoy", "label": 1}
+{"text": "cotización TSLA", "label": 1}
+{"text": "cuánto vale sol hoy", "label": 1}
+{"text": "precio sol ahora", "label": 1}
+{"text": "precio eth ahora", "label": 1}
+{"text": "valor de microsoft", "label": 1}
+{"text": "quote META", "label": 1}
+{"text": "cuánto vale amazon hoy", "label": 1}
+{"text": "quote AMD", "label": 1}
+{"text": "cuánto vale meta hoy", "label": 1}
+{"text": "cotización SOL-USD", "label": 1}
+{"text": "quote MSFT", "label": 1}
+{"text": "quote NFLX", "label": 1}
+{"text": "cáchate el precio de eth", "label": 1}
+{"text": "quote GOOGL", "label": 1}
+{"text": "cotización NFLX", "label": 1}
+{"text": "cotización GOOGL", "label": 1}
+{"text": "precio apple ahora", "label": 1}
+{"text": "cuánto vale eth hoy", "label": 1}
+{"text": "precio de apple", "label": 1}
+{"text": "cuánto vale tesla hoy", "label": 1}
+{"text": "valor de nvidia", "label": 1}
+{"text": "precio amd ahora", "label": 1}
+{"text": "cuánto vale sqm hoy", "label": 1}
+{"text": "precio netflix ahora", "label": 1}
+{"text": "quote TSLA", "label": 1}
+{"text": "precio de amd", "label": 1}
+{"text": "precio de microsoft", "label": 1}
+{"text": "valor de apple", "label": 1}
+{"text": "precio sqm ahora", "label": 1}
+{"text": "cuánto vale amd hoy", "label": 1}
+{"text": "cotización AMZN", "label": 1}
+{"text": "cotización META", "label": 1}
+{"text": "valor de btc", "label": 1}
+{"text": "cuánto vale apple hoy", "label": 1}
+{"text": "valor de amd", "label": 1}
+{"text": "precio de btc", "label": 1}
+{"text": "valor de amazon", "label": 1}
+{"text": "cuánto vale microsoft hoy", "label": 1}
+{"text": "precio nvidia ahora", "label": 1}
+{"text": "precio de nvidia", "label": 1}
+{"text": "valor de tesla", "label": 1}
+{"text": "precio tesla ahora", "label": 1}
+{"text": "cáchate el precio de sqm", "label": 1}
+{"text": "cáchate el precio de meta", "label": 1}
+{"text": "precio de meta", "label": 1}
+{"text": "precio de eth", "label": 1}
+{"text": "precio de amazon", "label": 1}
+{"text": "quote SOL-USD", "label": 1}
+{"text": "precio de tesla", "label": 1}
+{"text": "cuánto vale google hoy", "label": 1}
+{"text": "cáchate el precio de microsoft", "label": 1}
+{"text": "cáchate el precio de amd", "label": 1}
+{"text": "precio de google", "label": 1}
+{"text": "cotización NVDA", "label": 1}
+{"text": "quote SQM", "label": 1}
+{"text": "cotización AMD", "label": 1}
+{"text": "cotización AAPL", "label": 1}
+{"text": "cáchate el precio de sol", "label": 1}
+{"text": "quote AAPL", "label": 1}
+{"text": "quote ETH-USD", "label": 1}
+{"text": "cotización BTC-USD", "label": 1}
+{"text": "cáchate el precio de tesla", "label": 1}
+{"text": "cuánto vale btc hoy", "label": 1}
+{"text": "precio amazon ahora", "label": 1}
+{"text": "cotización SQM", "label": 1}
+{"text": "cáchate el precio de google", "label": 1}
+{"text": "cual es el precio de nvidia", "label": 1}
+{"text": "cual es el precio de amd", "label": 1}
+{"text": "dame disney", "label": 1}
+{"text": "Precio AMD", "label": 1}
+{"text": "cotizacion META", "label": 1}
+{"text": "cierre de apple", "label": 1}
+{"text": "cierre de eth", "label": 1}
+{"text": "cuanto vale sol hoy", "label": 1}
+{"text": "cierre de sol", "label": 1}
+{"text": "que pasa con el precio de microsoft", "label": 1}
+{"text": "cuanto vale amazon hoy", "label": 1}
+{"text": "cual es el precio de GOOGL", "label": 1}
+{"text": "cotizacion MSFT", "label": 1}
+{"text": "que pasa con el precio de sqm", "label": 1}
+{"text": "cotizacion BTC-USD", "label": 1}
+{"text": "precio y noticias de SOL-USD", "label": 1}
+{"text": "cuanto esta NFLX", "label": 1}
+{"text": "cuanto vale netflix hoy", "label": 1}
+{"text": "catchate el precio de btc", "label": 1}
+{"text": "catchate el precio de google", "label": 1}
+{"text": "que pasa con el precio de meta", "label": 1}
+{"text": "cuanto vale meta hoy", "label": 1}
+{"text": "cuanto vale microsoft hoy", "label": 1}
+{"text": "cotizacion TSLA", "label": 1}
+{"text": "precio SQM", "label": 1}
+{"text": "precio actual de sqm", "label": 1}
+{"text": "catchate el precio de amazon", "label": 1}
+{"text": "cuanto vale eth hoy", "label": 1}
+{"text": "que pasa con el precio de tesla", "label": 1}
+{"text": "cual es el precio de BTC-USD", "label": 1}
+{"text": "cuanto vale nvidia hoy", "label": 1}
+{"text": "catchate el precio de sqm", "label": 1}
+{"text": "cotizacion NVDA", "label": 1}
+{"text": "cierre de tesla", "label": 1}
+{"text": "cierre de btc", "label": 1}
+{"text": "cuanto vale apple hoy", "label": 1}
+{"text": "cierre de meta", "label": 1}
+{"text": "precio y noticias de SQM", "label": 1}
+{"text": "cotizacion AMD", "label": 1}
+{"text": "cual es el precio de SOL-USD", "label": 1}
+{"text": "cotizacion GOOGL", "label": 1}
+{"text": "cual es el precio de SQM", "label": 1}
+{"text": "precio actual de microsoft", "label": 1}
+{"text": "precio AMD", "label": 1}
+{"text": "cotizacion NFLX", "label": 1}
+{"text": "cual es el precio de MSFT", "label": 1}
+{"text": "precio y noticias de NFLX", "label": 1}
+{"text": "precio y noticias de AMD", "label": 1}
+{"text": "cotizacion ETH-USD", "label": 1}
+{"text": "cuanto vale btc hoy", "label": 1}
+{"text": "cual es el precio de AMZN", "label": 1}
+{"text": "cual es el precio de TSLA", "label": 1}
+{"text": "precio y noticias de NVDA", "label": 1}
+{"text": "cotizacion SQM", "label": 1}
+{"text": "precio actual de google", "label": 1}
+{"text": "cual es el precio de META", "label": 1}
+{"text": "cual es el precio de AAPL", "label": 1}
+{"text": "precio NVDA", "label": 1}
+{"text": "cuanto vale amd hoy", "label": 1}
+{"text": "precio actual de nvidia", "label": 1}
+{"text": "precio actual de meta", "label": 1}
+{"text": "cuanto vale google hoy", "label": 1}
+{"text": "que pasa con el precio de eth", "label": 1}
+{"text": "precio AMZN", "label": 1}
+{"text": "catchate el precio de meta", "label": 1}
+{"text": "cual es el precio de NVDA", "label": 1}
+{"text": "cierre de amd", "label": 1}
+{"text": "cuanto esta AAPL", "label": 1}
+{"text": "precio MSFT", "label": 1}
+{"text": "cuanto esta GOOGL", "label": 1}
+{"text": "cuanto vale sqm hoy", "label": 1}
+{"text": "catchate el precio de microsoft", "label": 1}
+{"text": "que pasa con el precio de apple", "label": 1}
+{"text": "cotizacion AAPL", "label": 1}
+{"text": "cuanto esta BTC-USD", "label": 1}
+{"text": "precio y noticias de AMZN", "label": 1}
+{"text": "cuanto esta SOL-USD", "label": 1}
+{"text": "catchate el precio de tesla", "label": 1}
+{"text": "cotizacion SOL-USD", "label": 1}
+{"text": "catchate el precio de netflix", "label": 1}
+{"text": "precio actual de tesla", "label": 1}
+{"text": "alerta cuando AMD supere 500", "label": 2}
+{"text": "avísame si nvidia cae de 300", "label": 2}
+{"text": "avísame si google cae de 200", "label": 2}
+{"text": "si BTC-USD sube de 50, avísame", "label": 2}
+{"text": "avísame si tesla cae de 300", "label": 2}
+{"text": "notificar si amazon baja de 1000", "label": 2}
+{"text": "notificar si meta baja de 150", "label": 2}
+{"text": "si META sube de 1000, avísame", "label": 2}
+{"text": "si SQM sube de 150, avísame", "label": 2}
+{"text": "si META sube de 100, avísame", "label": 2}
+{"text": "cuando netflix rompa 150 me avisas", "label": 2}
+{"text": "avísame si microsoft cae de 150", "label": 2}
+{"text": "si AMD sube de 250, avísame", "label": 2}
+{"text": "notificar si nvidia baja de 500", "label": 2}
+{"text": "notificar si meta baja de 100", "label": 2}
+{"text": "cuando amazon rompa 100 me avisas", "label": 2}
+{"text": "si SQM sube de 100, avísame", "label": 2}
+{"text": "alerta cuando SQM supere 250", "label": 2}
+{"text": "cuando microsoft rompa 200 me avisas", "label": 2}
+{"text": "avísame si tesla cae de 500", "label": 2}
+{"text": "notificar si netflix baja de 500", "label": 2}
+{"text": "avísame si eth cae de 250", "label": 2}
+{"text": "cuando amd rompa 250 me avisas", "label": 2}
+{"text": "alerta cuando AMZN supere 150", "label": 2}
+{"text": "si AMD sube de 50, avísame", "label": 2}
+{"text": "avísame si microsoft cae de 300", "label": 2}
+{"text": "cuando sqm rompa 300 me avisas", "label": 2}
+{"text": "cuando amazon rompa 150 me avisas", "label": 2}
+{"text": "si SOL-USD sube de 200, avísame", "label": 2}
+{"text": "si SOL-USD sube de 50, avísame", "label": 2}
+{"text": "alerta cuando MSFT supere 300", "label": 2}
+{"text": "cuando amd rompa 300 me avisas", "label": 2}
+{"text": "cuando amazon rompa 200 me avisas", "label": 2}
+{"text": "cuando meta rompa 200 me avisas", "label": 2}
+{"text": "cuando eth rompa 250 me avisas", "label": 2}
+{"text": "notificar si netflix baja de 250", "label": 2}
+{"text": "notificar si microsoft baja de 200", "label": 2}
+{"text": "cuando nvidia rompa 300 me avisas", "label": 2}
+{"text": "notificar si google baja de 500", "label": 2}
+{"text": "cuando sol rompa 250 me avisas", "label": 2}
+{"text": "cuando nvidia rompa 50 me avisas", "label": 2}
+{"text": "si AMZN sube de 300, avísame", "label": 2}
+{"text": "si TSLA sube de 100, avísame", "label": 2}
+{"text": "si AMZN sube de 250, avísame", "label": 2}
+{"text": "si AAPL sube de 1000, avísame", "label": 2}
+{"text": "avísame si apple cae de 300", "label": 2}
+{"text": "cuando apple rompa 300 me avisas", "label": 2}
+{"text": "alerta cuando MSFT supere 100", "label": 2}
+{"text": "avísame si sqm cae de 250", "label": 2}
+{"text": "alerta cuando NVDA supere 1000", "label": 2}
+{"text": "avísame si btc cae de 250", "label": 2}
+{"text": "si AMZN sube de 500, avísame", "label": 2}
+{"text": "avísame si apple cae de 50", "label": 2}
+{"text": "avísame si meta cae de 150", "label": 2}
+{"text": "alerta cuando ETH-USD supere 100", "label": 2}
+{"text": "notificar si meta baja de 250", "label": 2}
+{"text": "si BTC-USD sube de 250, avísame", "label": 2}
+{"text": "notificar si nvidia baja de 1000", "label": 2}
+{"text": "cuando apple rompa 200 me avisas", "label": 2}
+{"text": "avísame si nvidia cae de 100", "label": 2}
+{"text": "cuando eth rompa 200 me avisas", "label": 2}
+{"text": "avísame si eth cae de 150", "label": 2}
+{"text": "alerta cuando AAPL supere 300", "label": 2}
+{"text": "notificar si nvidia baja de 150", "label": 2}
+{"text": "cuando tesla rompa 300 me avisas", "label": 2}
+{"text": "cuando amazon rompa 500 me avisas", "label": 2}
+{"text": "avísame si sol cae de 300", "label": 2}
+{"text": "avísame si microsoft cae de 200", "label": 2}
+{"text": "alerta cuando NFLX supere 150", "label": 2}
+{"text": "avísame si btc cae de 200", "label": 2}
+{"text": "notificar si google baja de 100", "label": 2}
+{"text": "avísame si google cae de 500", "label": 2}
+{"text": "si META sube de 50, avísame", "label": 2}
+{"text": "si TSLA sube de 200, avísame", "label": 2}
+{"text": "notificar si google baja de 1000", "label": 2}
+{"text": "cuando sol rompa 100 me avisas", "label": 2}
+{"text": "notificar si tesla baja de 200", "label": 2}
+{"text": "avísame si sol cae de 150", "label": 2}
+{"text": "notificar si apple baja de 1000", "label": 2}
+{"text": "notificar si sqm baja de 100", "label": 2}
+{"text": "avísame si nvidia cae de 500", "label": 2}
+{"text": "notificar si amazon baja de 50", "label": 2}
+{"text": "si GOOGL sube de 1000, avísame", "label": 2}
+{"text": "alerta cuando AMD supere 100", "label": 2}
+{"text": "notificar si apple baja de 50", "label": 2}
+{"text": "notificar si btc baja de 200", "label": 2}
+{"text": "cuando amd rompa 1000 me avisas", "label": 2}
+{"text": "avísame si btc cae de 50", "label": 2}
+{"text": "notificar si netflix baja de 150", "label": 2}
+{"text": "cuando amazon rompa 1000 me avisas", "label": 2}
+{"text": "cuando sol rompa 50 me avisas", "label": 2}
+{"text": "notificar si microsoft baja de 150", "label": 2}
+{"text": "avísame si microsoft cae de 1000", "label": 2}
+{"text": "alerta cuando SQM supere 150", "label": 2}
+{"text": "avísame si nvidia cae de 250", "label": 2}
+{"text": "cuando tesla rompa 100 me avisas", "label": 2}
+{"text": "si BTC-USD sube de 500, avísame", "label": 2}
+{"text": "precio de eth y avísame si baja de 200", "label": 2}
+{"text": "alerta cuando BTC-USD supere 100", "label": 2}
+{"text": "cuando nvidia rompa 200 me avisas", "label": 2}
+{"text": "cuando tesla rompa 500 me avisas", "label": 2}
+{"text": "notificar si btc baja de 500", "label": 2}
+{"text": "avísame si apple cae de 1000", "label": 2}
+{"text": "avísame si sol cae de 1000", "label": 2}
+{"text": "avísame si sqm cae de 500", "label": 2}
+{"text": "si SOL-USD sube de 300, avísame", "label": 2}
+{"text": "si SOL-USD sube de 500, avísame", "label": 2}
+{"text": "avísame si netflix cae de 300", "label": 2}
+{"text": "notificar si eth baja de 250", "label": 2}
+{"text": "avísame si google cae de 300", "label": 2}
+{"text": "si ETH-USD sube de 300, avísame", "label": 2}
+{"text": "si SQM sube de 300, avísame", "label": 2}
+{"text": "alerta cuando SQM supere 200", "label": 2}
+{"text": "alerta cuando TSLA supere 500", "label": 2}
+{"text": "alerta cuando MSFT supere 250", "label": 2}
+{"text": "cuando sol rompa 150 me avisas", "label": 2}
+{"text": "si SQM sube de 250, avísame", "label": 2}
+{"text": "cuando netflix rompa 100 me avisas", "label": 2}
+{"text": "cuando apple rompa 150 me avisas", "label": 2}
+{"text": "cuando meta rompa 50 me avisas", "label": 2}
+{"text": "avísame si google cae de 1000", "label": 2}
+{"text": "alerta cuando AAPL supere 150", "label": 2}
+{"text": "notificar si tesla baja de 100", "label": 2}
+{"text": "alerta cuando META supere 200", "label": 2}
+{"text": "cuando nvidia rompa 250 me avisas", "label": 2}
+{"text": "precio de apple y avísame si baja de 150", "label": 2}
+{"text": "si AAPL sube de 500, avísame", "label": 2}
+{"text": "notificar si eth baja de 300", "label": 2}
+{"text": "avísame si google cae de 150", "label": 2}
+{"text": "notificar si apple baja de 500", "label": 2}
+{"text": "si NFLX sube de 150, avísame", "label": 2}
+{"text": "alerta cuando AMD supere 200", "label": 2}
+{"text": "notificar si meta baja de 200", "label": 2}
+{"text": "si NVDA sube de 1000, avísame", "label": 2}
+{"text": "alerta cuando NFLX supere 100", "label": 2}
+{"text": "si TSLA sube de 250, avísame", "label": 2}
+{"text": "avísame si tesla cae de 1000", "label": 2}
+{"text": "si NVDA sube de 500, avísame", "label": 2}
+{"text": "precio de btc y avísame si baja de 100", "label": 2}
+{"text": "si AAPL sube de 100, avísame", "label": 2}
+{"text": "precio de google y avísame si baja de 200", "label": 2}
+{"text": "si NVDA sube de 100, avísame", "label": 2}
+{"text": "alerta cuando SQM supere 100", "label": 2}
+{"text": "alerta cuando AMZN supere 300", "label": 2}
+{"text": "cuando amazon rompa 250 me avisas", "label": 2}
+{"text": "notificar si meta baja de 1000", "label": 2}
+{"text": "si SOL-USD sube de 100, avísame", "label": 2}
+{"text": "cuando meta rompa 300 me avisas", "label": 2}
+{"text": "alerta cuando TSLA supere 1000", "label": 2}
+{"text": "si GOOGL sube de 50, avísame", "label": 2}
+{"text": "alerta cuando ETH-USD supere 1000", "label": 2}
+{"text": "notificar si amd baja de 200", "label": 2}
+{"text": "si AMZN sube de 200, avísame", "label": 2}
+{"text": "cuando google rompa 150 me avisas", "label": 2}
+{"text": "notificar si nvidia baja de 300", "label": 2}
+{"text": "alerta cuando NFLX supere 300", "label": 2}
+{"text": "cuando google rompa 500 me avisas", "label": 2}
+{"text": "si BTC-USD sube de 1000, avísame", "label": 2}
+{"text": "cuando sqm rompa 250 me avisas", "label": 2}
+{"text": "notificar si microsoft baja de 50", "label": 2}
+{"text": "alerta cuando MSFT supere 50", "label": 2}
+{"text": "si GOOGL sube de 200, avísame", "label": 2}
+{"text": "cuando google rompa 50 me avisas", "label": 2}
+{"text": "si AMZN sube de 50, avísame", "label": 2}
+{"text": "notificar si amd baja de 50", "label": 2}
+{"text": "cuando btc rompa 1000 me avisas", "label": 2}
+{"text": "alerta cuando SOL-USD supere 500", "label": 2}
+{"text": "notificar si nvidia baja de 100", "label": 2}
+{"text": "precio de netflix y avísame si baja de 250", "label": 2}
+{"text": "avísame si btc cae de 150", "label": 2}
+{"text": "avísame si apple cae de 150", "label": 2}
+{"text": "alerta cuando MSFT supere 150", "label": 2}
+{"text": "precio de amd y avísame si baja de 500", "label": 2}
+{"text": "si ETH-USD sube de 500, avísame", "label": 2}
+{"text": "si AMD sube de 300, avísame", "label": 2}
+{"text": "cuando meta rompa 1000 me avisas", "label": 2}
+{"text": "cuando sqm rompa 100 me avisas", "label": 2}
+{"text": "si NFLX sube de 200, avísame", "label": 2}
+{"text": "notificar si netflix baja de 100", "label": 2}
+{"text": "si NVDA sube de 300, avísame", "label": 2}
+{"text": "alerta cuando META supere 150", "label": 2}
+{"text": "notificar si apple baja de 200", "label": 2}
+{"text": "notificar si btc baja de 300", "label": 2}
+{"text": "notificar si sqm baja de 300", "label": 2}
+{"text": "notificar si meta baja de 300", "label": 2}
+{"text": "avísame si sol cae de 100", "label": 2}
+{"text": "avísame si microsoft cae de 500", "label": 2}
+{"text": "cuando btc rompa 100 me avisas", "label": 2}
+{"text": "alerta cuando NVDA supere 500", "label": 2}
+{"text": "si AMD sube de 100, avísame", "label": 2}
+{"text": "alerta cuando ETH-USD supere 500", "label": 2}
+{"text": "avísame si eth cae de 100", "label": 2}
+{"text": "si SOL-USD sube de 250, avísame", "label": 2}
+{"text": "alerta cuando BTC-USD supere 250", "label": 2}
+{"text": "notificar si sol baja de 300", "label": 2}
+{"text": "avísame si amd cae de 50", "label": 2}
+{"text": "si GOOGL sube de 300, avísame", "label": 2}
+{"text": "cuando btc rompa 250 me avisas", "label": 2}
+{"text": "alerta cuando BTC-USD supere 50", "label": 2}
+{"text": "cuando netflix rompa 50 me avisas", "label": 2}
+{"text": "notificar si google baja de 300", "label": 2}
+{"text": "si ETH-USD sube de 50, avísame", "label": 2}
+{"text": "avísame si meta cae de 100", "label": 2}
+{"text": "alerta cuando ETH-USD supere 300", "label": 2}
+{"text": "alerta cuando SQM supere 1000", "label": 2}
+{"text": "alerta cuando AMZN supere 200", "label": 2}
+{"text": "si NFLX sube de 300, avísame", "label": 2}
+{"text": "precio de sol y avísame si baja de 100", "label": 2}
+{"text": "alerta cuando AMZN supere 1000", "label": 2}
+{"text": "avísame si apple cae de 100", "label": 2}
+{"text": "precio de tesla y avísame si baja de 250", "label": 2}
+{"text": "alerta si microsoft perfora 100", "label": 2}
+{"text": "cuando amd rompa 500 me avisas", "label": 2}
+{"text": "si TSLA sube de 100, avisame", "label": 2}
+{"text": "avisame si apple cae de 300", "label": 2}
+{"text": "notificar si tesla baja de 150", "label": 2}
+{"text": "cuando tesla rompa 50 me avisas", "label": 2}
+{"text": "notificar si meta baja de 50", "label": 2}
+{"text": "avisame si AMD baja de 250", "label": 2}
+{"text": "si GOOGL sube de 1000, avisame", "label": 2}
+{"text": "qué se dice de SQM en las noticias", "label": 0}
+{"text": "explica el movimiento de sqm", "label": 0}
+{"text": "por qué se movió netflix", "label": 0}
+{"text": "por qué se movió amd", "label": 0}
+{"text": "qué pasó con amazon", "label": 0}
+{"text": "contexto de amazon hoy", "label": 0}
+{"text": "qué pasó con meta", "label": 0}
+{"text": "por qué se movió amazon", "label": 0}
+{"text": "explica el movimiento de btc", "label": 0}
+{"text": "qué pasó con sol", "label": 0}
+{"text": "últimas novedades de AMD", "label": 0}
+{"text": "últimas novedades de AAPL", "label": 0}
+{"text": "qué se dice de AAPL en las noticias", "label": 0}
+{"text": "contexto de microsoft hoy", "label": 0}
+{"text": "contexto de btc hoy", "label": 0}
+{"text": "qué pasó con microsoft", "label": 0}
+{"text": "qué pasó con btc", "label": 0}
+{"text": "qué pasó con netflix", "label": 0}
+{"text": "últimas novedades de NFLX", "label": 0}
+{"text": "por qué se movió apple", "label": 0}
+{"text": "por qué se movió btc", "label": 0}
+{"text": "contexto de tesla hoy", "label": 0}
+{"text": "por qué se movió eth", "label": 0}
+{"text": "qué pasó con apple", "label": 0}
+{"text": "qué se dice de BTC-USD en las noticias", "label": 0}
+{"text": "explica el movimiento de eth", "label": 0}
+{"text": "últimas novedades de GOOGL", "label": 0}
+{"text": "parece que meta baja por resultados", "label": 0}
+{"text": "últimas novedades de META", "label": 0}
+{"text": "últimas novedades de TSLA", "label": 0}
+{"text": "qué se dice de AMD en las noticias", "label": 0}
+{"text": "contexto de google hoy", "label": 0}
+{"text": "por qué se movió tesla", "label": 0}
+{"text": "por qué se movió meta", "label": 0}
+{"text": "qué pasó con tesla", "label": 0}
+{"text": "contexto de netflix hoy", "label": 0}
+{"text": "qué pasó con google", "label": 0}
+{"text": "qué se dice de AMZN en las noticias", "label": 0}
+{"text": "contexto de meta hoy", "label": 0}
+{"text": "parece que eth baja por resultados", "label": 0}
+{"text": "qué se dice de META en las noticias", "label": 0}
+{"text": "qué se dice de GOOGL en las noticias", "label": 0}
+{"text": "últimas novedades de MSFT", "label": 0}
+{"text": "qué pasó con nvidia", "label": 0}
+{"text": "últimas novedades de AMZN", "label": 0}
+{"text": "qué pasó con amd", "label": 0}
+{"text": "explica el movimiento de sol", "label": 0}
+{"text": "qué pasó con sqm", "label": 0}
+{"text": "qué se dice de MSFT en las noticias", "label": 0}
+{"text": "explica el movimiento de google", "label": 0}
+{"text": "dicen que meta sube fuerte", "label": 0}
+{"text": "explica el movimiento de apple", "label": 0}
+{"text": "explica el movimiento de meta", "label": 0}
+{"text": "contexto de eth hoy", "label": 0}
+{"text": "por qué se movió nvidia", "label": 0}
+{"text": "por qué se movió google", "label": 0}
+{"text": "explica el movimiento de amazon", "label": 0}
+{"text": "dicen que amd sube fuerte", "label": 0}
+{"text": "explica el movimiento de microsoft", "label": 0}
+{"text": "qué se dice de NFLX en las noticias", "label": 0}
+{"text": "qué se dice de ETH-USD en las noticias", "label": 0}
+{"text": "últimas novedades de ETH-USD", "label": 0}
+{"text": "contexto de sol hoy", "label": 0}
+{"text": "últimas novedades de NVDA", "label": 0}
+{"text": "últimas novedades de SOL-USD", "label": 0}
+{"text": "contexto de sqm hoy", "label": 0}
+{"text": "por qué se movió sqm", "label": 0}
+{"text": "dicen que nvidia sube fuerte", "label": 0}
+{"text": "contexto de apple hoy", "label": 0}
+{"text": "parece que netflix baja por resultados", "label": 0}
+{"text": "últimas novedades de SQM", "label": 0}
+{"text": "por qué se movió sol", "label": 0}
+{"text": "últimas novedades de BTC-USD", "label": 0}
+{"text": "explica el movimiento de amd", "label": 0}
+{"text": "dicen que google sube fuerte", "label": 0}
+{"text": "dicen que apple sube fuerte", "label": 0}
+{"text": "contexto de nvidia hoy", "label": 0}
+{"text": "explica el movimiento de tesla", "label": 0}
+{"text": "qué se dice de NVDA en las noticias", "label": 0}
+{"text": "parece que tesla baja por resultados", "label": 0}
+{"text": "contexto de amd hoy", "label": 0}
+{"text": "por qué se movió microsoft", "label": 0}
+{"text": "dicen que sol sube fuerte", "label": 0}
+{"text": "qué pasó con eth", "label": 0}
+{"text": "dicen que btc sube fuerte", "label": 0}
+{"text": "qué se dice de TSLA en las noticias", "label": 0}
+{"text": "parece que amazon baja por resultados", "label": 0}
+{"text": "parece que google baja por resultados", "label": 0}
+{"text": "explica el movimiento de nvidia", "label": 0}
+{"text": "explica el movimiento de netflix", "label": 0}
+{"text": "dicen que microsoft sube fuerte", "label": 0}
+{"text": "parece que microsoft baja por resultados", "label": 0}
+{"text": "parece que sol baja por resultados", "label": 0}
+{"text": "amd", "label": 0}
+{"text": "Explicame ald", "label": 0}
+{"text": "Que paso con amd", "label": 0}
+{"text": "Noticias de AMD", "label": 0}
+{"text": "News de amd", "label": 0}
+{"text": "ayuda con tarea sobre btc", "label": 0}
+{"text": "que hay sobre nvidia en internet", "label": 0}
+{"text": "busca contexto sobre apple", "label": 0}
+{"text": "que hay sobre netflix en internet", "label": 0}
+{"text": "haz un resumen sobre inteligencia artificial", "label": 0}
+{"text": "que sabes de sqm", "label": 0}
+{"text": "busca info de meta en la web", "label": 0}
+{"text": "busca contexto sobre microsoft", "label": 0}
+{"text": "que sabes de meta", "label": 0}
+{"text": "reformula esta consulta: google innovacion", "label": 0}
+{"text": "como funciona el scraping web", "label": 0}
+{"text": "reformula esta busqueda de sol", "label": 0}
+{"text": "ayudame a resumir un articulo", "label": 0}
+{"text": "reformula esta busqueda de eth", "label": 0}
+{"text": "reformula esta consulta: apple innovacion", "label": 0}
+{"text": "reformula esta busqueda de google", "label": 0}
+{"text": "busca contexto sobre netflix", "label": 0}
+{"text": "reformula esta busqueda de meta", "label": 0}
+{"text": "reformula esta busqueda de amazon", "label": 0}
+{"text": "que sabes de btc", "label": 0}
+{"text": "ayuda con tarea sobre netflix", "label": 0}
+{"text": "ayuda con tarea sobre amazon", "label": 0}
+{"text": "ayuda con tarea sobre nvidia", "label": 0}
+{"text": "ayuda con tarea sobre meta", "label": 0}
+{"text": "que es un modelo de lenguaje", "label": 0}
+{"text": "ayuda con tarea sobre sqm", "label": 0}
+{"text": "que sabes de google", "label": 0}
+{"text": "ayuda con tarea sobre sol", "label": 0}
+{"text": "que hay sobre eth en internet", "label": 0}
+{"text": "que sabes de eth", "label": 0}
+{"text": "parece que apple baja por resultados", "label": 0}
+{"text": "busca contexto sobre sqm", "label": 0}
+{"text": "que sabes de apple", "label": 0}
+{"text": "busca info de microsoft en la web", "label": 0}
+{"text": "busca info de netflix en la web", "label": 0}
+{"text": "que sabes de amazon", "label": 0}
+{"text": "que hay sobre amd en internet", "label": 0}
+{"text": "que sabes de sol", "label": 0}
+{"text": "parece que nvidia baja por resultados", "label": 0}
+{"text": "busca contexto sobre sol", "label": 0}
+{"text": "busca info de btc en la web", "label": 0}
+{"text": "reformula esta busqueda de netflix", "label": 0}
+{"text": "dicen que amazon sube fuerte", "label": 0}
+{"text": "reformula esta busqueda de tesla", "label": 0}
+{"text": "reformula esta busqueda de nvidia", "label": 0}
+{"text": "que sabes de tesla", "label": 0}
+{"text": "busca contexto sobre eth", "label": 0}
+{"text": "busca contexto sobre google", "label": 0}
+{"text": "busca info de sol en la web", "label": 0}
+{"text": "reformula esta consulta: amazon innovacion", "label": 0}
+{"text": "parece que sqm baja por resultados", "label": 0}
+{"text": "que sabes de amd", "label": 0}
+{"text": "reformula esta consulta: amd innovacion", "label": 0}
+{"text": "dicen que netflix sube fuerte", "label": 0}
+{"text": "busca contexto sobre amd", "label": 0}
+{"text": "ayuda con tarea sobre google", "label": 0}
+{"text": "ayuda con tarea sobre apple", "label": 0}
+{"text": "resumen breve sobre sqm", "label": 0}
+{"text": "reformula esta busqueda de btc", "label": 0}
+{"text": "reformula esta busqueda de amd", "label": 0}
+{"text": "reformula esta busqueda de sqm", "label": 0}
+{"text": "busca contexto sobre tesla", "label": 0}
+{"text": "resumen breve sobre amazon", "label": 0}
+{"text": "ayuda con tarea sobre amd", "label": 0}
+{"text": "que sabes de nvidia", "label": 0}
+{"text": "dicen que tesla sube fuerte", "label": 0}
+{"text": "busca info de tesla en la web", "label": 0}
+{"text": "reformula esta consulta: eth innovacion", "label": 0}
+{"text": "busca contexto sobre meta", "label": 0}
+{"text": "reformula esta consulta: microsoft innovacion", "label": 0}
+{"text": "reformula esta busqueda de apple", "label": 0}
+{"text": "que hay sobre meta en internet", "label": 0}
+{"text": "busca contexto sobre btc", "label": 0}
+{"text": "reformula esta consulta: sqm innovacion", "label": 0}
+{"text": "ayuda con tarea sobre tesla", "label": 0}
+{"text": "resumen breve sobre sol", "label": 0}
+{"text": "que hay sobre tesla en internet", "label": 0}
+{"text": "que sabes de microsoft", "label": 0}
+{"text": "resumen breve sobre apple", "label": 0}
+{"text": "dicen que eth sube fuerte", "label": 0}
+{"text": "explicame amd", "label": 3}
+{"text": "que paso con amd", "label": 3}
+{"text": "Explicame amd", "label": 3}
+{"text": "Explicame nvidia", "label": 3}
+{"text": "Explicame Microsoft", "label": 3}
+{"text": "Explicame AMD", "label": 3}
+{"text": "drivers de MSFT", "label": 3}
+{"text": "que paso con meta", "label": 3}
+{"text": "que paso con microsoft", "label": 3}
+{"text": "por que se movio sol", "label": 3}
+{"text": "NFLX hoy que paso", "label": 3}
+{"text": "por que cayo nvidia", "label": 3}
+{"text": "por que se movio tesla", "label": 3}
+{"text": "por que subio microsoft", "label": 3}
+{"text": "por que cayo amd", "label": 3}
+{"text": "por que cayo sol", "label": 3}
+{"text": "por que se movio amazon", "label": 3}
+{"text": "por que cayo sqm", "label": 3}
+{"text": "por que se movio google", "label": 3}
+{"text": "razones de la caida de eth", "label": 3}
+{"text": "drivers de META", "label": 3}
+{"text": "por que se movio nvidia", "label": 3}
+{"text": "razones de la caida de amazon", "label": 3}
+{"text": "AAPL hoy que paso", "label": 3}
+{"text": "que motivo la subida de amazon", "label": 3}
+{"text": "por que se movio apple", "label": 3}
+{"text": "drivers de BTC-USD", "label": 3}
+{"text": "explicame apple", "label": 3}
+{"text": "drivers de AAPL", "label": 3}
+{"text": "por que subio netflix", "label": 3}
+{"text": "razones de la caida de sqm", "label": 3}
+{"text": "por que netflix subio tanto", "label": 3}
+{"text": "razones de la caida de nvidia", "label": 3}
+{"text": "por que subio tesla", "label": 3}
+{"text": "drivers de AAPL hoy", "label": 3}
+{"text": "explicame tesla", "label": 3}
+{"text": "SOL-USD hoy que paso", "label": 3}
+{"text": "que paso con apple", "label": 3}
+{"text": "por que subio sqm", "label": 3}
+{"text": "explicame sol", "label": 3}
+{"text": "que motivo la subida de eth", "label": 3}
+{"text": "drivers de BTC-USD hoy", "label": 3}
+{"text": "por que subio eth", "label": 3}
+{"text": "razones de la caida de netflix", "label": 3}
+{"text": "que paso con eth", "label": 3}
+{"text": "por que cayo meta", "label": 3}
+{"text": "que paso con amazon", "label": 3}
+{"text": "por que cayo netflix", "label": 3}
+{"text": "que disparo a meta", "label": 3}
+{"text": "razones de la caida de sol", "label": 3}
+{"text": "razones de la caida de apple", "label": 3}
+{"text": "por que se movio microsoft", "label": 3}
+{"text": "que paso con btc", "label": 3}
+{"text": "por que se movio meta", "label": 3}
+{"text": "razones de la caida de google", "label": 3}
+{"text": "que paso con META hoy", "label": 3}
+{"text": "que disparo a tesla", "label": 3}
+{"text": "por que tesla bajo hoy", "label": 3}
+{"text": "explicame netflix", "label": 3}
+{"text": "que disparo a amazon", "label": 3}
+{"text": "por que apple subio tanto", "label": 3}
+{"text": "que paso con MSFT hoy", "label": 3}
+{"text": "por que sqm se movio", "label": 3}
+{"text": "drivers de NFLX", "label": 3}
+{"text": "razones de la caida de amd", "label": 3}
+{"text": "por que se movio sqm", "label": 3}
+{"text": "AMZN hoy que paso", "label": 3}
+{"text": "explicame meta", "label": 3}
+{"text": "por que amd subio tanto", "label": 3}
+{"text": "razones de la caida de btc", "label": 3}
+{"text": "drivers de GOOGL", "label": 3}
+{"text": "NVDA hoy que paso", "label": 3}
+{"text": "por que google bajo hoy", "label": 3}
+{"text": "drivers de AMD", "label": 3}
+{"text": "que motivo la subida de tesla", "label": 3}
+{"text": "drivers de META hoy", "label": 3}
+{"text": "que motivo la subida de nvidia", "label": 3}
+{"text": "que disparo a btc", "label": 3}
+{"text": "que paso con google", "label": 3}
+{"text": "drivers de AMD hoy", "label": 3}
+{"text": "por que cayo btc", "label": 3}
+{"text": "por que cayo eth", "label": 3}
+{"text": "que disparo a amd", "label": 3}
+{"text": "explicame google", "label": 3}
+{"text": "por que microsoft bajo hoy", "label": 3}
+{"text": "que disparo a apple", "label": 3}
+{"text": "por que cayo google", "label": 3}
+{"text": "explicame sqm", "label": 3}
+{"text": "GOOGL hoy que paso", "label": 3}
+{"text": "por que eth bajo hoy", "label": 3}
+{"text": "explicame amazon", "label": 3}
+{"text": "que motivo la subida de btc", "label": 3}
+{"text": "por que apple bajo hoy", "label": 3}
+{"text": "que paso con GOOGL hoy", "label": 3}
+{"text": "que disparo a eth", "label": 3}
+{"text": "por que cayo tesla", "label": 3}
+{"text": "TSLA hoy que paso", "label": 3}
+{"text": "por que se movio btc", "label": 3}
+{"text": "por que subio btc", "label": 3}
+{"text": "explicame btc", "label": 3}
+{"text": "que disparo a netflix", "label": 3}
+{"text": "que paso con nvidia", "label": 3}
+{"text": "que disparo a nvidia", "label": 3}
+{"text": "por que eth subio tanto", "label": 3}
+{"text": "explicame nvidia", "label": 3}
+{"text": "explicame microsoft", "label": 3}
+{"text": "que motivo la subida de sol", "label": 3}
+{"text": "drivers de MSFT hoy", "label": 3}
+{"text": "que paso con tesla", "label": 3}
+{"text": "que paso con netflix", "label": 3}
+{"text": "por que sol subio tanto", "label": 3}
+{"text": "por que tesla subio tanto", "label": 3}
+{"text": "explicame eth", "label": 3}
+{"text": "drivers de SOL-USD", "label": 3}
+{"text": "por que subio amd", "label": 3}
+{"text": "por que cayo apple", "label": 3}
+{"text": "que motivo la subida de sqm", "label": 3}
+{"text": "que paso con ETH-USD hoy", "label": 3}
+{"text": "por que btc bajo hoy", "label": 3}
+{"text": "drivers de SQM", "label": 3}
+{"text": "AMD hoy que paso", "label": 3}
+{"text": "por que cayo microsoft", "label": 3}
+{"text": "ultimas noticias de META", "label": 4}
+{"text": "ultimas noticias de MSFT", "label": 4}
+{"text": "que se dijo de META hoy", "label": 4}
+{"text": "titulares de btc", "label": 4}
+{"text": "headlines AAPL", "label": 4}
+{"text": "titulares de meta", "label": 4}
+{"text": "ultimas noticias de AAPL", "label": 4}
+{"text": "que dijeron de nvidia", "label": 4}
+{"text": "novedades de btc", "label": 4}
+{"text": "news GOOGL", "label": 4}
+{"text": "ultimas de NVDA", "label": 4}
+{"text": "novedades de eth", "label": 4}
+{"text": "que se dijo de MSFT hoy", "label": 4}
+{"text": "news AAPL", "label": 4}
+{"text": "que dijeron de google", "label": 4}
+{"text": "titulares de amazon", "label": 4}
+{"text": "titulares de netflix", "label": 4}
+{"text": "ultimas noticias de GOOGL", "label": 4}
+{"text": "news MSFT", "label": 4}
+{"text": "noticias de tesla", "label": 4}
+{"text": "novedades de meta", "label": 4}
+{"text": "que dijeron de tesla", "label": 4}
+{"text": "solo quiero titulares de sqm", "label": 4}
+{"text": "que se dijo de AAPL hoy", "label": 4}
+{"text": "dame noticias de AMZN", "label": 4}
+{"text": "titulares recientes de google", "label": 4}
+{"text": "que dijeron de eth", "label": 4}
+{"text": "titulares de nvidia", "label": 4}
+{"text": "titulares de amd", "label": 4}
+{"text": "que se dijo de SQM hoy", "label": 4}
+{"text": "que se dijo de NVDA hoy", "label": 4}
+{"text": "titulares de eth", "label": 4}
+{"text": "novedades de apple", "label": 4}
+{"text": "novedades de nvidia", "label": 4}
+{"text": "que se dijo de AMD hoy", "label": 4}
+{"text": "news AMD", "label": 4}
+{"text": "headlines BTC-USD", "label": 4}
+{"text": "titulares de sqm", "label": 4}
+{"text": "titulares de tesla", "label": 4}
+{"text": "novedades de google", "label": 4}
+{"text": "rss de META", "label": 4}
+{"text": "que dijeron de amazon", "label": 4}
+{"text": "news BTC-USD", "label": 4}
+{"text": "rss de MSFT", "label": 4}
+{"text": "noticias de netflix", "label": 4}
+{"text": "que dijeron de microsoft", "label": 4}
+{"text": "que dijeron de sqm", "label": 4}
+{"text": "que se dijo de BTC-USD hoy", "label": 4}
+{"text": "novedades de amd", "label": 4}
+{"text": "ultimas de SOL-USD", "label": 4}
+{"text": "dame noticias de META", "label": 4}
+{"text": "noticias de sqm", "label": 4}
+{"text": "news META", "label": 4}
+{"text": "noticias de sol", "label": 4}
+{"text": "dame noticias de SQM", "label": 4}
+{"text": "solo quiero titulares de microsoft", "label": 4}
+{"text": "que dijeron de apple", "label": 4}
+{"text": "ultimas noticias de NVDA", "label": 4}
+{"text": "novedades de netflix", "label": 4}
+{"text": "que dijeron de btc", "label": 4}
+{"text": "noticias de apple", "label": 4}
+{"text": "news AMZN", "label": 4}
+{"text": "ultimas de NFLX", "label": 4}
+{"text": "que dijeron de sol", "label": 4}
+{"text": "noticias de amazon", "label": 4}
+{"text": "que se dijo de ETH-USD hoy", "label": 4}
+{"text": "novedades de sqm", "label": 4}
+{"text": "que se dijo de SOL-USD hoy", "label": 4}
+{"text": "titulares de apple", "label": 4}
+{"text": "ultimas noticias de AMZN", "label": 4}
+{"text": "que se dijo de TSLA hoy", "label": 4}
+{"text": "ultimas noticias de NFLX", "label": 4}
+{"text": "rss de ETH-USD", "label": 4}
+{"text": "que se dijo de NFLX hoy", "label": 4}
+{"text": "news SQM", "label": 4}
+{"text": "ultimas noticias de SOL-USD", "label": 4}
+{"text": "novedades de tesla", "label": 4}
+{"text": "novedades de sol", "label": 4}
+{"text": "noticias de meta", "label": 4}
+{"text": "titulares recientes de sqm", "label": 4}
+{"text": "dame noticias de AMD", "label": 4}
+{"text": "noticias de google", "label": 4}
+{"text": "que se dijo de AMZN hoy", "label": 4}
+{"text": "solo quiero titulares de meta", "label": 4}
+{"text": "news SOL-USD", "label": 4}
+{"text": "titulares de microsoft", "label": 4}
+{"text": "noticias de amd", "label": 4}
+{"text": "rss de BTC-USD", "label": 4}
+{"text": "news NFLX", "label": 4}
+{"text": "news ETH-USD", "label": 4}
+{"text": "noticias de nvidia", "label": 4}
+{"text": "ultimas de GOOGL", "label": 4}
+{"text": "rss de TSLA", "label": 4}
+{"text": "novedades de microsoft", "label": 4}
+{"text": "headlines AMD", "label": 4}
+{"text": "headlines ETH-USD", "label": 4}
+{"text": "ultimas noticias de BTC-USD", "label": 4}
+{"text": "novedades de amazon", "label": 4}
+{"text": "ultimas noticias de SQM", "label": 4}
+{"text": "titulares de google", "label": 4}
+{"text": "rss de SOL-USD", "label": 4}
+{"text": "solo quiero titulares de sol", "label": 4}
+{"text": "solo quiero titulares de amd", "label": 4}
+{"text": "ultimas noticias de ETH-USD", "label": 4}
+{"text": "rss de AAPL", "label": 4}
+{"text": "headlines TSLA", "label": 4}
+{"text": "news TSLA", "label": 4}
+{"text": "solo quiero titulares de amazon", "label": 4}
+{"text": "rss de NFLX", "label": 4}
+{"text": "rss de AMZN", "label": 4}
