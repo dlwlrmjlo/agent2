@@ -1,6 +1,7 @@
 # app/core/config.py
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+
 class Settings(BaseSettings):
     OLLAMA_API: str = "http://localhost:11434/api/generate"
     MODEL_NAME: str = "mistral"
@@ -18,6 +19,9 @@ class Settings(BaseSettings):
     SYMBOL_FAST_MODE: bool = True
     SYMBOL_TRUST_TICKER: bool = True
     SYMBOL_HTTP_TIMEOUT_S: int = 5
+    INTENT_THRESHOLD: float = 0.80
+    ALPHAVANTAGE_API_KEY: str | None = "P4MDCX6TSYRV1PQB"
+
 
 settings = Settings()
 
