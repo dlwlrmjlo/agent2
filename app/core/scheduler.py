@@ -18,9 +18,6 @@ def verificar_alertas():
                 if not is_liquid_symbol(a.simbolo):
                     print(f"[alerta] skip iliquida/OTC: {a.simbolo}")
                     continue
-                if not is_market_open(a.simbolo):
-                    print(f"[alerta] mercado cerrado para {a.simbolo}, se omite ciclo")
-                    continue
                 snap = get_last_price(a.simbolo)
                 price = snap.price
                 if price is None:
