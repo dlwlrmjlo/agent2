@@ -1,9 +1,11 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Train a lightweight intent adapter (SBERT + LogisticRegression) on CPU.
-- Input: data/intent.jsonl ({"text": ..., "label": 0|1|2})
-- Output artifacts: models/intent_adapter/{encoder.txt, lr.joblib, label_map.json, stats.json}
+[STEP 2: TRAINING]
+Este script es el SEGUNDO paso.
+Toma el dataset generado en el paso anterior (por defecto 'data/intent_5classes.jsonl') y entrena el modelo adaptador (Logistic Regression sobre embeddings).
+Guarda los artefactos del modelo en 'models/intent_adapter/' para que la APP los pueda cargar.
+
+Uso:
+  python app/scripts/training/train.py --train data/intent_5classes.jsonl
 """
 
 import os, json, argparse, time

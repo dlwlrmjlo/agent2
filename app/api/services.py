@@ -251,11 +251,14 @@ async def crear_alerta_from_llm(prompt: str, db: Session):
     2) Normalize values; resolve the symbol with resolve_symbol(simbolo) or resolve_symbol(prompt).
     3) If LLM fails, use _regex_fallback(prompt).
     """
-    molde = '{"simbolo":"<TICKER|NOMBRE>","condicion":"mayor|menor","umbral":123.45}'
+    molde = '{"simbolo":"<TICKER|NOMBRE>","condicion":"mayor|menor|auto","umbral":123.45}'
     instr = (
         "Devuelve SOLO un JSON (sin texto extra) con estas claves EXACTAS:\n"
         + molde +
-        "\nNo expliques nada. Solo el JSON.\n"
+        "\n- Si el usuario dice 'sube', 'mayor', 'supera' -> 'mayor'\n"
+        "- Si el usuario dice 'baja', 'menor', 'cae' -> 'menor'\n"
+        "- Si NO especifica dirección (ej: 'alerta amd 200') -> 'auto'\n"
+        "No expliques nada. Solo el JSON.\n"
         f"Solicitud: '{prompt}'"
     )
 
@@ -273,13 +276,8 @@ async def crear_alerta_from_llm(prompt: str, db: Session):
         condicion_in = (data.get("condicion") or data.get("condition") or "").strip().lower()
         umbral_in    = data.get("umbral") if data.get("umbral") is not None else data.get("threshold")
 
-        # normalize condition
-        if condicion_in in {"mayor","arriba","supera","sube",">",">=","gt","ge","above","greater","over"}:
-            condicion = "mayor"
-        elif condicion_in in {"menor","abajo","debajo","cae","baja","<","<=","lt","le","below","less","under"}:
-            condicion = "menor"
-        else:
-            condicion = None
+        # resolve symbol (same engine as financial flow)
+        symbol = resolve_symbol(simbolo_in) or resolve_symbol(prompt)
 
         # normalize threshold
         if isinstance(umbral_in, (int, float)):
@@ -289,8 +287,29 @@ async def crear_alerta_from_llm(prompt: str, db: Session):
             mnum = re.search(r"(\d+(?:\.\d+)?)", s)
             umbral = float(mnum.group(1)) if mnum else None
 
-        # resolve symbol (same engine as financial flow)
-        symbol = resolve_symbol(simbolo_in) or resolve_symbol(prompt)
+        # Smart Direction Logic
+        condicion = None
+        if condicion_in in {"mayor","arriba","supera","sube",">",">=","gt","ge","above","greater","over"}:
+            condicion = "mayor"
+        elif condicion_in in {"menor","abajo","debajo","cae","baja","<","<=","lt","le","below","less","under"}:
+            condicion = "menor"
+        elif condicion_in == "auto" and symbol and umbral is not None:
+            # Infer direction from current price
+            # If target > current -> we want to know when it goes UP (mayor)
+            # If target < current -> we want to know when it goes DOWN (menor)
+            snap = get_last_price(symbol)
+            if snap and snap.price is not None:
+                if umbral > snap.price:
+                    condicion = "mayor"
+                else:
+                    condicion = "menor"
+            else:
+                # Fallback if no price available: assume mayor? or fail?
+                # Let's default to mayor if unknown, or maybe fail.
+                # User usually sets targets above current price for stocks?
+                # But for "stop loss" logic it's below.
+                # Let's default to 'mayor' as a safe bet or keep it None to fail.
+                condicion = "mayor" # Fallback
 
         if not (symbol and condicion and umbral is not None):
             raise ValueError("faltan campos requeridos tras normalización/resolución")

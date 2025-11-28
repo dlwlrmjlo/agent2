@@ -34,9 +34,24 @@ def mock_ask_llm(monkeypatch):
         if "Clasifica la consulta" in prompt:
             # default: general
             return "0"
+        if "Apple" in prompt or "apple" in prompt:
+            return "AAPL"
+        if "Google" in prompt or "google" in prompt:
+            return "GOOGL"
         return "OK"
 
     monkeypatch.setattr(llm_mod, "ask_llm", _fake)
+    
+    # Patch also in services.py if it was already imported
+    import sys
+    if "app.api.services" in sys.modules:
+        from app.api import services
+        monkeypatch.setattr(services, "ask_llm", _fake)
+    
+    if "app.core.summarize" in sys.modules:
+        from app.core import summarize
+        monkeypatch.setattr(summarize, "ask_llm", _fake)
+        
     return _fake
  
 @pytest.fixture(autouse=True)

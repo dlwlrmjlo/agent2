@@ -1,0 +1,20 @@
+{"text": "cierre de netflix", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 2442.974}
+{"text": "historia de btc", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2382.198}
+{"text": "avísame si meta cae de 300", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1249.586}
+{"text": "titulares financieros de btc", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1462.531}
+{"text": "resumen de eth", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2048.306}
+{"text": "buscar noticias de apple", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 2023.408}
+{"text": "qué hay de nuevo en tesla", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1194.198}
+{"text": "cuánto vale apple hoy", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1139.276}
+{"text": "cuántos empleados tiene tesla", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1195.637}
+{"text": "a cuánto está TSLA", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1229.567}
+{"text": "parece que nvidia baja por resultados", "label": 3, "pred": 3, "mode": "LLM", "lat_ms": 1280.42}
+{"text": "avisame cuando META cruce 200", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1225.18}
+{"text": "perfil de la empresa amazon", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1163.494}
+{"text": "ayuda", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 2059.705}
+{"text": "artículos recientes de NVDA", "label": 4, "pred": 4, "mode": "LLM", "lat_ms": 1169.375}
+{"text": "alerta cuando NVDA supere 500", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1237.621}
+{"text": "hola", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1827.935}
+{"text": "a cuánto está SQM", "label": 1, "pred": 1, "mode": "LLM", "lat_ms": 1182.188}
+{"text": "cuántos empleados tiene nvidia", "label": 0, "pred": 0, "mode": "LLM", "lat_ms": 1190.589}
+{"text": "avisame cuando BTC-USD cruce 150", "label": 2, "pred": 2, "mode": "LLM", "lat_ms": 1212.456}

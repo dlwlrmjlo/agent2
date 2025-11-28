@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Compare LLM vs Adapter on 5-class intent (0..4).
+[STEP 3: EVALUATION]
+Este script es el TERCER paso (opcional pero recomendado).
+Compara las predicciones del modelo adaptador (entrenado en el paso 2) contra un LLM (como "juez") o contra un set de prueba.
+Genera un reporte en Markdown y un JSONL con las discrepancias para análisis manual.
 
-Usage:
-  python -m app.scripts.compare_intent5 data/intent.merged.jsonl --out_dir data
-
-Writes:
-  <out_dir>/pred_llm.5.jsonl
-  <out_dir>/pred_adapter.5.jsonl
-  <out_dir>/intent_eval_report_5.md
-  <out_dir>/intent_eval_mismatches_5.jsonl
+Uso:
+  python app/scripts/training/evaluate.py data/intent_5classes.jsonl
 """
 
-import os, json, time, argparse
+import os, json, time, argparse, sys
 from pathlib import Path
+
+# Add project root to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..")))
 from typing import List, Dict, Any, Tuple
 
 import numpy as np

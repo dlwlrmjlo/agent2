@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+[STEP 4: SINGLE PREDICTION]
+Este script es una herramienta de utilidad para probar el modelo en caliente.
+Permite pasar una frase (string) o un archivo JSONL y ver qué predice el sistema (Adaptador + LLM híbrido).
+Útil para debugging rápido.
+
+Uso:
+  python app/scripts/run_eval_single.py "precio amd"
+"""
 import os, sys, json, time, asyncio
 import os, sys, json, time, asyncio
 
@@ -52,6 +61,15 @@ def confusion(y_true,y_pred,labels=(0,1,2)):
     return m, labels
 
 async def main(inp, out):
+    if not inp.endswith(".jsonl") and not os.path.exists(inp):
+        # Assume it's a raw string prompt
+        print(f"Evaluating single prompt: '{inp}'")
+        t0 = time.perf_counter()
+        y = int(await classify_intent(inp))
+        ms = (time.perf_counter() - t0) * 1000
+        print(f"Prediction: {y} | Latency: {ms:.2f} ms")
+        return
+
     rows = read_jsonl(inp)
     preds=[]; y_true=[]; y_pred=[]; lats=[]
     for r in rows:

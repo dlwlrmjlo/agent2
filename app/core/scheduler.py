@@ -19,9 +19,12 @@ def verificar_alertas():
                 if price is None: 
                     print(f"❌ Precio no disponible: {a.simbolo}"); continue
                 should = (a.condicion == "mayor" and price > a.umbral) or (a.condicion == "menor" and price < a.umbral)
+                print(f"🔍 Eval {a.simbolo}: Precio {price} {a.condicion} {a.umbral}? -> {should}")
                 if not should: 
                     continue
-                enviar_telegram_mensaje(f"🚨 Alerta: {a.simbolo} {a.condicion} que {a.umbral}. Precio: {round(price,2)}")
+                msg = f"🚨 Alerta: {a.simbolo} {a.condicion} que {a.umbral}. Precio: {round(price,2)}"
+                enviar_telegram_mensaje(msg)
+                print(f"✅ [TELEGRAM] {msg}")
                 a.notificado = True
                 db.commit()
             except Exception as e:
