@@ -62,9 +62,9 @@ def resolve_symbol(query: str, trust_direct: Optional[bool] = None) -> Optional[
         if sym:
             return sym
 
-    # 1) Trust direct ticker if allowed
-    if trust_direct and _looks_like_symbol(q):
-        return q
+    # 1) Trust direct ticker if allowed -> DISABLED to force validation/search for ambiguous inputs like "INTEL"
+    # if trust_direct and _looks_like_symbol(q):
+    #     return q
 
     # 2) Validate direct ticker if present
     if _looks_like_symbol(q) and _is_valid_symbol(q):

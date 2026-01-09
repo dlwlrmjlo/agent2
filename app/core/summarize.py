@@ -56,6 +56,7 @@ INSTRUCCIONES CRÍTICAS:
 2. Usa SOLO los datos numéricos provistos. NO inventes variaciones.
 3. Si el ticker es "AAPL", habla de Apple. Si es "TSLA", habla de Tesla.
 4. NO incluyas Disclaimer.
+5. SI LOS TITULARES ESTÁN EN INGLÉS, TRADUCE EL ANÁLISIS AL ESPAÑOL. NO respondas en inglés.
 """
 
 async def summarize_market_view(

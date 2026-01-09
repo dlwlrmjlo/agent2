@@ -10,7 +10,7 @@ from app.core.config import settings
 
 WHITELIST = {"reuters.com","bloomberg.com","finance.yahoo.com","wsj.com","ft.com","cnbc.com","theverge.com","techcrunch.com","seekingalpha.com"}
 BLACKLIST = {"people.com","usmagazine.com","usweekly.com","tmz.com","infobae.com"}
-NAME2SYM = {"TESLA":"TSLA","MICROSOFT":"MSFT","APPLE":"AAPL","AMAZON":"AMZN","GOOGLE":"GOOGL","ALPHABET":"GOOGL","META":"META","NVIDIA":"NVDA","SQM":"SQM"}
+NAME2SYM = {"TESLA":"TSLA","MICROSOFT":"MSFT","APPLE":"AAPL","AMAZON":"AMZN","GOOGLE":"GOOGL","ALPHABET":"GOOGL","META":"META","NVIDIA":"NVDA","SQM":"SQM","INTEL":"INTC"}
 
 class _TTLCache:
     def __init__(self, ttl_s=300, maxsize=512):

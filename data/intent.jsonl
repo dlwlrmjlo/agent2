@@ -14,3 +14,27 @@
 {"text": "Explicame apple", "label": 3}
 {"text": "Explicame Microsoft", "label": 3}
 {"text": "Explicame sqm", "label": 3}
+{"text": "Alertame cuando tesla este por debajo de los 1000 usd", "label": 2}
+{"text": "Alerta amd por arriba de los 50 usd", "label": 2}
+{"text": "Explicame nvidia", "label": 3}
+{"text": "Explicame palantir", "label": 3}
+{"text": "Precio palantir", "label": 1}
+{"text": "Avisame cuando palantir baje de 100 usd", "label": 2}
+{"text": "Precio sqm", "label": 1}
+{"text": "Precio aguas andinas", "label": 1}
+{"text": "Precio de netflix", "label": 1}
+{"text": "Precio de intel", "label": 1}
+{"text": "Precio de micro strategy", "label": 1}
+{"text": "Precio de disney", "label": 1}
+{"text": "Precio de intel", "label": 1}
+{"text": "Precio de aguas andinas", "label": 1}
+{"text": "Precio de cmpc", "label": 1}
+{"text": "Precio de banco de chile", "label": 1}
+{"text": "Precio de mastercard", "label": 1}
+{"text": "Precio de amazon", "label": 1}
+{"text": "Precio de intel", "label": 1}
+{"text": "Precio de apple", "label": 1}
+{"text": "Precio de bitcoin", "label": 1}
+{"text": "Precio de sqm", "label": 1}
+{"text": "Precio de amd", "label": 1}
+{"text": "Alertame cuando tesla baje de los 1000 usd", "label": 2}
