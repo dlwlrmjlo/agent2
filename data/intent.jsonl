@@ -5,3 +5,12 @@
 {"text": "alertame cuando el precio de amd baje de los 200 usd", "label": 2}
 {"text": "precio de amd", "label": 1}
 {"text": "alertame cuando amd este sobre los 100", "label": 2}
+{"text": "precio tesla", "label": 1}
+{"text": "/start", "label": 1}
+{"text": "Precio tesla", "label": 1}
+{"text": "Explicame que paso con tesla", "label": 3}
+{"text": "Explicame google", "label": 3}
+{"text": "Explicame tesla", "label": 3}
+{"text": "Explicame apple", "label": 3}
+{"text": "Explicame Microsoft", "label": 3}
+{"text": "Explicame sqm", "label": 3}

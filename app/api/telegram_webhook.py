@@ -18,6 +18,8 @@ def get_db():
 
 def _tg(method: str, payload: dict):
     url = f"https://api.telegram.org/bot{settings.TELEGRAM_BOT_TOKEN}/{method}"
+    # Force HTML parsing
+    payload["parse_mode"] = "HTML"
     try:
         r = requests.post(url, json=payload, timeout=10)
         if r.status_code != 200:
@@ -57,10 +59,23 @@ def _format_reply(resp) -> str:
                     d24_txt = f"{d24:+.2f}%" if isinstance(d24, (int, float)) else "n/d"
                     d7_txt  = f"{d7:+.2f}%" if isinstance(d7, (int, float)) else "n/d"
                     header = (
-                        f"{ticker}\n"
-                        f"A continuación te dejo los datos del stock {ticker}.\n"
-                        f"Shock: {shock_txt}{win_txt} | Δ15m={d15_txt} | Δ60m={d60_txt} | 24h={d24_txt} | 7d={d7_txt}\n\n"
+                        f"📊 <b>{ticker}</b>\n"
+                        f"Shock: {shock_txt}{win_txt} | 1h: {d60_txt} | 24h: {d24_txt}\n\n"
                     )
+                    
+                    # Logic for split summary /// details
+                    parts = brief.split("///")
+                    if len(parts) > 1:
+                        summary_text = parts[0].strip()
+                        details_html = parts[1].strip()
+                        # Assemble: Header + Summary + Spoiler(Details)
+                        return (
+                            f"{header}"
+                            f"{summary_text}\n\n"
+                            f"<tg-spoiler>{details_html}</tg-spoiler>"
+                        )
+                    
+                    # Fallback if no separator
                     return (header + brief.strip()).strip()
                 bullets = resp.get("summary_bullets")
                 if isinstance(bullets, list) and bullets:
@@ -121,15 +136,23 @@ def _format_reply(resp) -> str:
 
 @router.post("/webhook/telegram")
 async def recibir_mensaje(request: Request, token: str | None = None):
+    # Debug prints
+    print(f"DEBUG: Webhook received. Active Token: {settings.TELEGRAM_BOT_TOKEN[:10]}...")
+
     if settings.WEBHOOK_SECRET and token != settings.WEBHOOK_SECRET:
         raise HTTPException(status_code=401, detail="invalid webhook token")
 
     data = await request.json()
+    print(f"DEBUG: Payload keys: {list(data.keys())}")
+    
     if "message" not in data:
+        print("DEBUG: No 'message' in data, ignoring.")
         return {"ok": True}  # ignore non-text events
 
     chat_id = str(data["message"]["chat"]["id"])
     text = data["message"].get("text") or ""
+    print(f"DEBUG: Message text: {text}")
+
     if not text:
         return {"ok": True}
 
@@ -138,5 +161,3 @@ async def recibir_mensaje(request: Request, token: str | None = None):
     msg = _format_reply(resp)
     _tg("sendMessage", {"chat_id": chat_id, "text": msg})
     return {"ok": True}
-
-

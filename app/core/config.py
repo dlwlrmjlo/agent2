@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     OLLAMA_API: str = "http://localhost:11434/api/generate"
     MODEL_NAME: str = "mistral"
     TIMEOUT: int = 120
-    TELEGRAM_BOT_TOKEN: str = "7555617579:AAGUom_03MEY1vYkXFgmkzyen0j5v9rIDyg"
+    TELEGRAM_BOT_TOKEN: str = "8491020254:AAE6xWXICmzCph5CE6MkOYcWuouxXyEaD60"
     TELEGRAM_CHAT_ID: str = "7937625287"
     WEBHOOK_SECRET: str | None = None
     NEWS_CACHE_TTL_S: int = 300
@@ -26,7 +26,7 @@ class Settings(BaseSettings):
 settings = Settings()
 
 
-# C:\Users\joako>curl "https://api.telegram.org/bot7555617579:AAGUom_03MEY1vYkXFgmkzyen0j5v9rIDyg/setWebhook" ^
+# C:\Users\joako>curl "https://api.telegram.org/bot8491020254:AAE6xWXICmzCph5CE6MkOYcWuouxXyEaD60/setWebhook" ^
 # ¿Más?   -d "url=https://7ac92b610887.ngrok-free.app/webhook/telegram?token=<WEBHOOK_SECRET>" ^
 # ¿Más?   -d "drop_pending_updates=true" ^
 # ¿Más?   -d "allowed_updates=message,callback_query"

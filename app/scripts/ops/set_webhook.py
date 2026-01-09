@@ -7,6 +7,8 @@ Usage examples:
 
   # Set webhook (reads TELEGRAM_BOT_TOKEN and WEBHOOK_SECRET from Settings)
   python -m app.tools.set_webhook --url https://<your-ngrok>.ngrok-free.app
+  https://951ebe3b1ef6.ngrok-free.app 
+  python -m app.tools.set_webhook --url https://951ebe3b1ef6.ngrok-free.app
 
   # Get webhook info
   python -m app.tools.set_webhook --info
