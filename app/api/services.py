@@ -124,15 +124,16 @@ async def classify_intent(text: str) -> int:  # type: ignore[no-redef]
     mode = (settings.INTENT_MODE or "HYBRID").upper()
     conf_thr = float(getattr(settings, "INTENT_THRESHOLD", 0.80) or 0.80)
 
-    # Heuristicas rapidas
-    if _looks_like_alert(t):
-        return 2
-    if _looks_like_explain(t):
-        return 3
-    if _looks_like_news(t):
-        return 4
-    if _looks_like_financial(t):
-        return 1
+    # Heuristicas rapidas (SOLO en modo HYBRID para ahorrar computo)
+    if mode == "HYBRID":
+        if _looks_like_alert(t):
+            return 2
+        if _looks_like_explain(t):
+            return 3
+        if _looks_like_news(t):
+            return 4
+        if _looks_like_financial(t):
+            return 1
 
     if mode == "ADAPTER":
         y, _ = adapter_predict(t)

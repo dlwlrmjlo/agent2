@@ -45,6 +45,10 @@ def p50_p95(xs: List[float]) -> Tuple[float, float]:
 async def run_once(rows: List[Dict[str, Any]], mode: str, out_path: str):
     prev = settings.INTENT_MODE
     settings.INTENT_MODE = mode
+    
+    # Warmup para evitar medir tiempo de carga de modelos
+    print(f"[{mode}] Warming up...")
+    await classify_intent("warmup")
 
     preds, lats, out_rows = [], [], []
     for r in rows:

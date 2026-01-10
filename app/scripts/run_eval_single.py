@@ -64,10 +64,15 @@ async def main(inp, out):
     if not inp.endswith(".jsonl") and not os.path.exists(inp):
         # Assume it's a raw string prompt
         print(f"Evaluating single prompt: '{inp}'")
+        
+        # Warmup (carga lazy de modelos)
+        print("Warming up models...")
+        await classify_intent("warmup") 
+        
         t0 = time.perf_counter()
         y = int(await classify_intent(inp))
         ms = (time.perf_counter() - t0) * 1000
-        print(f"Prediction: {y} | Latency: {ms:.2f} ms")
+        print(f"Prediction: {y} | Latency: {ms:.2f} ms (Hot)")
         return
 
     rows = read_jsonl(inp)

@@ -126,8 +126,22 @@ def _format_reply(resp) -> str:
             if isinstance(news, list):
                 t = (resp.get("ticker") or "").upper()
                 items = news[:5]
-                lines = [f"Noticias {t}"] + [f"- {it.get('title','').strip()}" for it in items if it.get('title')]
-                return "\n".join(lines) if len(lines) > 1 else f"Sin titulares para {t}"
+                if not items:
+                    return f"Sin noticias recientes para <b>{t}</b>"
+                
+                header = f"📰 <b>Noticias recientes para {t}</b>\n\n"
+                lines = []
+                for it in items:
+                    title = it.get('title', '').strip() or "Sin título"
+                    link = it.get('link', '')
+                    src = it.get('source') or "Fuente"
+                    # Format: • Title (<a href="...">Source</a>)
+                    if link:
+                        lines.append(f"• {title} <a href='{link}'>[Leer nota]</a>")
+                    else:
+                        lines.append(f"• {title}")
+                
+                return header + "\n\n".join(lines)
 
         # fallback: compact string
         return str(resp)
