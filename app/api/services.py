@@ -61,8 +61,9 @@ Fuentes encontradas:
 
 {resumen}
 
-Redacta una respuesta clara y util."""
-    return await ask_llm(prompt_final)
+Redacta una respuesta clara y util en ESPAÑOL. Texto plano. NO uses formato markdown (negritas, cursivas) ni emojis. NO uses etiquetas HTML ni encierres links en < >."""
+    raw = await ask_llm(prompt_final)
+    return (raw or "").replace("<", "").replace(">", "")
 
 
 # ------------------------------------------------------------------------------
@@ -127,12 +128,16 @@ async def classify_intent(text: str) -> int:  # type: ignore[no-redef]
     # Heuristicas rapidas (SOLO en modo HYBRID para ahorrar computo)
     if mode == "HYBRID":
         if _looks_like_alert(t):
+            print("⚡ [INTENT] HEAD: REGEX (Alert)")
             return 2
         if _looks_like_explain(t):
+            print("⚡ [INTENT] HEAD: REGEX (Explain)")
             return 3
         if _looks_like_news(t):
+            print("⚡ [INTENT] HEAD: REGEX (News)")
             return 4
         if _looks_like_financial(t):
+            print("⚡ [INTENT] HEAD: REGEX (Financial)")
             return 1
 
     if mode == "ADAPTER":
@@ -161,8 +166,10 @@ Responde SOLO con 0 o 1 o 2 o 3 o 4."""
 
     y, p = adapter_predict(t)
     if p >= conf_thr:
+        print(f"🔎 [INTENT] HEAD: ADAPTER (Conf: {p:.2f} >= {conf_thr}) -> Class {y}")
         return int(y)
 
+    print(f"🧠 [INTENT] HEAD: LLM FALLBACK (Conf: {p:.2f} < {conf_thr})")
     prompt = f"""Clasifica la consulta en UNA sola categoria y devuelve SOLO un digito:
 0 = general
 1 = financiero
